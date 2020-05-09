@@ -13,9 +13,9 @@
 <h6>
   @{{ entry.handle }}
 </h6>
-<h4>
+<h4 style="font-size: 0.9em;">
   {{ entry.title }}
 </h4>
 <div class="theLastDeck">
-  <img src={{ entry.tweet.entities.media[0].media_url_https }} />
+  <img src={{ entry.tweet.entities.media.0.media_url_https }} />
 </div>
