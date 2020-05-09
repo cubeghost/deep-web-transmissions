@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4"
+    "express-handlebars": "^4.0.4",
+    "fecha": "^4.1.0"
   },
   "engines": {
     "node": "12.x"

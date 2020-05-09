@@ -97,22 +97,6 @@
   font-size: 1.6em;
   line-height: 1.2em;
 }
-#receipt .theLastDeck {
-  text-align: center;
-  margin-top: -1em;
-}
-#receipt .theLastDeck img {
-  width: 280px;
-  height: 490px;
-  object-fit: cover;
-  object-position: 50% 50%;
-}
-#receipt .theLastDeck--first img {
-  object-position: 11.5% 50%;
-}
-#receipt .theLastDeck--last img {
-  object-position: 88.5% 50%;
-}
     </style>
   </head>
   <body>
@@ -122,10 +106,10 @@
 
       <hr />
 
-      {{ #each entries }}
-        {{> (lookup . 'this.partial') entry=this }}
-        {{ #unless @last }}<hr />{{ /unless }}
-      {{ /each }}
+      {{#each entries }}
+        {{>(lookup . 'partial') entry=this}}
+        {{#unless @last}}<hr />{{/unless}}
+      {{/each}}
       
     </div>
   </body>

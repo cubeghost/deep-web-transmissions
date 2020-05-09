@@ -1,5 +1,6 @@
 const express = require('express');
 const exphbs  = require('express-handlebars');
+const fecha   = require('fecha');
 
 const app = express();
 
@@ -10,13 +11,15 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.render('index', {
-    timestamp: Date.now(),
+    layout: false,
+    timestamp: fecha.format(Date.now(), 'YYYY-MM-DD hh:mm:ss'),
     entries: [
       {
         partial: 'theLastDeck',
-        title: 
-      }
-    ]
+        handle: 'thelastdeck',
+        title: 'The Pictorial Bot To The Tarot',
+      },
+    ],
   });
 });
 
