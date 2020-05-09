@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8">
     <style>
-      html, body {
-        margin: 0;
-        padding: 0;
+      body {
+        margin: 16px auto;
+        padding: 16px;
         background-color: white;
         overflow-x: hidden;
         width: 384px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
       }
 
-      /*body {
-        padding-top: 1px;
-      }*/
       @font-face {
         font-family: Univers;
         src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BlackEx.otf);
@@ -29,88 +27,87 @@
         font-stretch: expanded;
       }
 
-
-#receipt {
-  width: 384px;
-  font-size: 24px;
-  font-family: 'Univers LT Std';
-  overflow: hidden;
-}
-#receipt .timestamp {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.7em;
-  margin-bottom: 2em;
-}
-#receipt h1 {
-  font-family: 'Univers';
-  font-size: 42px;
-  font-weight: 900;
-  font-stretch: expanded;
-  margin: 0;
-  line-height: 1em;
-  padding-bottom: 0.5em;
-}
-#receipt hr {
-  display: block;
-  border: 0;
-  margin-bottom: 2em;
-}
-#receipt hr:after {
-  content: '-----------------';
-  display: block;
-  font-size: 1.42em;
-  margin-top: -0.5em;
-  color: #fff;
-  text-decoration: underline;
-  text-decoration-color: #999;
-  text-decoration-style: wavy;
-  transform-origin: bottom left;
-  transform: scale(2) translateX(0.05em);
-  overflow: hidden;
-}
-#receipt blockquote {
-  margin-left: 0.5em;
-  padding-left: 1em;
-  border-left: 4px solid #ccc;
-}
-#receipt h6 {
-  font-size: 0.7em;
-  font-family: 'Univers';
-  font-stretch: expanded;
-  margin: 0;
-  color: #999;
-}
-#receipt h4 {
-  font-family: 'Univers';
-  font-stretch: expanded;
-  font-weight: 700;
-}
-#receipt h6 + h4 {
-  margin-top: 0.2em;
-}
-#receipt .tinyStarField {
-  font-family: monospace;
-  font-size: 1.22em;
-}
-#receipt .tenPrintChr {
-  font-family: monospace;
-  font-size: 1.6em;
-  line-height: 1.2em;
-}
+      #receipt {
+        width: 384px;
+        font-size: 24px;
+        font-family: 'Univers LT Std';
+        overflow: hidden;
+      }
+      #receipt .timestamp {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.7em;
+        margin-bottom: 2em;
+      }
+      #receipt h1 {
+        font-family: 'Univers';
+        font-size: 42px;
+        font-weight: 900;
+        font-stretch: expanded;
+        margin: 0;
+        line-height: 1em;
+        padding-bottom: 0.5em;
+      }
+      #receipt hr {
+        display: block;
+        border: 0;
+        margin-bottom: 2em;
+      }
+      #receipt hr:after {
+        content: '-----------------';
+        display: block;
+        font-size: 1.42em;
+        margin-top: -0.5em;
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-color: #999;
+        text-decoration-style: wavy;
+        transform-origin: bottom left;
+        transform: scale(2) translateX(0.05em);
+        overflow: hidden;
+      }
+      #receipt blockquote {
+        margin-left: 0.5em;
+        padding-left: 1em;
+        border-left: 4px solid #ccc;
+      }
+      #receipt h6 {
+        font-size: 0.7em;
+        font-family: 'Univers';
+        font-stretch: expanded;
+        margin: 0;
+        color: #999;
+      }
+      #receipt h4 {
+        font-family: 'Univers';
+        font-stretch: expanded;
+        font-weight: 700;
+      }
+      #receipt h6 + h4 {
+        margin-top: 0.2em;
+      }
+      #receipt .tinyStarField {
+        font-family: monospace;
+        font-size: 1.22em;
+      }
+      #receipt .tenPrintChr {
+        font-family: monospace;
+        font-size: 1.6em;
+        line-height: 1.2em;
+      }
     </style>
   </head>
   <body>
     <div id="receipt">
+
       <div class="timestamp">{{ timestamp }}</div>
       <h1>deep web transmissions</h1>
-
       <hr />
 
       {{#each entries }}
         {{>(lookup . 'partialName') entry=this}}
         {{#unless @last}}<hr />{{/unless}}
       {{/each}}
-      
+
     </div>
   </body>
 </html>

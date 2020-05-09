@@ -13,18 +13,26 @@ const sources = [
     partialName: 'theLastDeck',
     title: 'The Pictorial Bot To The Tarot',
   },
+  {
+    screenName: 'str_voyage',
+    partialName: 'aStrangeVoyage',
+  },
+  {
+    screenName: 'tiny_star_field',
+    partialName: 'tinyStarField',
+  },
 ];
 
 module.exports = function getEntries() {
-  return Promise.all(sources.map((source) => {
+  return Promise.all(sources.map((source) => (
     client.get(
       'statuses/user_timeline',
       {screen_name: source.screenName, count: 1},
     ).then((result) => ({
       partialName: source.partialName,
       handle: source.screenName,
-      title: source.title || source.name,
-      tweet:
-    }));
-  }));
+      title: source.title || result[0].user.name,
+      tweet: result[0],
+    }))
+  )));
 }
