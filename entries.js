@@ -21,6 +21,10 @@ const sources = [
     screenName: 'tiny_star_field',
     partialName: 'tinyStarField',
   },
+  {
+    screenName: '10_print_chr',
+    partialName: 'tenPrintChr',
+  },
 ];
 
 module.exports = function getEntries() {

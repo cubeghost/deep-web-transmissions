@@ -6,14 +6,18 @@ const getEntries = require('./entries');
 
 const app = express();
 
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs({
+  compilerOptions: {
+    preventIndent: true,
+  },
+}));
 app.set('view engine', 'handlebars');
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   getEntries().then((entries) => {
-    console.log(entries[0].tweet.entities.media[0].media_url_https)
+    console.log(entries[3].tweet)
     res.render('index', {
       layout: false,
       timestamp: fecha.format(Date.now(), 'YYYY-MM-DD hh:mm:ss'),
