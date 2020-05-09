@@ -1,4 +1,15 @@
-
+<style type="text/css">
+  .theLastDeck {
+    text-align: center;
+    margin-top: -1em;
+  }
+  .theLastDeck img {
+    width: 280px;
+    height: 490px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+</style>
 <h6>
   @{{ entry.handle }}
 </h6>
@@ -6,5 +17,5 @@
   {{ entry.title }}
 </h4>
 <div class="theLastDeck">
-  
+  <img src={{ entry.tweet.entities.media[0].media_url_https }} />
 </div>
