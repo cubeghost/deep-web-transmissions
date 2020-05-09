@@ -1,51 +1,170 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Glitch!</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A cool thing made with Glitch">
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        overflow-x: hidden;
+        width: 384px;
+      }
 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+      /*body {
+        padding-top: 1px;
+      }*/
+      @font-face {
+        font-family: Univers;
+        src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BlackEx.otf);
+        font-style: normal;
+        font-weight: 900;
+        font-stretch: expanded;
+      }
+      @font-face {
+        font-family: Univers;
+        src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BoldEx.otf);
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: expanded;
+      }
 
-    <!-- import the webpage's client-side javascript file -->
-    <script src="/script.js" defer></script>
+
+#receipt {
+  width: 384px;
+  font-size: 24px;
+  font-family: 'Univers LT Std';
+  overflow: hidden;
+}
+#receipt .timestamp {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7em;
+  margin-bottom: 2em;
+}
+#receipt h1 {
+  font-family: 'Univers';
+  font-size: 42px;
+  font-weight: 900;
+  font-stretch: expanded;
+  margin: 0;
+  line-height: 1em;
+  padding-bottom: 0.5em;
+}
+#receipt hr {
+  display: block;
+  border: 0;
+  margin-bottom: 2em;
+}
+#receipt hr:after {
+  content: '-----------------';
+  display: block;
+  font-size: 1.42em;
+  margin-top: -0.5em;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #999;
+  text-decoration-style: wavy;
+  transform-origin: bottom left;
+  transform: scale(2) translateX(0.05em);
+  overflow: hidden;
+}
+#receipt blockquote {
+  margin-left: 0.5em;
+  padding-left: 1em;
+  border-left: 4px solid #ccc;
+}
+#receipt h6 {
+  font-size: 0.7em;
+  font-family: 'Univers';
+  font-stretch: expanded;
+  margin: 0;
+  color: #999;
+}
+#receipt h4 {
+  font-family: 'Univers';
+  font-stretch: expanded;
+  font-weight: 700;
+}
+#receipt h6 + h4 {
+  margin-top: 0.2em;
+}
+#receipt .tinyStarField {
+  font-family: monospace;
+  font-size: 1.22em;
+}
+#receipt .tenPrintChr {
+  font-family: monospace;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+#receipt .theLastDeck {
+  text-align: center;
+  margin-top: -1em;
+}
+#receipt .theLastDeck img {
+  width: 280px;
+  height: 490px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+#receipt .theLastDeck--first img {
+  object-position: 11.5% 50%;
+}
+#receipt .theLastDeck--last img {
+  object-position: 88.5% 50%;
+}
+    </style>
   </head>
   <body>
-    <header>
-      <h1>A Dream of the Future</h1>
-    </header>
+    <div id="receipt">
+      <div class="timestamp">{{ timestamp.strftime('%F %H:%M') }}</div>
+      <h1>deep web transmissions</h1>
 
-    <main>
-      <h2>Oh hi,</h2>
+      <hr />
 
-      <p>Tell me your hopes and dreams:</p>
+      {{ #each entries }}
+        <h6>@thelastdeck</h6>
+        <h4 style="font-size: 0.9em;">The Pictorial Bot To The Tarot</h4>
+        <div class="theLastDeck">
+          <img src="{{ the_last_deck }}" />
+        </div>
+        {{ #if !@last }}<hr />{{ /if }}
+      {{ /each }}
+      
+      <h6>@thelastdeck</h6>
+      <h4 style="font-size: 0.9em;">The Pictorial Bot To The Tarot</h4>
+      <div class="theLastDeck">
+        <img src="{{ the_last_deck }}" />
+      </div>
 
-      <form>
-        <label>
-          New Dream
-          <input name="dream" type="text" maxlength="100" required placeholder="Dreams!">
-        </label>
-        <button type="submit" id="submit-dream">Add Dream</button>
-      </form>
+      <hr />
 
-      <section class="dreams">
-        <ul id="dreams">
-          <em>loading dreams&hellip;</em>
-        </ul>
-      </section>
-    </main>
+      <h6>@str_voyage</h6>
+      <h4>a strange voyage</h4>
+      <div class="aStrangeVoyage">{{ a_strange_voyage }}</div>
 
-    <footer>Made with <a href="https://glitch.com">Glitch</a>!</footer>
+      <hr />
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+      <h4>@tiny_star_field</h4>
+      <pre class="tinyStarField">{{ tiny_star_field }}</pre>
+
+      <hr />
+
+      <!-- <div style="overflow: hidden; height: 550px;">
+        <img
+          width="670"
+          style="margin-top: -110px; margin-left: -135px;"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/lotus-flower-botanical-drawing-black-and-white-irina-sztukowski.jpg"
+        />
+      </div>
+      <center><h4>&nbsp;&nbsp;&nbsp;&nbsp;lotus</h4></center>
+
+      <hr /> -->
+
+      <h6>@10_print_chr</h6>
+      <h4>10 PRNT CHR$</h4>
+      <pre class="tenPrintChr">{{ ten_print_chr }}</pre>
+
+    </div>
   </body>
 </html>
