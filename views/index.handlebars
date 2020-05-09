@@ -107,7 +107,7 @@
       <hr />
 
       {{#each entries }}
-        {{>(lookup . 'partial') entry=this}}
+        {{>(lookup . 'partialName') entry=this}}
         {{#unless @last}}<hr />{{/unless}}
       {{/each}}
       

@@ -9,7 +9,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
-    "fecha": "^4.1.0"
+    "fecha": "^4.1.0",
+    "twitter": "^1.7.1"
   },
   "engines": {
     "node": "12.x"
