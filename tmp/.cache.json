@@ -36,8 +36,8 @@
             }
           },
           "protected": false,
-          "followers_count": 127622,
-          "friends_count": 4667,
+          "followers_count": 127608,
+          "friends_count": 4666,
           "listed_count": 1691,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 344,
@@ -424,7 +424,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 5,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -435,10 +435,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sun May 10 03:30:20 +0000 2020",
-        "id": 1259324867817517000,
-        "id_str": "1259324867817517056",
-        "text": "ꫤ ꫠ ꫦ ꫵ ꫳ ꫥ",
+        "created_at": "Sun May 10 04:35:15 +0000 2020",
+        "id": 1259341203625046000,
+        "id_str": "1259341203625046016",
+        "text": "ᆸᆈᆘᅂᇮ😭ᇰᇚᅙᆹᅔ⬒ᄓ⚠⛨❅ᄭᆑᄂᇧᅺᅜᅏᄸᅶᄤ♼ᆟᄎᄗ⬡ᆲᇶᆎᆼᄔᄬᇯᄳᆇ☏🙎ᅙᅲᅄ⚍ᄩᆹ😂ᄀᄫᅺᅤᇺᆤ❊ 🙉ᄗᆾᅮᇉ⛡ᄷᄞᆋ✑ᅯ🙉ᅅ빼➴ᅑ➍ᄖᅊᄁᅂᄳ⚙ᇐᇨ☨⭊ᅆ⚎ᅮᄡᇫᆳ➭ᆏ✨ᇖᄀ😩ᅈᇋ⚱ᄾ😐ᄄ✏⚻ᅏᇣᅚᇖᆵᇵ ᇼᆁᆊᅶ⛞✚ᆚᄊᇂᄢᆨ⚟⛧ᄦᄋ✭ᅂᆷ❝ᄃᄉᆏᆢᇀᆷᆦ⛩ᆖᆿ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -475,7 +475,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 52616,
+          "statuses_count": 52617,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -505,10 +505,10 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 1,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "ko"
       }
     },
     {
@@ -712,5 +712,5 @@
       }
     }
   ],
-  "timestamp": 1589085121322
+  "timestamp": 1589085613972
 }
