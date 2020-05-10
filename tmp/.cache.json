@@ -75,7 +75,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1687,
+        "retweet_count": 1689,
         "favorite_count": 808,
         "favorited": false,
         "retweeted": false,
@@ -169,7 +169,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 2,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sun May 10 16:16:39 +0000 2020",
-        "id": 1259517716781838300,
-        "id_str": "1259517716781838342",
-        "text": "Another dream; this time of the lost children.",
+        "created_at": "Sun May 10 16:46:23 +0000 2020",
+        "id": 1259525200871403500,
+        "id_str": "1259525200871403520",
+        "text": "Dark clouds gather. We do our best to keep everyone on board. Brooding structures. A forbidden portcullis.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -396,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75168,
+          "statuses_count": 75169,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -427,7 +427,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 14,
+        "favorite_count": 19,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -845,7 +845,7 @@
             }
           },
           "protected": false,
-          "followers_count": 18273,
+          "followers_count": 18271,
           "friends_count": 5,
           "listed_count": 369,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -884,7 +884,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 8,
-        "favorite_count": 11,
+        "favorite_count": 21,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1029,7 +1029,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50974,
+          "followers_count": 50971,
           "friends_count": 17222,
           "listed_count": 434,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1069,7 +1069,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 8,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1078,5 +1078,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589128814680
+  "timestamp": 1589130121342
 }
