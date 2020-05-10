@@ -1,0 +1,19 @@
+<style type="text/css">
+  .phantomFunhouse .inner {
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+    text-align: center;
+  }
+  .phantomFunhouse img {
+    height: 384px;
+  }
+</style>
+<h6>
+  @{{ entry.handle }}
+</h6>
+<h4>
+  {{ entry.title }}
+</h4>
+<div class="inner">
+  <img src={{ entry.tweet.entities.media.0.media_url_https }} />
+</div>
