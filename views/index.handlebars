@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>deep web transmissions</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=418">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <style type="text/css">
       @font-face {
@@ -27,7 +29,7 @@
       .flex {
         display: flex;
         flex-wrap: wrap;
-        align-items: start;
+        align-items: stretch;
       }
       
       .column {
@@ -68,12 +70,11 @@
       }
       
       .info {
-        position: absolute;
-        bottom: 0;
-        left: 0;
         font-size: 0.8em;
         margin: 16px;
-        opacity: 0.8;
+        opacity: 0.5;
+        margin-top: auto;
+        padding-top: 0.5em;
       }
 
       .hidden {
@@ -175,6 +176,11 @@
         </div>
         
         <pre class="controls" id="printerStatus" style="display: none;"></pre>
+   
+        <div class="info">
+          for little printer and compatible thermal printers
+        </div>
+
       </div>
 
       <div class="receipt-wrapper">
@@ -194,9 +200,6 @@
           {{/each}}
         </div>
       </div>
-    </div>
-    <div class="info">
-      for little printer and compatible thermal printers
     </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"

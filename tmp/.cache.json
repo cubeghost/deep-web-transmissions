@@ -129,7 +129,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13805,
+          "followers_count": 13806,
           "friends_count": 4,
           "listed_count": 365,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -169,7 +169,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 6,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38453,
+          "followers_count": 38454,
           "friends_count": 42,
           "listed_count": 668,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -427,7 +427,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 7,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -565,7 +565,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13376,
+          "followers_count": 13375,
           "friends_count": 101,
           "listed_count": 438,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
@@ -610,7 +610,7 @@
         "retweeted": false,
         "lang": "und"
       },
-      "defaultEnabled": true
+      "defaultEnabled": false
     },
     {
       "partialName": "tenPrintChr",
@@ -855,7 +855,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50924,
+          "followers_count": 50927,
           "friends_count": 17220,
           "listed_count": 441,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -895,7 +895,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 13,
-        "favorite_count": 41,
+        "favorite_count": 51,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -904,5 +904,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589088152376
+  "timestamp": 1589088835984
 }
