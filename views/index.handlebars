@@ -105,10 +105,10 @@
         margin-top: 0.2em;
       }      
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="controls">
+
       <div id="toggles">
         <input type="checkbox" id="toggle-customMessage" name="customMessage" />
         <label for="toggle-customMessage">custom message</label>
@@ -122,20 +122,21 @@
           <br />
         {{/each}}   
       </div>
+
       <br />
       <label for="printerUrl">printer key</label>
       <input type="text" placeholder="device.li" id="printerUrl" value="https://device.li/m87n40ldpj5obc9fle1v" />
+      <button id="status">
+        check printer
+      </button>
       <button id="print">
         print
       </button>
-      <pre id="printResult"></pre>      
+      <pre id="printerStatus"></pre>
     </div>
-    <div id="hidden">
-      
-    </div>
+
     <div class="receipt-wrapper">
       <div id="receipt">
-        <!-- <div class="timestamp">{{ timestamp }}</div> -->
         <h1>deep web transmissions</h1>
 
         {{#each entries }}
@@ -147,55 +148,9 @@
 
       </div>
     </div>
-    <script type="text/javascript">
-      // so that we can use :last-child to hide the last hr
-      // const receiptContainer = document.getElementById('receipt');
-      // const hiddenContainer = document.getElementById('hidden');
-      document.querySelectorAll('#toggles input').forEach((input) => {
-        input.addEventListener('change', (event) => {
-          const {name, checked} = event.target;
-          const entry = document.querySelector(`.${name}`);
-          if (checked) {
-            entry.classList.remove('hidden');
-            // const index = Number(entry.dataset.index);
-            // const previousElement = receiptContainer.children[index];
-            // receiptContainer.insertBefore(entry, previousElement);
-          } else {
-            entry.classList.add('hidden');
-            // const index = Array.prototype.indexOf.call(receiptContainer.children, entry);
-            // hiddenContainer.appendChild(entry);
-            // entry.dataset.index = index;
-          }
-        })
-      });
-      
-      const button = document.getElementById('print');
-      button.addEventListener('click', (event) => {
-        const input = document.getElementById('printerUrl');
-        if (!input.value) {
-          return;
-        }
-        
-        const url = input.value;
-        const receiptElement = document.getElementById('receipt');
-        
-        domtoimage.toBlob(receiptElement, {width: 384}).then((blob) => {
-          fetch(url, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'image/png',
-            },
-            body: blob,
-          }).then((response) => {
-            if (!response.ok) {
-              throw new Error(response.statusText);
-            }
-            return response.json();
-          }).then((json) => {
-            document.getElementById('printResult').innerText = JSON.stringify(json);
-          });
-        });
-      });
-    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+      integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
