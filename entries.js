@@ -15,19 +15,23 @@ const sources = [
   {
     screenName: 'tiny_star_field',
     partialName: 'tinyStarField',
+    defaultEnabled: true,
   },
   {
     screenName: 'spacetravelbot',
     partialName: 'spaceTraveler',
+    defaultEnabled: true,
   },
   {
     screenName: 'thelastdeck',
     partialName: 'theLastDeck',
     // title: 'The Pictorial Bot To The Tarot',
+    defaultEnabled: true,
   },
   {
     screenName: 'str_voyage',
     partialName: 'aStrangeVoyage',
+    defaultEnabled: true,
   },
   {
     screenName: 'SmoothUnicode',
@@ -36,10 +40,15 @@ const sources = [
   {
     screenName: 'infinitedeserts',
     partialName: 'infiniteDeserts',
+    defaultEnabled: true,
   },
   {
     screenName: '10_print_chr',
     partialName: 'tenPrintChr',
+    defaultEnabled: true,
+  },  {
+    screenName: 'boschbot',
+    partialName: 'boschBot',
   },
 ];
 
@@ -61,6 +70,7 @@ module.exports = async function getEntries() {
         handle: source.screenName,
         title: source.title || result[0].user.name,
         tweet: result[0],
+        defaultEnabled: source.defaultEnabled || false,
       });
     })
   )));

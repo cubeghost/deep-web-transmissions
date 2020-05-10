@@ -25,19 +25,26 @@
 
       .flex {
         display: flex;
+        flex-wrap: wrap;
+        align-items: start;
       }
 
-
       .controls {
-        position: fixed;
-        top: 16px;
-        left: 16px;
+        margin: 16px;
         font-family: 'Univers LT Std';
         padding: 16px;
         border: 2px solid #000;
         background-color: #fff;
         box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.25);
         z-index: 2;
+      }
+      
+      .controls h3 {
+        font-size: 1em;
+        font-family: 'Univers';
+        font-stretch: expanded;
+        margin: 0;
+        color: #999;
       }
             
       .receipt-wrapper {
@@ -113,22 +120,28 @@
   <body>
     <div class="flex">
       <div class="controls">
-        
+        <h3>content</h3>
         <div id="toggles">
           <input type="checkbox" id="toggle-customMessage" name="customMessage" />
           <label for="toggle-customMessage">custom message</label>
           <div class="customMessage hidden">
-            <textarea id="input-customMessage">hello, friend</textarea>
+            <textarea id="input-customMessage">:~)</textarea>
           </div>
           <br />
           {{#each entries }}
-            <input type="checkbox" id="toggle-{{this.partialName}}" name="{{this.partialName}}" checked />
+            <input
+              type="checkbox"
+              id="toggle-{{this.partialName}}"
+              name="{{this.partialName}}"
+              {{#if this.defaultEnabled}}checked{{/if}}
+            />
             <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
             <br />
           {{/each}}   
         </div>
 
         <br />
+        <h3>printer</h3>
         <label for="printerUrl">printer key</label>
         <input type="text" placeholder="device.li" id="printerUrl" />
         <br />
@@ -147,11 +160,11 @@
 
           <div class="entry customMessage hidden">
             <hr />
-            <div id="customMessage">hello, friend</div>
+            <div id="customMessage">:~)</div>
           </div>
 
           {{#each entries }}
-            <div class="entry {{this.partialName}}">
+            <div class="entry {{this.partialName}} {{#unless this.defaultEnabled}}hidden{{/unless}}">
               <hr />
               {{>(lookup . 'partialName') entry=this}}          
             </div>
