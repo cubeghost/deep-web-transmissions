@@ -57,6 +57,11 @@ printButton.addEventListener('click', async (event) => {
   if (!url) return;
   
   const printerStatus = await wrapFetch(url);
+  appendPrinterStatus(printerStatus);
+  if (printerStatus.status !== 'online') {
+    return;
+  }
+
   const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?`);
   
   if (confirmed) {
