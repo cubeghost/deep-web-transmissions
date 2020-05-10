@@ -7,6 +7,10 @@ const wrapFetch = (url, options) => (
   })
 );
 
+const appendPrinterStatus = (object) => {
+  document.getElementById('printerStatus').innerText += JSON.stringify(object, null, 2) + '\n';
+};
+
 document.querySelectorAll('#toggles input').forEach((input) => {
   input.addEventListener('change', (event) => {
     const {name, checked} = event.target;
@@ -37,7 +41,7 @@ printButton.addEventListener('click', (event) => {
       },
       body: blob,
     }).then((json) => {
-      document.getElementById('printerStatus').innerText += JSON.stringify(json) + '\n';
+      appendPrinterStatus(json);
     });
   });
 });
@@ -50,7 +54,8 @@ statusButton.addEventListener('click', (event) => {
   }
 
   const url = input.value;
+
   wrapFetch(url).then((json) => {
-    document.getElementById('printerStatus').innerText += JSON.stringify(json) + '\n';
+    appendPrinterStatus(json);
   });
 });
