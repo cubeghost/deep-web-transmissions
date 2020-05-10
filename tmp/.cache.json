@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 127626,
+          "followers_count": 127624,
           "friends_count": 4667,
           "listed_count": 1702,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -168,7 +168,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 4,
+        "favorite_count": 5,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -593,7 +593,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13377,
+          "followers_count": 13376,
           "friends_count": 101,
           "listed_count": 442,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
@@ -745,5 +745,5 @@
       }
     }
   ],
-  "timestamp": 1589080873687
+  "timestamp": 1589081442895
 }
