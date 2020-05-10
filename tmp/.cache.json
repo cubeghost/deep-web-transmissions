@@ -168,7 +168,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
+        "retweet_count": 4,
         "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
@@ -561,7 +561,7 @@
           "lang": "en"
         },
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1193,7 +1193,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 13,
+        "favorite_count": 14,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1377,8 +1377,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 5,
+        "retweet_count": 3,
+        "favorite_count": 15,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1387,5 +1387,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589147228522
+  "timestamp": 1589148181909
 }
