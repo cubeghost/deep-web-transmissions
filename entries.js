@@ -1,5 +1,8 @@
 const Twitter = require('twitter');
-const NodeCache = require( "node-cache" );
+const cacache = require('cacache');
+
+const cachePath = 'tmp/.entries.json';
+const cacheKey = 'entries';
 
 const client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -7,8 +10,6 @@ const client = new Twitter({
   access_token_key: process.env.TWITTER_ACCESS_TOKEN,
   access_token_secret: process.env.TWITTER_ACCESS_SECRET,
 });
-
-const entriesCache = new NodeCache();
 
 const sources = [
   {
@@ -30,13 +31,14 @@ const sources = [
   },
 ];
 
-module.exports = function getEntries() {
-  const cachedEntries = entriesCache.get('entries');
+module.exports = async function getEntries() {
+  const cachedEntries = await cache.get('entries');
+  console.log(cachedEntries)
   if (cachedEntries) {
     return cachedEntries;
   }
 
-  const entries = Promise.all(sources.map((source) => (
+  const entries = await Promise.all(sources.map((source) => (
     client.get(
       'statuses/user_timeline',
       {screen_name: source.screenName, count: 1},
@@ -50,6 +52,6 @@ module.exports = function getEntries() {
     })})
   )));
 
-  entriesCache.set('entries', entries, 600);
+  await cache.set('entries', entries, 600);
   return entries;
 }
