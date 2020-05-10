@@ -1,9 +1,3 @@
-/**
-  TODO:
-    - persist enabled content and restore on page load
-    - atkinson dither preview
-*/
-
 const wrapFetch = (url, options) => (
   fetch(url, options).then((response) => {
     if (!response.ok) {
