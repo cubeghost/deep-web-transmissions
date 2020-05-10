@@ -30,6 +30,10 @@ const sources = [
     partialName: 'aStrangeVoyage',
   },
   {
+    screenName: 'SmoothUnicode',
+    partialName: 'smoothUnicode',
+  },
+  {
     screenName: 'infinitedeserts',
     partialName: 'infiniteDeserts',
   },

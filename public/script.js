@@ -36,13 +36,19 @@ const appendPrinterStatus = (object) => {
 document.querySelectorAll('#toggles input').forEach((input) => {
   input.addEventListener('change', (event) => {
     const {name, checked} = event.target;
-    const entry = document.querySelector(`.${name}`);
-    if (checked) {
-      entry.classList.remove('hidden');
-    } else {
-      entry.classList.add('hidden');
-    }
+    document.querySelectorAll(`.${name}`).forEach((entry) => {
+      if (checked) {
+        entry.classList.remove('hidden');
+      } else {
+        entry.classList.add('hidden');
+      }      
+    });
   })
+});
+
+const textarea = document.getElementById('input-customMessage');
+textarea.addEventListener('change', (event) => {
+  document.getElementById('customMessage').innerText = event.target.value;
 });
 
 const printButton = document.getElementById('print');
@@ -51,7 +57,7 @@ printButton.addEventListener('click', async (event) => {
   if (!url) return;
   
   const printerStatus = await wrapFetch(url);
-  const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?'`);
+  const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?`);
   
   if (confirmed) {
     const receiptElement = document.getElementById('receipt');
@@ -77,3 +83,6 @@ statusButton.addEventListener('click', async (event) => {
   appendPrinterStatus(json);
 });
 
+(function(){
+  getPrinterUrl();
+})();
