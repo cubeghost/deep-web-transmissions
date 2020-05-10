@@ -2,7 +2,7 @@ const fs = require('fs');
 const Twitter = require('twitter');
 const LocalCache = require('node-localcache');
 
-const cache = LocalCache('/tmp/.cache.json', false);
+const cache = LocalCache('tmp/.cache.json', false);
 
 const client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -13,6 +13,14 @@ const client = new Twitter({
 
 const sources = [
   {
+    screenName: 'tiny_star_field',
+    partialName: 'tinyStarField',
+  },
+  {
+    screenName: 'spacetravelbot',
+    partialName: 'spaceTraveler',
+  },
+  {
     screenName: 'thelastdeck',
     partialName: 'theLastDeck',
     // title: 'The Pictorial Bot To The Tarot',
@@ -22,8 +30,8 @@ const sources = [
     partialName: 'aStrangeVoyage',
   },
   {
-    screenName: 'tiny_star_field',
-    partialName: 'tinyStarField',
+    screenName: 'infinitedeserts',
+    partialName: 'infiniteDeserts',
   },
   {
     screenName: '10_print_chr',
@@ -34,7 +42,7 @@ const sources = [
 module.exports = async function getEntries() {
   const cachedEntries = cache.getItem('entries');
   const cacheTime = cache.getItem('timestamp');
-  if (cachedEntries && cacheTime < (Date.now() + 600)) {
+  if (cachedEntries && (Date.now() - cacheTime) < 120) {
     return cachedEntries;
   }
   
