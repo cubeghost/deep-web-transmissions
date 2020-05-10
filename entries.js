@@ -37,11 +37,12 @@ module.exports = async function getEntries() {
     ).then((result) => {
       console.log('hit twitter api')
       return({
-      partialName: source.partialName,
-      handle: source.screenName,
-      title: source.title || result[0].user.name,
-      tweet: result[0],
-    })})
+        partialName: source.partialName,
+        handle: source.screenName,
+        title: source.title || result[0].user.name,
+        tweet: result[0],
+      });
+    })
   )));
 
   return entries;
