@@ -31,7 +31,6 @@ const sources = [
   {
     screenName: 'str_voyage',
     partialName: 'aStrangeVoyage',
-    defaultEnabled: true,
   },
   {
     screenName: 'SmoothUnicode',
@@ -40,7 +39,6 @@ const sources = [
   {
     screenName: 'infinitedeserts',
     partialName: 'infiniteDeserts',
-    defaultEnabled: true,
   },
   {
     screenName: '10_print_chr',
