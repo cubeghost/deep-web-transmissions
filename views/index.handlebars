@@ -21,12 +21,18 @@
 
       body {
         margin: 0;
+        font-family: 'Univers LT Std';
       }
 
       .flex {
         display: flex;
         flex-wrap: wrap;
         align-items: start;
+      }
+      
+      .column {
+        display: flex;
+        flex-direction: column;
       }
 
       .controls {
@@ -46,6 +52,11 @@
         margin: 0;
         color: #999;
       }
+      
+      #printerStatus {
+        font-size: 0.8em;
+        font-family: 'Roboto Mono', monospace;
+      }
             
       .receipt-wrapper {
         margin: 16px auto;
@@ -54,6 +65,15 @@
         overflow-x: hidden;
         width: 384px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      .info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 0.8em;
+        margin: 16px;
+        opacity: 0.8;
       }
 
       .hidden {
@@ -119,39 +139,42 @@
   </head>
   <body>
     <div class="flex">
-      <div class="controls">
-        <h3>content</h3>
-        <div id="toggles">
-          <input type="checkbox" id="toggle-customMessage" name="customMessage" />
-          <label for="toggle-customMessage">custom message</label>
-          <div class="customMessage hidden">
-            <textarea id="input-customMessage">:~)</textarea>
-          </div>
-          <br />
-          {{#each entries }}
-            <input
-              type="checkbox"
-              id="toggle-{{this.partialName}}"
-              name="{{this.partialName}}"
-              {{#if this.defaultEnabled}}checked{{/if}}
-            />
-            <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
+      <div class="column">
+        <div class="controls">
+          <h3>content</h3>
+          <div id="toggles">
+            <input type="checkbox" id="toggle-customMessage" name="customMessage" />
+            <label for="toggle-customMessage">custom message</label>
+            <div class="customMessage hidden">
+              <textarea id="input-customMessage">:~)</textarea>
+            </div>
             <br />
-          {{/each}}   
-        </div>
+            {{#each entries }}
+              <input
+                type="checkbox"
+                id="toggle-{{this.partialName}}"
+                name="{{this.partialName}}"
+                {{#if this.defaultEnabled}}checked{{/if}}
+              />
+              <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
+              <br />
+            {{/each}}   
+          </div>
 
-        <br />
-        <h3>printer</h3>
-        <label for="printerUrl">printer key</label>
-        <input type="text" placeholder="device.li" id="printerUrl" />
-        <br />
-        <button id="status">
-          check printer
-        </button>
-        <button id="print">
-          print
-        </button>
-        <pre id="printerStatus"></pre>
+          <br />
+          <h3>printer</h3>
+          <label for="printerUrl">printer key</label>
+          <input type="text" placeholder="device.li" id="printerUrl" />
+          <br />
+          <button id="status">
+            check printer status
+          </button>
+          <button id="print">
+            print
+          </button>
+        </div>
+        
+        <pre class="controls" id="printerStatus" style="display: none;"></pre>
       </div>
 
       <div class="receipt-wrapper">
@@ -172,9 +195,12 @@
         </div>
       </div>
     </div>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
-        integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
-      <script src="/script.js"></script>
+    <div class="info">
+      for little printer and compatible thermal printers
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+      integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
