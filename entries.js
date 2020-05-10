@@ -15,7 +15,7 @@ const sources = [
   {
     screenName: 'thelastdeck',
     partialName: 'theLastDeck',
-    title: 'The Pictorial Bot To The Tarot',
+    // title: 'The Pictorial Bot To The Tarot',
   },
   {
     screenName: 'str_voyage',
