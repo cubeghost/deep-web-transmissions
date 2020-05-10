@@ -3,23 +3,6 @@
   <head>
     <meta charset="utf-8">
     <style>
-      body {
-        margin: 0;
-      }
-      
-      .controls {
-        
-      }
-      
-      .receipt-wrapper {
-        margin: 16px auto;
-        padding: 16px;
-        background-color: white;
-        overflow-x: hidden;
-        width: 384px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-      }
-
       @font-face {
         font-family: Univers;
         src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BlackEx.otf);
@@ -33,6 +16,30 @@
         font-style: normal;
         font-weight: 700;
         font-stretch: expanded;
+      }
+
+      body {
+        margin: 0;
+      }
+      
+      .controls {
+        position: fixed;
+        top: 16px;
+        left: 16px;
+        font-family: 'Univers LT Std';
+      }
+      
+      .controls button {
+        font-family: 'Univers LT Std';
+      }
+      
+      .receipt-wrapper {
+        margin: 16px auto;
+        padding: 16px;
+        background-color: white;
+        overflow-x: hidden;
+        width: 384px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
       }
 
       #receipt {
@@ -103,6 +110,7 @@
         line-height: 1.2em;
       }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="receipt-wrapper">
@@ -119,5 +127,34 @@
 
       </div>
     </div>
+    <div class="controls">
+      <label for="printerUrl">printer key</label>
+      <input type="text" placeholder="device.li" id="printerUrl" />
+      <button id="print">
+        print
+      </button>
+    </div>
+    <script type="text/javascript">
+      const button = document.getElementById('print');
+      button.addEventListener('click', (event) => {
+        const input = document.getElementById('printerUrl');
+        if (!input.value) {
+          return;
+        }
+        
+        const url = input.value;
+        const receiptElement = document.getElementById('receipt');
+        
+        domtoimage.toBlob(receiptElement).then((blob) => {
+          fetch(url, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'image/png',
+            },
+            body: blob,
+          });
+        });
+      });
+    </script>
   </body>
 </html>
