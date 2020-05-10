@@ -22,18 +22,24 @@
       body {
         margin: 0;
       }
-      
+
+      .flex {
+        display: flex;
+      }
+
+
       .controls {
         position: fixed;
         top: 16px;
         left: 16px;
         font-family: 'Univers LT Std';
+        padding: 16px;
+        border: 2px solid #000;
+        background-color: #fff;
+        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.25);
+        z-index: 2;
       }
-      
-      .controls button {
-        font-family: 'Univers LT Std';
-      }
-      
+            
       .receipt-wrapper {
         margin: 16px auto;
         padding: 16px;
@@ -46,7 +52,7 @@
       .hidden {
         display: none;
       }
-
+      
       #receipt {
         width: 384px;
         font-size: 24px;
@@ -101,60 +107,61 @@
       }      
       #customMessage {
         white-space: pre-wrap;
-        margin-bottom: -0.75em;
       }
     </style>
   </head>
   <body>
-    <div class="controls">
-
-      <div id="toggles">
-        <input type="checkbox" id="toggle-customMessage" name="customMessage" checked />
-        <label for="toggle-customMessage">custom message</label>
-        <div class="customMessage">
-          <textarea id="input-customMessage">👀</textarea>
-        </div>
-        <br />
-        {{#each entries }}
-          <input type="checkbox" id="toggle-{{this.partialName}}" name="{{this.partialName}}" checked />
-          <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
-          <br />
-        {{/each}}   
-      </div>
-
-      <br />
-      <label for="printerUrl">printer key</label>
-      <input type="text" placeholder="device.li" id="printerUrl" />
-      <br />
-      <button id="status">
-        check printer
-      </button>
-      <button id="print">
-        print
-      </button>
-      <pre id="printerStatus"></pre>
-    </div>
-
-    <div class="receipt-wrapper">
-      <div id="receipt">
-        <h1>deep web transmissions</h1>
-
-        <div class="entry customMessage">
-          <hr />
-          <div id="customMessage">👀</div>
-        </div>
-
-        {{#each entries }}
-          <div class="entry {{this.partialName}}">
-            <hr />
-            {{>(lookup . 'partialName') entry=this}}          
+    <div class="flex">
+      <div class="controls">
+        
+        <div id="toggles">
+          <input type="checkbox" id="toggle-customMessage" name="customMessage" />
+          <label for="toggle-customMessage">custom message</label>
+          <div class="customMessage hidden">
+            <textarea id="input-customMessage">hello, friend</textarea>
           </div>
-        {{/each}}
+          <br />
+          {{#each entries }}
+            <input type="checkbox" id="toggle-{{this.partialName}}" name="{{this.partialName}}" checked />
+            <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
+            <br />
+          {{/each}}   
+        </div>
+
+        <br />
+        <label for="printerUrl">printer key</label>
+        <input type="text" placeholder="device.li" id="printerUrl" />
+        <br />
+        <button id="status">
+          check printer
+        </button>
+        <button id="print">
+          print
+        </button>
+        <pre id="printerStatus"></pre>
+      </div>
+
+      <div class="receipt-wrapper">
+        <div id="receipt">
+          <h1>deep web transmissions</h1>
+
+          <div class="entry customMessage hidden">
+            <hr />
+            <div id="customMessage">hello, friend</div>
+          </div>
+
+          {{#each entries }}
+            <div class="entry {{this.partialName}}">
+              <hr />
+              {{>(lookup . 'partialName') entry=this}}          
+            </div>
+          {{/each}}
+        </div>
       </div>
     </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
-      integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+        integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
+      <script src="/script.js"></script>
   </body>
 </html>
