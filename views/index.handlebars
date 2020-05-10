@@ -80,7 +80,7 @@
         transform: scale(2) translateX(0.05em);
         overflow: hidden;
       }
-      #receipt .entry:not(.hidden):last-child hr {
+      #receipt hr:last-of-type {
         display: none;
       }
       #receipt blockquote {
@@ -105,7 +105,7 @@
       }
       #hidden {
         border: 1px solid red;
-/*         display: none; */
+        display: none;
       }
       
     </style>
@@ -149,6 +149,7 @@
       </div>
     </div>
     <script type="text/javascript">
+      // so that we can use :last-child to hide the last hr
       const receiptContainer = document.getElementById('receipt');
       const hiddenContainer = document.getElementById('hidden');
       document.querySelectorAll('#toggles input').forEach((input) => {
@@ -156,14 +157,15 @@
           const {name, checked} = event.target;
           const entry = document.querySelector(`.${name}`);
           if (checked) {
-            const index = entry.dataset.index;
-            const previousElement = receiptContainer[index + 1]
-            receiptContainer.insertBefore(entry, previousElement);
+            entry.classList.remove('hidden');
+            // const index = Number(entry.dataset.index);
+            // const previousElement = receiptContainer.children[index];
+            // receiptContainer.insertBefore(entry, previousElement);
           } else {
-            const index = Array.prototype.indexOf.call(receiptContainer.children, entry);
-            hiddenContainer.appendChild(entry);
-            entry.dataset.index = index;
-            console.log(entry, entry.dataset)
+            entry.classList.add('hidden');
+            // const index = Array.prototype.indexOf.call(receiptContainer.children, entry);
+            // hiddenContainer.appendChild(entry);
+            // entry.dataset.index = index;
           }
         })
       });

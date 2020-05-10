@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 127628,
+          "followers_count": 127627,
           "friends_count": 4667,
           "listed_count": 1702,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -340,10 +340,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sun May 10 02:16:23 +0000 2020",
-        "id": 1259306256872898600,
-        "id_str": "1259306256872898561",
-        "text": "https://t.co/lPxArTpYIC",
+        "created_at": "Sun May 10 02:46:14 +0000 2020",
+        "id": 1259313770746314800,
+        "id_str": "1259313770746314753",
+        "text": "https://t.co/t9BBarMjl5",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -351,8 +351,8 @@
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/lPxArTpYIC",
-              "expanded_url": "https://twitter.com/joebaxterwebb/status/1246824873000865793?s=20",
+              "url": "https://t.co/t9BBarMjl5",
+              "expanded_url": "https://twitter.com/joebaxterwebb/status/1224466897862832129?s=20",
               "display_url": "twitter.com/joebaxterwebb/…",
               "indices": [
                 0,
@@ -394,7 +394,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38453,
+          "followers_count": 38452,
           "friends_count": 42,
           "listed_count": 672,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -403,7 +403,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75134,
+          "statuses_count": 75135,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -433,22 +433,33 @@
         "place": null,
         "contributors": null,
         "is_quote_status": true,
-        "quoted_status_id": 1246824873000865800,
-        "quoted_status_id_str": "1246824873000865793",
+        "quoted_status_id": 1224466897862832000,
+        "quoted_status_id_str": "1224466897862832129",
         "quoted_status": {
-          "created_at": "Sun Apr 05 15:39:49 +0000 2020",
-          "id": 1246824873000865800,
-          "id_str": "1246824873000865793",
-          "text": "Reminder that I made a music video last week and it is cool and you should watch it and ideally add it to some sort… https://t.co/VspxjvIGle",
+          "created_at": "Mon Feb 03 22:57:12 +0000 2020",
+          "id": 1224466897862832000,
+          "id_str": "1224466897862832129",
+          "text": "Thanks to everyone who has dropped me a tip in my ko-fi for making @str_voyage, and for your kind messages. It felt… https://t.co/v6NnTGnI0z",
           "truncated": true,
           "entities": {
             "hashtags": [],
             "symbols": [],
-            "user_mentions": [],
+            "user_mentions": [
+              {
+                "screen_name": "str_voyage",
+                "name": "a strange voyage",
+                "id": 701133013262983200,
+                "id_str": "701133013262983168",
+                "indices": [
+                  67,
+                  78
+                ]
+              }
+            ],
             "urls": [
               {
-                "url": "https://t.co/VspxjvIGle",
-                "expanded_url": "https://twitter.com/i/web/status/1246824873000865793",
+                "url": "https://t.co/v6NnTGnI0z",
+                "expanded_url": "https://twitter.com/i/web/status/1224466897862832129",
                 "display_url": "twitter.com/i/web/status/1…",
                 "indices": [
                   117,
@@ -539,8 +550,8 @@
           "place": null,
           "contributors": null,
           "is_quote_status": false,
-          "retweet_count": 9,
-          "favorite_count": 16,
+          "retweet_count": 35,
+          "favorite_count": 127,
           "favorited": false,
           "retweeted": false,
           "possibly_sensitive": false,
@@ -642,8 +653,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 5,
-        "favorite_count": 7,
+        "retweet_count": 6,
+        "favorite_count": 8,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -755,5 +766,5 @@
       }
     }
   ],
-  "timestamp": 1589078771421
+  "timestamp": 1589079344734
 }
