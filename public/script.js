@@ -7,6 +7,28 @@ const wrapFetch = (url, options) => (
   })
 );
 
+const getPrinterUrl = () => {  
+  const key = 'deep-web:printer-url';
+
+  const input = document.getElementById('printerUrl');
+  const storedUrl = localStorage.getItem(key);
+  
+  if (!input.value) {
+    if (storedUrl) {
+      input.value = storedUrl;
+      return storedUrl;
+    }
+    return;
+  }
+
+  if (storedUrl === input.value) {
+    return storedUrl;
+  }
+  
+  localStorage.setItem(key, input.value);
+  return input.value;
+};
+
 const appendPrinterStatus = (object) => {
   document.getElementById('printerStatus').innerText += JSON.stringify(object, null, 2) + '\n';
 };
@@ -24,38 +46,34 @@ document.querySelectorAll('#toggles input').forEach((input) => {
 });
 
 const printButton = document.getElementById('print');
-printButton.addEventListener('click', (event) => {
-  const input = document.getElementById('printerUrl');
-  if (!input.value) {
-    return;
-  }
+printButton.addEventListener('click', async (event) => {
+  const url = getPrinterUrl();
+  if (!url) return;
+  
+  const printerStatus = await wrapFetch(url);
+  const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?'`);
+  
+  if (confirmed) {
+    const receiptElement = document.getElementById('receipt');
 
-  const url = input.value;
-  const receiptElement = document.getElementById('receipt');
-
-  domtoimage.toBlob(receiptElement, {width: 384}).then((blob) => {
-    wrapFetch(url, {
+    const blob = await domtoimage.toBlob(receiptElement, {width: 384});
+    const printStatus = await wrapFetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'image/png',
       },
       body: blob,
-    }).then((json) => {
-      appendPrinterStatus(json);
     });
-  });
+    appendPrinterStatus(printStatus);
+  }
 });
 
 const statusButton = document.getElementById('status');
-statusButton.addEventListener('click', (event) => {
-  const input = document.getElementById('printerUrl');
-  if (!input.value) {
-    return;
-  }
+statusButton.addEventListener('click', async (event) => {
+  const url = getPrinterUrl();
+  if (!url) return;
 
-  const url = input.value;
-
-  wrapFetch(url).then((json) => {
-    appendPrinterStatus(json);
-  });
+  const json = await wrapFetch(url);
+  appendPrinterStatus(json);
 });
+

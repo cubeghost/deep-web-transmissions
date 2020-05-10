@@ -69,13 +69,13 @@
       #receipt hr {
         display: block;
         border: 0;
-        margin-bottom: 1em;
+        margin: 1.5em 0;
       }
       #receipt hr:after {
         content: '-----------------';
         display: block;
         font-size: 1.42em;
-        margin-top: -1em;
+        margin-top: -0.5em;
         color: #fff;
         text-decoration: underline;
         text-decoration-color: #999;
@@ -125,7 +125,8 @@
 
       <br />
       <label for="printerUrl">printer key</label>
-      <input type="text" placeholder="device.li" id="printerUrl" value="https://device.li/m87n40ldpj5obc9fle1v" />
+      <input type="text" placeholder="device.li" id="printerUrl" />
+      <br />
       <button id="status">
         check printer
       </button>
@@ -145,7 +146,6 @@
             {{>(lookup . 'partialName') entry=this}}          
           </div>
         {{/each}}
-
       </div>
     </div>
     <script
