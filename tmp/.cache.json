@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 7,
+        "retweet_count": 3,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38461,
+          "followers_count": 38463,
           "friends_count": 42,
           "listed_count": 660,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -426,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 14,
+        "retweet_count": 7,
+        "favorite_count": 22,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -605,7 +605,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 9,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1019,7 +1019,7 @@
             }
           },
           "protected": false,
-          "followers_count": 18273,
+          "followers_count": 18275,
           "friends_count": 5,
           "listed_count": 369,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1058,7 +1058,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 9,
-        "favorite_count": 29,
+        "favorite_count": 30,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1203,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50972,
+          "followers_count": 50974,
           "friends_count": 17222,
           "listed_count": 434,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1243,7 +1243,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 11,
+        "favorite_count": 12,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1252,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589133090444
+  "timestamp": 1589133869868
 }
