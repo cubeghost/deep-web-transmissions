@@ -36,9 +36,9 @@
             }
           },
           "protected": false,
-          "followers_count": 127583,
-          "friends_count": 4664,
-          "listed_count": 1660,
+          "followers_count": 127582,
+          "friends_count": 4665,
+          "listed_count": 1657,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 344,
           "utc_offset": null,
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sun May 10 16:17:15 +0000 2020",
-        "id": 1259517869752279000,
-        "id_str": "1259517869752279052",
-        "text": "You sit in the small planets orbit. Its dense surface is yellow all over. An ocean and a few trees in sight; your view is obscured",
+        "created_at": "Sun May 10 17:17:39 +0000 2020",
+        "id": 1259533069272391700,
+        "id_str": "1259533069272391682",
+        "text": "You sit eagerly in the large planet's gravitational pull. Its frosty surface is white all over. Three moons orbit(s) unstably.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -129,16 +129,16 @@
             }
           },
           "protected": false,
-          "followers_count": 13808,
+          "followers_count": 13809,
           "friends_count": 4,
-          "listed_count": 359,
+          "listed_count": 358,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
           "favourites_count": 6,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 36014,
+          "statuses_count": 36015,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 4,
+        "retweet_count": 2,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sun May 10 16:46:23 +0000 2020",
-        "id": 1259525200871403500,
-        "id_str": "1259525200871403520",
-        "text": "Dark clouds gather. We do our best to keep everyone on board. Brooding structures. A forbidden portcullis.",
+        "created_at": "Sun May 10 17:46:19 +0000 2020",
+        "id": 1259540284792279000,
+        "id_str": "1259540284792279040",
+        "text": "It rains gently. Blackened cliffs.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38460,
+          "followers_count": 38461,
           "friends_count": 42,
           "listed_count": 660,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -396,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75169,
+          "statuses_count": 75171,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -426,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 19,
+        "retweet_count": 4,
+        "favorite_count": 14,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -439,10 +439,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sun May 10 16:05:14 +0000 2020",
-        "id": 1259514846883664000,
-        "id_str": "1259514846883663873",
-        "text": "𝕀𝕟𝕤𝔼𝕆𝕙ℂ𝕆𝔻⚩𝕒𝔼𝕡𝔻ℂ𝕒ℕ𝔼⚉⚙☶𝕘𝕎⛷𝕧♝𝕀ℕ⚅☨♷𝕤⛀♵𝕦𝕡♵☴☼𝕀⛥⚠⛲⛩𝕏♫⛘𝕋𝕐⛘♴♽⛋☚𝕔𝕡♋☍☤⛾♚𝕊⚔𝕛⛆☸⛷⛜⚋☌⛥♦☤☏⛄☇⚷☺⛒⚐⛴☍☹☺☤⚱𝕔ℚ𝕌𝕋⛄𝔾𝕙♉𝕩⛹⚳⛌♞♾☕𝕪♚𝕁𝕄⛤ℝ𝕨𝕡☍⚸ℙℤ☻☼⛙𝔾𝕛⛹𝕠𝕟𝕊⚍𝕨𝕕𝕫𝕋♡⛈𝕜𝕖⚳𝕤𝕕𝕍𝕖𝕝𝔹𝕫𝕢",
+        "created_at": "Sun May 10 17:10:13 +0000 2020",
+        "id": 1259531200680431600,
+        "id_str": "1259531200680431617",
+        "text": "⛃⛃♞♖♛♞♛⛂♞♞♛♞♖⛂♜♞⛃♞⛂⛃♖⛃⛂♖⛂♞♞♜⛂♛♖♖♜♘♞♜♘♖♞♞♖⛃♞♞⛂⛂♖♛♖♞♞♞♞⛃⛂♞♜♖♛♛⛂⛃♖♞♜♞♘⛂♘♖♞⛂⛃♛♞⛂⛂♞♜♞♖⛂⛂♘⛃♘♞♖⛃⛃♞♞♞♞♖ 😔",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -479,7 +479,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 52628,
+          "statuses_count": 52629,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -508,11 +508,11 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "lang": "in"
+        "lang": "und"
       },
       "defaultEnabled": false
     },
@@ -565,9 +565,9 @@
             }
           },
           "protected": false,
-          "followers_count": 13371,
+          "followers_count": 13370,
           "friends_count": 101,
-          "listed_count": 439,
+          "listed_count": 438,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 94,
           "utc_offset": null,
@@ -609,6 +609,180 @@
         "favorited": false,
         "retweeted": false,
         "lang": "und"
+      },
+      "defaultEnabled": false
+    },
+    {
+      "partialName": "phantomFunhouse",
+      "handle": "phantomfunhouse",
+      "title": "Phantom Funhouse",
+      "tweet": {
+        "created_at": "Sun May 10 17:38:02 +0000 2020",
+        "id": 1259538199321342000,
+        "id_str": "1259538199321341952",
+        "text": "The prophets called me\nMerlin\nbut some day\nall kings shall call me\nTaliesin\n\nDNA\nRetribution https://t.co/Rj8RHZazKF",
+        "truncated": false,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1259538198016987100,
+              "id_str": "1259538198016987140",
+              "indices": [
+                93,
+                116
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXrHUVnWkAQeUa7.png",
+              "media_url_https": "https://pbs.twimg.com/media/EXrHUVnWkAQeUa7.png",
+              "url": "https://t.co/Rj8RHZazKF",
+              "display_url": "pic.twitter.com/Rj8RHZazKF",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1259538199321341952/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1259538198016987100,
+              "id_str": "1259538198016987140",
+              "indices": [
+                93,
+                116
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXrHUVnWkAQeUa7.png",
+              "media_url_https": "https://pbs.twimg.com/media/EXrHUVnWkAQeUa7.png",
+              "url": "https://t.co/Rj8RHZazKF",
+              "display_url": "pic.twitter.com/Rj8RHZazKF",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1259538199321341952/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        },
+        "source": "<a href=\"http://tinysubversions.com/\" rel=\"nofollow\">Uncle buddy's phantom funhouse</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 722838740905775100,
+          "id_str": "722838740905775104",
+          "name": "Phantom Funhouse",
+          "screen_name": "phantomfunhouse",
+          "location": "Pirate Cove",
+          "description": "I draw a tarot card from @jmcdaid's classic Hypercard novel Uncle Buddy's Phantom Funhouse. // a bot by @tinysubversions",
+          "url": "https://t.co/2TGxIs300h",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/2TGxIs300h",
+                  "expanded_url": "http://elmcip.net/creative-work/uncle-buddys-phantom-funhouse",
+                  "display_url": "elmcip.net/creative-work/…",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 363,
+          "friends_count": 2,
+          "listed_count": 41,
+          "created_at": "Wed Apr 20 17:26:00 +0000 2016",
+          "favourites_count": 0,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 5184,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/722841671575212033/ZxzzeIaN_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/722841671575212033/ZxzzeIaN_normal.jpg",
+          "profile_link_color": "000000",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
       },
       "defaultEnabled": false
     },
@@ -845,7 +1019,7 @@
             }
           },
           "protected": false,
-          "followers_count": 18271,
+          "followers_count": 18273,
           "friends_count": 5,
           "listed_count": 369,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -883,8 +1057,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 8,
-        "favorite_count": 21,
+        "retweet_count": 9,
+        "favorite_count": 29,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1029,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50971,
+          "followers_count": 50972,
           "friends_count": 17222,
           "listed_count": 434,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1068,8 +1242,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 9,
+        "retweet_count": 3,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1078,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589130121342
+  "timestamp": 1589133090444
 }

@@ -41,6 +41,10 @@ const sources = [
     partialName: 'infiniteDeserts',
   },
   {
+    screenName: 'phantomfunhouse',
+    partialName: 'phantomFunhouse',
+  },
+  {
     screenName: '10_print_chr',
     partialName: 'tenPrintChr',
     defaultEnabled: true,
