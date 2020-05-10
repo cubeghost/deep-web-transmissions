@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 127607,
+          "followers_count": 127606,
           "friends_count": 4666,
           "listed_count": 1691,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sun May 10 04:17:49 +0000 2020",
-        "id": 1259336817683443700,
-        "id_str": "1259336817683443718",
-        "text": "From this view, you decide to leave the planet's orbit.",
+        "created_at": "Sun May 10 05:17:12 +0000 2020",
+        "id": 1259351764043731000,
+        "id_str": "1259351764043730945",
+        "text": "With a surge of power from the electromagnetic catapult, you break orbit and escape the solar system, leaving the binary far behind you.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -138,7 +138,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 36002,
+          "statuses_count": 36003,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,7 +168,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
+        "retweet_count": 1,
         "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sun May 10 04:46:14 +0000 2020",
-        "id": 1259343970238451700,
-        "id_str": "1259343970238451713",
-        "text": "Shoals of tiny little crustaceans.",
+        "created_at": "Sun May 10 05:16:11 +0000 2020",
+        "id": 1259351506031165400,
+        "id_str": "1259351506031165441",
+        "text": "Our raft continues. The older children teach the young ones to count using ivory counters.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -389,14 +389,14 @@
           "protected": false,
           "followers_count": 38453,
           "friends_count": 42,
-          "listed_count": 671,
+          "listed_count": 668,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
           "favourites_count": 211,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75139,
+          "statuses_count": 75140,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -426,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 12,
+        "retweet_count": 1,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -470,7 +470,7 @@
             }
           },
           "protected": false,
-          "followers_count": 873,
+          "followers_count": 874,
           "friends_count": 1,
           "listed_count": 72,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
@@ -855,7 +855,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50922,
+          "followers_count": 50924,
           "friends_count": 17220,
           "listed_count": 441,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -894,8 +894,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 15,
+        "retweet_count": 13,
+        "favorite_count": 41,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -904,5 +904,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589087409261
+  "timestamp": 1589088152376
 }

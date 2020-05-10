@@ -30,7 +30,10 @@ const getPrinterUrl = () => {
 };
 
 const appendPrinterStatus = (object) => {
-  document.getElementById('printerStatus').innerText += JSON.stringify(object, null, 2) + '\n';
+  const output = document.getElementById('printerStatus');
+  output.style.display = 'block';
+  output.innerText += JSON.stringify(object, null, 2) + '\n';
+  console.log('device.li response', object);
 };
 
 document.querySelectorAll('#toggles input').forEach((input) => {
