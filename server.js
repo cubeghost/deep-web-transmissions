@@ -17,7 +17,6 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   getEntries().then((entries) => {
-    console.log(entries[3].tweet)
     res.render('index', {
       layout: false,
       timestamp: fecha.format(Date.now(), 'YYYY-MM-DD hh:mm:ss'),
