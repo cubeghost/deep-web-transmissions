@@ -148,8 +148,9 @@
         const receiptElement = document.getElementById('receipt');
         
         domtoimage.toBlob(receiptElement).then((blob) => {
-          var url = URL.createObjectURL(blob);
-          window.open(url, '_blank')
+          console.log(blob)
+          var objectUrl = URL.createObjectURL(blob);
+          document.getElementById('debugLink').href = objectUrl;
  
           // fetch(url, {
           //   method: 'POST',

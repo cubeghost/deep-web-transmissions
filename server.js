@@ -12,7 +12,6 @@ app.engine('handlebars', exphbs({
   },
 }));
 app.set('view engine', 'handlebars');
-app.set('view cache', true);
 
 app.use(express.static('public'));
 
