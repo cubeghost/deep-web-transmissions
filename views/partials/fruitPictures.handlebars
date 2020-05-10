@@ -1,0 +1,19 @@
+<style type="text/css">
+  .fruitPictures .inner {
+    margin-top: -1em;
+  }
+  .fruitPictures img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+</style>
+<h6>
+  @{{ entry.handle }}
+</h6>
+<h4>
+  {{ entry.title }}
+</h4>
+<div class="inner">
+  <img src={{ entry.tweet.entities.media.0.media_url_https }} />
+</div>

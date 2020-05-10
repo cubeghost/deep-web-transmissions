@@ -427,22 +427,22 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 13,
+        "favorite_count": 15,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
       },
-      "defaultEnabled": true
+      "defaultEnabled": false
     },
     {
       "partialName": "smoothUnicode",
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sun May 10 04:35:15 +0000 2020",
-        "id": 1259341203625046000,
-        "id_str": "1259341203625046016",
-        "text": "ᆸᆈᆘᅂᇮ😭ᇰᇚᅙᆹᅔ⬒ᄓ⚠⛨❅ᄭᆑᄂᇧᅺᅜᅏᄸᅶᄤ♼ᆟᄎᄗ⬡ᆲᇶᆎᆼᄔᄬᇯᄳᆇ☏🙎ᅙᅲᅄ⚍ᄩᆹ😂ᄀᄫᅺᅤᇺᆤ❊ 🙉ᄗᆾᅮᇉ⛡ᄷᄞᆋ✑ᅯ🙉ᅅ빼➴ᅑ➍ᄖᅊᄁᅂᄳ⚙ᇐᇨ☨⭊ᅆ⚎ᅮᄡᇫᆳ➭ᆏ✨ᇖᄀ😩ᅈᇋ⚱ᄾ😐ᄄ✏⚻ᅏᇣᅚᇖᆵᇵ ᇼᆁᆊᅶ⛞✚ᆚᄊᇂᄢᆨ⚟⛧ᄦᄋ✭ᅂᆷ❝ᄃᄉᆏᆢᇀᆷᆦ⛩ᆖᆿ",
+        "created_at": "Sun May 10 05:40:15 +0000 2020",
+        "id": 1259357564321423400,
+        "id_str": "1259357564321423360",
+        "text": "┅⃩╏⃩╏⃩┅⃩┛⃩┅⃩┅⃩┗⃩┅⃩╏⃩╏⃩┅⃩\n⃩┛⃩┅⃩┅⃩╏⃩┅⃩┅⃩┅⃩┅⃩╏⃩┅⃩┅⃩┗⃩\n⃩╏⃩┛⃩┅⃩╏⃩┅⃩┳⃩┳⃩┅⃩╏⃩┅⃩┗⃩╏⃩\n⃩┛⃩╏⃩╏⃩┅⃩╏⃩┋⃩┋⃩╏⃩┅⃩╏⃩╏⃩┗⃩\n⃩┇⃩┇⃩┋⃩┇⃩╻⃩╹⃩╹⃩╻⃩┇⃩┋⃩┇⃩┇⃩\n⃩┛⃩╏⃩╏⃩┅⃩╏⃩",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -479,7 +479,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 52617,
+          "statuses_count": 52618,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -512,7 +512,7 @@
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "ko"
+        "lang": "und"
       },
       "defaultEnabled": false
     },
@@ -719,6 +719,180 @@
       "defaultEnabled": true
     },
     {
+      "partialName": "fruitPictures",
+      "handle": "pomological",
+      "title": "old fruit pictures",
+      "tweet": {
+        "created_at": "Sun May 10 04:18:02 +0000 2020",
+        "id": 1259336872502849500,
+        "id_str": "1259336872502849540",
+        "text": "stark apples, painted by royal charles steadman, 1927 https://t.co/lI8UGBNDVu",
+        "truncated": false,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1259336870791508000,
+              "id_str": "1259336870791507969",
+              "indices": [
+                54,
+                77
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXoQNjQUcAENa0T.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EXoQNjQUcAENa0T.jpg",
+              "url": "https://t.co/lI8UGBNDVu",
+              "display_url": "pic.twitter.com/lI8UGBNDVu",
+              "expanded_url": "https://twitter.com/pomological/status/1259336872502849540/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1259336870791508000,
+              "id_str": "1259336870791507969",
+              "indices": [
+                54,
+                77
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXoQNjQUcAENa0T.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EXoQNjQUcAENa0T.jpg",
+              "url": "https://t.co/lI8UGBNDVu",
+              "display_url": "pic.twitter.com/lI8UGBNDVu",
+              "expanded_url": "https://twitter.com/pomological/status/1259336872502849540/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "source": "<a href=\"http://parkerhiggins.net/2015/11/new-bot-pomological/\" rel=\"nofollow\">pombot</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3219645732,
+          "id_str": "3219645732",
+          "name": "old fruit pictures",
+          "screen_name": "pomological",
+          "location": "",
+          "description": "i'm a bot tweeting random images from the pomological watercolor collection in the usda's national agricultural library. unofficial. my dad is @xor.",
+          "url": "https://t.co/os9FJRUn5v",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/os9FJRUn5v",
+                  "expanded_url": "https://commons.wikimedia.org/wiki/Category:USDA_Pomological_Watercolors",
+                  "display_url": "commons.wikimedia.org/wiki/Category:…",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 18273,
+          "friends_count": 5,
+          "listed_count": 369,
+          "created_at": "Mon May 18 20:00:20 +0000 2015",
+          "favourites_count": 300,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 12944,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/600390646797500416/fVS3lvM8_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/600390646797500416/fVS3lvM8_normal.png",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 12,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "defaultEnabled": false
+    },
+    {
       "partialName": "boschBot",
       "handle": "boschbot",
       "title": "BoschBot",
@@ -855,7 +1029,7 @@
             }
           },
           "protected": false,
-          "followers_count": 50927,
+          "followers_count": 50928,
           "friends_count": 17220,
           "listed_count": 441,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -895,7 +1069,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 13,
-        "favorite_count": 51,
+        "favorite_count": 57,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -904,5 +1078,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589088835984
+  "timestamp": 1589089449005
 }
