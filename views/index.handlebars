@@ -129,10 +129,12 @@
     </div>
     <div class="controls">
       <label for="printerUrl">printer key</label>
-      <input type="text" placeholder="device.li" id="printerUrl" />
+      <input type="text" placeholder="device.li" id="printerUrl" value="https://device.li/m87n40ldpj5obc9fle1v" />
       <button id="print">
         print
       </button>
+      <a id="debugLink">blob</a>
+      <pre id="printResult"></pre>
     </div>
     <script type="text/javascript">
       const button = document.getElementById('print');
@@ -146,13 +148,23 @@
         const receiptElement = document.getElementById('receipt');
         
         domtoimage.toBlob(receiptElement).then((blob) => {
-          fetch(url, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'image/png',
-            },
-            body: blob,
-          });
+          var url = URL.createObjectURL(blob);
+          window.open(url, '_blank')
+ 
+          // fetch(url, {
+          //   method: 'POST',
+          //   headers: {
+          //     'Content-Type': 'image/png',
+          //   },
+          //   body: blob,
+          // }).then((response) => {
+          //   if (!response.ok) {
+          //     throw new Error(response.statusText);
+          //   }
+          //   return response.json();
+          // }).then((json) => {
+          //   document.getElementById('printResult').innerText = JSON.stringify(json);
+          // });
         });
       });
     </script>

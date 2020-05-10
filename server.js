@@ -12,6 +12,7 @@ app.engine('handlebars', exphbs({
   },
 }));
 app.set('view engine', 'handlebars');
+app.set('view cache', true);
 
 app.use(express.static('public'));
 
@@ -22,6 +23,8 @@ app.get('/', (req, res) => {
       timestamp: fecha.format(Date.now(), 'YYYY-MM-DD hh:mm:ss'),
       entries: entries,
     });
+  }).catch((error) => {
+    res.send(error);
   });
 });
 

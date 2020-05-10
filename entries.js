@@ -28,6 +28,7 @@ const sources = [
 ];
 
 module.exports = function getEntries() {
+  console.log('getEntries');
   return Promise.all(sources.map((source) => (
     client.get(
       'statuses/user_timeline',
