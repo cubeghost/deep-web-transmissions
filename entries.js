@@ -42,7 +42,8 @@ const sources = [
 module.exports = async function getEntries() {
   const cachedEntries = cache.getItem('entries');
   const cacheTime = cache.getItem('timestamp');
-  if (cachedEntries && (Date.now() - cacheTime) < 120) {
+  if (cachedEntries && (Date.now() - cacheTime) < (60 * 1000)) {
+    console.log('entries:cache:hit');
     return cachedEntries;
   }
   
@@ -50,14 +51,17 @@ module.exports = async function getEntries() {
     client.get(
       'statuses/user_timeline',
       {screen_name: source.screenName, count: 1},
-    ).then((result) => ({
-      partialName: source.partialName,
-      handle: source.screenName,
-      title: source.title || result[0].user.name,
-      tweet: result[0],
-    }))
+    ).then((result) => {
+      return ({
+        partialName: source.partialName,
+        handle: source.screenName,
+        title: source.title || result[0].user.name,
+        tweet: result[0],
+      });
+    })
   )));
   
+  console.log('entries:cache:miss');
   cache.setItem('entries', entries);
   cache.setItem('timestamp', Date.now());
   return entries;
