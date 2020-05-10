@@ -128,12 +128,21 @@
       </div>
     </div>
     <div class="controls">
+      <div>
+        {{#each entries }}
+          <label for="toggle-{{this.partialName}}">
+            @{{this.handle}}
+            <input type="checkbox" id="toggle-{{this.partialName}}" />
+          </label>
+        {{/each}}
+      </div>
+      <br />
       <label for="printerUrl">printer key</label>
       <input type="text" placeholder="device.li" id="printerUrl" value="https://device.li/m87n40ldpj5obc9fle1v" />
       <button id="print">
         print
       </button>
-      <pre id="printResult"></pre>
+      <pre id="printResult"></pre>      
     </div>
     <script type="text/javascript">
       const button = document.getElementById('print');
