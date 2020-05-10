@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <style>
       body {
+        margin: 0;
+      }
+      
+      .controls {
+        
+      }
+      
+      .receipt-wrapper {
         margin: 16px auto;
         padding: 16px;
         background-color: white;
@@ -97,17 +105,19 @@
     </style>
   </head>
   <body>
-    <div id="receipt">
+    <div class="receipt-wrapper">
+      <div id="receipt">
 
-      <div class="timestamp">{{ timestamp }}</div>
-      <h1>deep web transmissions</h1>
-      <hr />
+        <div class="timestamp">{{ timestamp }}</div>
+        <h1>deep web transmissions</h1>
+        <hr />
 
-      {{#each entries }}
-        {{>(lookup . 'partialName') entry=this}}
-        {{#unless @last}}<hr />{{/unless}}
-      {{/each}}
+        {{#each entries }}
+          {{>(lookup . 'partialName') entry=this}}
+          {{#unless @last}}<hr />{{/unless}}
+        {{/each}}
 
+      </div>
     </div>
   </body>
 </html>
