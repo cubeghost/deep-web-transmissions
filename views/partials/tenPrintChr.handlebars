@@ -5,13 +5,10 @@
     line-height: 1.2em;
   }
 </style>
-<div class="tenPrintChr">
-  <h6>
-    @{{ entry.handle }}
-  </h6>
-  <h4>
-    {{ entry.title }}
-  </h4>
-  <pre>{{ entry.tweet.text }}</pre>
-  {{#unless last}}<hr />{{/unless}}
-</div>
+<h6>
+  @{{ entry.handle }}
+</h6>
+<h4>
+  {{ entry.title }}
+</h4>
+<pre>{{ entry.tweet.text }}</pre>

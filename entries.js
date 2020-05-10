@@ -2,7 +2,7 @@ const fs = require('fs');
 const Twitter = require('twitter');
 const LocalCache = require('node-localcache');
 
-const cache = LocalCache('tmp/.cache.json');
+const cache = LocalCache('/tmp/.cache.json', false);
 
 const client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -32,10 +32,8 @@ const sources = [
 ];
 
 module.exports = async function getEntries() {
-  console.log('getEntries')
-  const cachedEntries = cache.get('entries');
-  const cacheTime = cache.get('timestamp');
-  console.log({cachedEntries, cacheTime})
+  const cachedEntries = cache.getItem('entries');
+  const cacheTime = cache.getItem('timestamp');
   if (cachedEntries && cacheTime < (Date.now() + 600)) {
     return cachedEntries;
   }
@@ -44,18 +42,15 @@ module.exports = async function getEntries() {
     client.get(
       'statuses/user_timeline',
       {screen_name: source.screenName, count: 1},
-    ).then((result) => {
-      console.log('hit twitter api')
-      return({
-        partialName: source.partialName,
-        handle: source.screenName,
-        title: source.title || result[0].user.name,
-        tweet: result[0],
-      });
-    })
+    ).then((result) => ({
+      partialName: source.partialName,
+      handle: source.screenName,
+      title: source.title || result[0].user.name,
+      tweet: result[0],
+    }))
   )));
   
-  cache.set('entries', entries);
-  cache.set('timestamp', Date.now());
+  cache.setItem('entries', entries);
+  cache.setItem('timestamp', Date.now());
   return entries;
 }

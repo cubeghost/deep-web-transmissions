@@ -103,45 +103,46 @@
     </style>
     <style type="text/css">
       {{#each entries}}
-      .toggle-{{this.partialName}}:checked {
-        border: 1px solid red;
-      }
+        #toggle-{{this.partialName}} ~ .{{this.partialName}} {
+          color: red;
+        }
       {{/each}}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="receipt-wrapper">
-      <div id="receipt">
-
-        <div class="timestamp">{{ timestamp }}</div>
-        <h1>deep web transmissions</h1>
-        <hr />
-
-        {{#each entries }}
-          {{>(lookup . 'partialName') entry=this last=@last}}
-        {{/each}}
-
-      </div>
-    </div>
     <div class="controls">
-      <div>
-        {{#each entries }}
-          <div>
-            <input type="checkbox" id="toggle-{{this.partialName}}" checked />
-            <label for="toggle-{{this.partialName}}">
-              @{{this.handle}}
-            </label>
-          </div>
-        {{/each}}
-      </div>
-      <br />
       <label for="printerUrl">printer key</label>
       <input type="text" placeholder="device.li" id="printerUrl" value="https://device.li/m87n40ldpj5obc9fle1v" />
       <button id="print">
         print
       </button>
       <pre id="printResult"></pre>      
+    </div>
+    <div class="receipt-wrapper">
+      <div id="receipt">
+        <div id="toggles">
+          {{#each entries }}
+            <input type="checkbox" id="toggle-{{this.partialName}}" checked />
+            <label for="toggle-{{this.partialName}}">
+              @{{this.handle}}
+            </label>
+            <br />
+          {{/each}}          
+        </div>
+
+        <div class="timestamp">{{ timestamp }}</div>
+        <h1>deep web transmissions</h1>
+        <hr />
+
+        {{#each entries }}
+          <div class="{{this.partialName}}">
+            {{>(lookup . 'partialName') entry=this}}          
+          </div>
+          {{#unless @last}}<hr />{{/unless}}
+        {{/each}}
+
+      </div>
     </div>
     <script type="text/javascript">
       const button = document.getElementById('print');
