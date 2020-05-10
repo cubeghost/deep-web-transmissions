@@ -100,15 +100,13 @@
       #receipt h6 + h4 {
         margin-top: 0.2em;
       }
-      #receipt .tinyStarField {
-        font-family: monospace;
-        font-size: 1.22em;
+    </style>
+    <style type="text/css">
+      {{#each entries}}
+      .toggle-{{this.partialName}}:checked {
+        border: 1px solid red;
       }
-      #receipt .tenPrintChr {
-        font-family: monospace;
-        font-size: 1.6em;
-        line-height: 1.2em;
-      }
+      {{/each}}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
   </head>
@@ -121,8 +119,7 @@
         <hr />
 
         {{#each entries }}
-          {{>(lookup . 'partialName') entry=this}}
-          {{#unless @last}}<hr />{{/unless}}
+          {{>(lookup . 'partialName') entry=this last=@last}}
         {{/each}}
 
       </div>
@@ -130,10 +127,12 @@
     <div class="controls">
       <div>
         {{#each entries }}
-          <label for="toggle-{{this.partialName}}">
-            @{{this.handle}}
-            <input type="checkbox" id="toggle-{{this.partialName}}" />
-          </label>
+          <div>
+            <input type="checkbox" id="toggle-{{this.partialName}}" checked />
+            <label for="toggle-{{this.partialName}}">
+              @{{this.handle}}
+            </label>
+          </div>
         {{/each}}
       </div>
       <br />
