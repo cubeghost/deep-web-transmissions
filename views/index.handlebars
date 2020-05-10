@@ -80,9 +80,6 @@
         transform: scale(2) translateX(0.05em);
         overflow: hidden;
       }
-      #receipt hr:last-of-type {
-        display: none;
-      }
       #receipt blockquote {
         margin-left: 0.5em;
         padding-left: 1em;
@@ -103,6 +100,10 @@
       #receipt h6 + h4 {
         margin-top: 0.2em;
       }
+      #receipt .hidden {
+        display: none;
+      }
+      
       #hidden {
         border: 1px solid red;
         display: none;
@@ -137,12 +138,11 @@
       <div id="receipt">
         <!-- <div class="timestamp">{{ timestamp }}</div> -->
         <h1>deep web transmissions</h1>
-        <hr />
 
         {{#each entries }}
           <div class="entry {{this.partialName}}">
-            {{>(lookup . 'partialName') entry=this}}          
             <hr />
+            {{>(lookup . 'partialName') entry=this}}          
           </div>
         {{/each}}
 
@@ -150,8 +150,8 @@
     </div>
     <script type="text/javascript">
       // so that we can use :last-child to hide the last hr
-      const receiptContainer = document.getElementById('receipt');
-      const hiddenContainer = document.getElementById('hidden');
+      // const receiptContainer = document.getElementById('receipt');
+      // const hiddenContainer = document.getElementById('hidden');
       document.querySelectorAll('#toggles input').forEach((input) => {
         input.addEventListener('change', (event) => {
           const {name, checked} = event.target;
