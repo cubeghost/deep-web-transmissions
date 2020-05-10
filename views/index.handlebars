@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <style>
+    <style type="text/css">
       @font-face {
         font-family: Univers;
         src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BlackEx.otf);
@@ -40,6 +40,10 @@
         overflow-x: hidden;
         width: 384px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .hidden {
+        display: none;
       }
 
       #receipt {
@@ -99,29 +103,24 @@
       }
       #receipt h6 + h4 {
         margin-top: 0.2em;
-      }
-      #receipt .hidden {
-        display: none;
-      }
-      
-      #hidden {
-        border: 1px solid red;
-        display: none;
-      }
-      
+      }      
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="controls">
       <div id="toggles">
+        <input type="checkbox" id="toggle-customMessage" name="customMessage" />
+        <label for="toggle-customMessage">custom message</label>
+        <div class="customMessage hidden">
+          <textarea id="customMessage"></textarea>
+        </div>
+        <br />
         {{#each entries }}
           <input type="checkbox" id="toggle-{{this.partialName}}" name="{{this.partialName}}" checked />
-          <label for="toggle-{{this.partialName}}">
-            @{{this.handle}}
-          </label>
+          <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
           <br />
-        {{/each}}          
+        {{/each}}   
       </div>
       <br />
       <label for="printerUrl">printer key</label>

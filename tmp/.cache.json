@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 127627,
+          "followers_count": 127626,
           "friends_count": 4667,
           "listed_count": 1702,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -87,10 +87,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sun May 10 02:17:06 +0000 2020",
-        "id": 1259306440193454000,
-        "id_str": "1259306440193454087",
-        "text": "You consult your maps against the stars set before you. You pick a point of white light to the North and engage your beam-powered propulsor",
+        "created_at": "Sun May 10 03:16:24 +0000 2020",
+        "id": 1259321360641335300,
+        "id_str": "1259321360641335298",
+        "text": "You are surrounded by a vast expanse of stars, all alike. You are thriving in deep space.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -137,7 +137,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 36000,
+          "statuses_count": 36001,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -167,8 +167,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 2,
+        "retweet_count": 1,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -340,10 +340,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sun May 10 02:46:14 +0000 2020",
-        "id": 1259313770746314800,
-        "id_str": "1259313770746314753",
-        "text": "https://t.co/t9BBarMjl5",
+        "created_at": "Sun May 10 03:16:14 +0000 2020",
+        "id": 1259321320141136000,
+        "id_str": "1259321320141135874",
+        "text": "https://t.co/L9lAiRIJXX",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -351,9 +351,9 @@
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/t9BBarMjl5",
-              "expanded_url": "https://twitter.com/joebaxterwebb/status/1224466897862832129?s=20",
-              "display_url": "twitter.com/joebaxterwebb/…",
+              "url": "https://t.co/L9lAiRIJXX",
+              "expanded_url": "https://twitter.com/hollowplaneteer/status/1256576795408728065?s=20",
+              "display_url": "twitter.com/hollowplanetee…",
               "indices": [
                 0,
                 23
@@ -396,14 +396,14 @@
           "protected": false,
           "followers_count": 38451,
           "friends_count": 42,
-          "listed_count": 672,
+          "listed_count": 671,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
           "favourites_count": 211,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75135,
+          "statuses_count": 75136,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -433,62 +433,51 @@
         "place": null,
         "contributors": null,
         "is_quote_status": true,
-        "quoted_status_id": 1224466897862832000,
-        "quoted_status_id_str": "1224466897862832129",
+        "quoted_status_id": 1256576795408728000,
+        "quoted_status_id_str": "1256576795408728065",
         "quoted_status": {
-          "created_at": "Mon Feb 03 22:57:12 +0000 2020",
-          "id": 1224466897862832000,
-          "id_str": "1224466897862832129",
-          "text": "Thanks to everyone who has dropped me a tip in my ko-fi for making @str_voyage, and for your kind messages. It felt… https://t.co/v6NnTGnI0z",
-          "truncated": true,
+          "created_at": "Sat May 02 13:30:28 +0000 2020",
+          "id": 1256576795408728000,
+          "id_str": "1256576795408728065",
+          "text": "Check out our music video: Hollow Planet Theory - Crystal Ball https://t.co/zerv7ewdX7",
+          "truncated": false,
           "entities": {
             "hashtags": [],
             "symbols": [],
-            "user_mentions": [
-              {
-                "screen_name": "str_voyage",
-                "name": "a strange voyage",
-                "id": 701133013262983200,
-                "id_str": "701133013262983168",
-                "indices": [
-                  67,
-                  78
-                ]
-              }
-            ],
+            "user_mentions": [],
             "urls": [
               {
-                "url": "https://t.co/v6NnTGnI0z",
-                "expanded_url": "https://twitter.com/i/web/status/1224466897862832129",
-                "display_url": "twitter.com/i/web/status/1…",
+                "url": "https://t.co/zerv7ewdX7",
+                "expanded_url": "https://www.youtube.com/watch?v=X7ChhoDhB_o&t=221s",
+                "display_url": "youtube.com/watch?v=X7Chho…",
                 "indices": [
-                  117,
-                  140
+                  63,
+                  86
                 ]
               }
             ]
           },
-          "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+          "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
           "in_reply_to_status_id": null,
           "in_reply_to_status_id_str": null,
           "in_reply_to_user_id": null,
           "in_reply_to_user_id_str": null,
           "in_reply_to_screen_name": null,
           "user": {
-            "id": 613411307,
-            "id_str": "613411307",
-            "name": "dr. joe baxter-webb",
-            "screen_name": "joebaxterwebb",
+            "id": 1221916436542738400,
+            "id_str": "1221916436542738432",
+            "name": "HOLLOW PLANET THEORY",
+            "screen_name": "hollowplaneteer",
             "location": "Ramsgate, England",
-            "description": "games design tutor. made @str_voyage + @thanetguide bots. he/him. donations: https://t.co/0tzUyv7Gk1",
-            "url": "https://t.co/DhkOGO7fTN",
+            "description": "just some cyberpunk sadboy tunes {🌑} bookings: hollowplanettheory@gmail.com",
+            "url": "https://t.co/lzxC7DfWJS",
             "entities": {
               "url": {
                 "urls": [
                   {
-                    "url": "https://t.co/DhkOGO7fTN",
-                    "expanded_url": "http://joebaxterwebb.wordpress.com",
-                    "display_url": "joebaxterwebb.wordpress.com",
+                    "url": "https://t.co/lzxC7DfWJS",
+                    "expanded_url": "https://soundcloud.com/hollowplaneteer",
+                    "display_url": "soundcloud.com/hollowplaneteer",
                     "indices": [
                       0,
                       23
@@ -497,48 +486,38 @@
                 ]
               },
               "description": {
-                "urls": [
-                  {
-                    "url": "https://t.co/0tzUyv7Gk1",
-                    "expanded_url": "http://ko-fi.com/botdad",
-                    "display_url": "ko-fi.com/botdad",
-                    "indices": [
-                      77,
-                      100
-                    ]
-                  }
-                ]
+                "urls": []
               }
             },
             "protected": false,
-            "followers_count": 1863,
-            "friends_count": 1037,
-            "listed_count": 122,
-            "created_at": "Wed Jun 20 12:50:32 +0000 2012",
-            "favourites_count": 58563,
+            "followers_count": 179,
+            "friends_count": 204,
+            "listed_count": 2,
+            "created_at": "Mon Jan 27 22:02:43 +0000 2020",
+            "favourites_count": 266,
             "utc_offset": null,
             "time_zone": null,
-            "geo_enabled": true,
+            "geo_enabled": false,
             "verified": false,
-            "statuses_count": 55579,
+            "statuses_count": 611,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "000000",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1258336974689239041/lR3W5ZLo_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1258336974689239041/lR3W5ZLo_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/613411307/1542447138",
-            "profile_link_color": "9266CC",
-            "profile_sidebar_border_color": "FFFFFF",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1221916436542738432/1581101606",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
             "profile_sidebar_fill_color": "DDEEF6",
             "profile_text_color": "333333",
             "profile_use_background_image": true,
             "has_extended_profile": false,
-            "default_profile": false,
+            "default_profile": true,
             "default_profile_image": false,
             "following": false,
             "follow_request_sent": false,
@@ -550,15 +529,15 @@
           "place": null,
           "contributors": null,
           "is_quote_status": false,
-          "retweet_count": 35,
-          "favorite_count": 127,
+          "retweet_count": 0,
+          "favorite_count": 0,
           "favorited": false,
           "retweeted": false,
           "possibly_sensitive": false,
           "lang": "en"
         },
         "retweet_count": 0,
-        "favorite_count": 2,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -766,5 +745,5 @@
       }
     }
   ],
-  "timestamp": 1589080228624
+  "timestamp": 1589080873687
 }
