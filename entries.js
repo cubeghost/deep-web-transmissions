@@ -1,5 +1,8 @@
 const fs = require('fs');
 const Twitter = require('twitter');
+const LocalCache = require('node-localcache');
+
+const cache = LocalCache('tmp/.cache.json');
 
 const client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -29,7 +32,14 @@ const sources = [
 ];
 
 module.exports = async function getEntries() {
-
+  console.log('getEntries')
+  const cachedEntries = cache.get('entries');
+  const cacheTime = cache.get('timestamp');
+  console.log({cachedEntries, cacheTime})
+  if (cachedEntries && cacheTime < (Date.now() + 600)) {
+    return cachedEntries;
+  }
+  
   const entries = await Promise.all(sources.map((source) => (
     client.get(
       'statuses/user_timeline',
@@ -44,6 +54,8 @@ module.exports = async function getEntries() {
       });
     })
   )));
-
+  
+  cache.set('entries', entries);
+  cache.set('timestamp', Date.now());
   return entries;
 }

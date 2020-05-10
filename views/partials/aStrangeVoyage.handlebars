@@ -1,10 +1,13 @@
 
-<h6>
-  @{{ entry.handle }}
-</h6>
-<h4>
-  {{ entry.title }}
-</h4>
 <div class="aStrangeVoyage">
-  {{ entry.tweet.text }}
+  <h6>
+    @{{ entry.handle }}
+  </h6>
+  <h4>
+    {{ entry.title }}
+  </h4>
+  <div>
+    {{ entry.tweet.text }}
+  </div>
+  {{#unless last}}<hr />{{/unless}}
 </div>

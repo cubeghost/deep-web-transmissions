@@ -1,5 +1,5 @@
 <style type="text/css">
-  .theLastDeck {
+  .theLastDeck .inner {
     text-align: center;
     margin-top: -1em;
   }
@@ -10,12 +10,15 @@
     object-position: 50% 50%;
   }
 </style>
-<h6>
-  @{{ entry.handle }}
-</h6>
-<h4 style="font-size: 0.9em;">
-  {{ entry.title }}
-</h4>
 <div class="theLastDeck">
-  <img src={{ entry.tweet.entities.media.0.media_url_https }} />
+  <h6>
+    @{{ entry.handle }}
+  </h6>
+  <h4 style="font-size: 0.9em;">
+    {{ entry.title }}
+  </h4>
+  <div class="inner">
+    <img src={{ entry.tweet.entities.media.0.media_url_https }} />
+  </div>
+  {{#unless last}}<hr />{{/unless}}
 </div>
