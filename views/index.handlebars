@@ -66,6 +66,9 @@
         line-height: 1em;
         padding-bottom: 0.5em;
       }
+      #receipt .entry {
+        margin-bottom: 0.5em;
+      }
       #receipt hr {
         display: block;
         border: 0;
@@ -75,7 +78,7 @@
         content: '-----------------';
         display: block;
         font-size: 1.42em;
-        margin-top: -0.5em;
+        margin-top: -0.25em;
         color: #fff;
         text-decoration: underline;
         text-decoration-color: #999;
@@ -104,6 +107,10 @@
       #receipt h6 + h4 {
         margin-top: 0.2em;
       }      
+      #customMessage {
+        white-space: pre-wrap;
+        margin-bottom: -0.75em;
+      }
     </style>
   </head>
   <body>
@@ -113,7 +120,7 @@
         <input type="checkbox" id="toggle-customMessage" name="customMessage" />
         <label for="toggle-customMessage">custom message</label>
         <div class="customMessage hidden">
-          <textarea id="customMessage"></textarea>
+          <textarea id="input-customMessage"></textarea>
         </div>
         <br />
         {{#each entries }}
@@ -139,6 +146,11 @@
     <div class="receipt-wrapper">
       <div id="receipt">
         <h1>deep web transmissions</h1>
+
+        <div class="entry customMessage hidden">
+          <hr />
+          <div id="customMessage"></div>
+        </div>
 
         {{#each entries }}
           <div class="entry {{this.partialName}}">
