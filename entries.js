@@ -44,7 +44,12 @@ const sources = [
     screenName: '10_print_chr',
     partialName: 'tenPrintChr',
     defaultEnabled: true,
-  },  {
+  },
+  {
+    screenName: 'pomological',
+    partialName: 'fruitPictures',
+  },
+  {
     screenName: 'boschbot',
     partialName: 'boschBot',
   },
