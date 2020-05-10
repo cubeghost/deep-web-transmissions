@@ -1,8 +1,5 @@
+const fs = require('fs');
 const Twitter = require('twitter');
-const cacache = require('cacache');
-
-const cachePath = 'tmp/.entries.json';
-const cacheKey = 'entries';
 
 const client = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -32,11 +29,6 @@ const sources = [
 ];
 
 module.exports = async function getEntries() {
-  const cachedEntries = await cache.get('entries');
-  console.log(cachedEntries)
-  if (cachedEntries) {
-    return cachedEntries;
-  }
 
   const entries = await Promise.all(sources.map((source) => (
     client.get(
@@ -52,6 +44,5 @@ module.exports = async function getEntries() {
     })})
   )));
 
-  await cache.set('entries', entries, 600);
   return entries;
 }
