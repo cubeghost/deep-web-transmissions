@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <style type="text/css">
       @font-face {
         font-family: Univers;
@@ -16,6 +17,15 @@
         font-style: normal;
         font-weight: 700;
         font-stretch: expanded;
+      }
+      @font-face {
+        font-family: emoji;
+        src: local('Univers LT Std');
+      }
+      @font-face {
+        font-family: emoji;
+        src: url(https://cdn.glitch.com/18841172-55bf-4813-92ca-57b109da65a3%2Fseguiemj.ttf?v=1589084758206);
+        unicode-range: U+1F300-1F5FF, U+1F600-1F64F, U+1F680-1F6FF, U+2600-26FF;
       }
 
       body {
@@ -49,7 +59,7 @@
       #receipt {
         width: 384px;
         font-size: 24px;
-        font-family: 'Univers LT Std';
+        font-family: emoji;
         overflow: hidden;
       }
       #receipt .timestamp {
@@ -65,25 +75,17 @@
         margin: 0;
         line-height: 1em;        
       }
-      #receipt .entry {
-        margin-bottom: 0.5em;
-      }
       #receipt hr {
         display: block;
         border: 0;
         margin: 1.5em 0;
       }
       #receipt hr:after {
-        content: '-----------------';
+        content: '';
         display: block;
-        font-size: 1.42em;
-        margin-top: -0.25em;
-        color: #fff;
-        text-decoration: underline;
-        text-decoration-color: #999;
-        text-decoration-style: wavy;
-        transform-origin: bottom left;
-        transform: scale(2) translateX(0.05em);
+        background-image: url(https://cdn.glitch.com/18841172-55bf-4813-92ca-57b109da65a3%2Fsquiggle.png?v=1589084986345);
+        background-size: contain;
+        height: 24px;
         overflow: hidden;
       }
       #receipt blockquote {
@@ -116,10 +118,10 @@
     <div class="controls">
 
       <div id="toggles">
-        <input type="checkbox" id="toggle-customMessage" name="customMessage" />
+        <input type="checkbox" id="toggle-customMessage" name="customMessage" checked />
         <label for="toggle-customMessage">custom message</label>
-        <div class="customMessage hidden">
-          <textarea id="input-customMessage"></textarea>
+        <div class="customMessage">
+          <textarea id="input-customMessage">👀</textarea>
         </div>
         <br />
         {{#each entries }}
@@ -146,9 +148,9 @@
       <div id="receipt">
         <h1>deep web transmissions</h1>
 
-        <div class="entry customMessage hidden">
+        <div class="entry customMessage">
           <hr />
-          <div id="customMessage"></div>
+          <div id="customMessage">👀</div>
         </div>
 
         {{#each entries }}
