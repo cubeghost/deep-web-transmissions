@@ -169,7 +169,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 5,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,16 +343,26 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat May 16 04:16:28 +0000 2020",
-        "id": 1261510807365525500,
-        "id_str": "1261510807365525505",
-        "text": "The waves intensify and the children hang on tight. We drift past a foreboding airship.",
+        "created_at": "Sat May 16 04:46:14 +0000 2020",
+        "id": 1261518298895835100,
+        "id_str": "1261518298895835136",
+        "text": "https://t.co/d8pTMjdgpj",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": []
+          "urls": [
+            {
+              "url": "https://t.co/d8pTMjdgpj",
+              "expanded_url": "https://twitter.com/hollowplaneteer/status/1256576770721054721?s=20",
+              "display_url": "twitter.com/hollowplanetee…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -396,7 +406,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75475,
+          "statuses_count": 75476,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -425,12 +435,116 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 10,
+        "is_quote_status": true,
+        "quoted_status_id": 1256576770721054700,
+        "quoted_status_id_str": "1256576770721054721",
+        "quoted_status": {
+          "created_at": "Sat May 02 13:30:22 +0000 2020",
+          "id": 1256576770721054700,
+          "id_str": "1256576770721054721",
+          "text": "Check out our music video: Hollow Planet Theory - Cage of Bones https://t.co/QaivjUibkl",
+          "truncated": false,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/QaivjUibkl",
+                "expanded_url": "https://www.youtube.com/watch?v=3eXb7NIA3mE",
+                "display_url": "youtube.com/watch?v=3eXb7N…",
+                "indices": [
+                  64,
+                  87
+                ]
+              }
+            ]
+          },
+          "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 1221916436542738400,
+            "id_str": "1221916436542738432",
+            "name": "HOLLOW PLANET THEORY",
+            "screen_name": "hollowplaneteer",
+            "location": "Ramsgate, England",
+            "description": "just some cyberpunk sadboy tunes {🌑} bookings: hollowplanettheory@gmail.com",
+            "url": "https://t.co/lzxC7DfWJS",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/lzxC7DfWJS",
+                    "expanded_url": "https://soundcloud.com/hollowplaneteer",
+                    "display_url": "soundcloud.com/hollowplaneteer",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 180,
+            "friends_count": 204,
+            "listed_count": 1,
+            "created_at": "Mon Jan 27 22:02:43 +0000 2020",
+            "favourites_count": 266,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 619,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1221916436542738432/1581101606",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "en"
+        "possibly_sensitive": false,
+        "lang": "und"
       },
       "defaultEnabled": false
     },
@@ -439,10 +553,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sat May 16 03:40:14 +0000 2020",
-        "id": 1261501687782453200,
-        "id_str": "1261501687782453249",
-        "text": "Ô&lt;»Uºþ⃑3ÛXçW|⃠6°ôlwºªÖ_LC)ù Åg($EE@AÓ#3⃘ú§A ⃬⃮G︖,¥Hí]•⃥⃗nûh'þÆ©sx︓¨︐x*J,Sgª˙&amp;(",
+        "created_at": "Sat May 16 04:45:15 +0000 2020",
+        "id": 1261518047635857400,
+        "id_str": "1261518047635857409",
+        "text": "ϧͻͻͻͻϧϧϧϧϧͻͻϧϧϧͻͻϧϧͻ ϧϧϧϧϧͻϧ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -479,7 +593,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 52754,
+          "statuses_count": 52755,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -512,7 +626,7 @@
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "vi"
+        "lang": "el"
       },
       "defaultEnabled": false
     },
@@ -1180,7 +1294,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 10,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1193,96 +1307,49 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Sat May 16 04:32:06 +0000 2020",
-        "id": 1261514740343414800,
-        "id_str": "1261514740343414785",
-        "text": "https://t.co/MdYw7RoLrf",
+        "created_at": "Sat May 16 04:41:30 +0000 2020",
+        "id": 1261517104223830000,
+        "id_str": "1261517104223830023",
+        "text": "RT @Madcow192: @amyericasmith New England Journal of Medicine too https://t.co/eoER7EVPML",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [],
-          "urls": [],
-          "media": [
+          "user_mentions": [
             {
-              "id": 1261514736669253600,
-              "id_str": "1261514736669253633",
+              "screen_name": "Madcow192",
+              "name": "Madcow19",
+              "id": 979162431460126700,
+              "id_str": "979162431460126721",
               "indices": [
-                0,
-                23
-              ],
-              "media_url": "http://pbs.twimg.com/media/EYHM-B4XYAElOla.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EYHM-B4XYAElOla.jpg",
-              "url": "https://t.co/MdYw7RoLrf",
-              "display_url": "pic.twitter.com/MdYw7RoLrf",
-              "expanded_url": "https://twitter.com/boschbot/status/1261514740343414785/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "medium": {
-                  "w": 1133,
-                  "h": 1200,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 1933,
-                  "h": 2048,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 642,
-                  "h": 680,
-                  "resize": "fit"
-                }
-              }
+                3,
+                13
+              ]
+            },
+            {
+              "screen_name": "amyericasmith",
+              "name": "Amy Erica Smith",
+              "id": 1331004614,
+              "id_str": "1331004614",
+              "indices": [
+                15,
+                29
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/eoER7EVPML",
+              "expanded_url": "https://www.nejm.org/doi/full/10.1056/NEJMp2014836?query=recirc_top_ribbon_article_1",
+              "display_url": "nejm.org/doi/full/10.10…",
+              "indices": [
+                66,
+                89
+              ]
             }
           ]
         },
-        "extended_entities": {
-          "media": [
-            {
-              "id": 1261514736669253600,
-              "id_str": "1261514736669253633",
-              "indices": [
-                0,
-                23
-              ],
-              "media_url": "http://pbs.twimg.com/media/EYHM-B4XYAElOla.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EYHM-B4XYAElOla.jpg",
-              "url": "https://t.co/MdYw7RoLrf",
-              "display_url": "pic.twitter.com/MdYw7RoLrf",
-              "expanded_url": "https://twitter.com/boschbot/status/1261514740343414785/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "medium": {
-                  "w": 1133,
-                  "h": 1200,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 1933,
-                  "h": 2048,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 642,
-                  "h": 680,
-                  "resize": "fit"
-                }
-              }
-            }
-          ]
-        },
-        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1325,16 +1392,16 @@
             }
           },
           "protected": false,
-          "followers_count": 51540,
+          "followers_count": 51539,
           "friends_count": 17221,
           "listed_count": 411,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 17955,
+          "favourites_count": 17957,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 47432,
+          "statuses_count": 47433,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1363,16 +1430,114 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
+        "retweeted_status": {
+          "created_at": "Fri May 15 22:53:55 +0000 2020",
+          "id": 1261429634186522600,
+          "id_str": "1261429634186522624",
+          "text": "@amyericasmith New England Journal of Medicine too https://t.co/eoER7EVPML",
+          "truncated": false,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "amyericasmith",
+                "name": "Amy Erica Smith",
+                "id": 1331004614,
+                "id_str": "1331004614",
+                "indices": [
+                  0,
+                  14
+                ]
+              }
+            ],
+            "urls": [
+              {
+                "url": "https://t.co/eoER7EVPML",
+                "expanded_url": "https://www.nejm.org/doi/full/10.1056/NEJMp2014836?query=recirc_top_ribbon_article_1",
+                "display_url": "nejm.org/doi/full/10.10…",
+                "indices": [
+                  51,
+                  74
+                ]
+              }
+            ]
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": 1261428975588372500,
+          "in_reply_to_status_id_str": "1261428975588372481",
+          "in_reply_to_user_id": 1331004614,
+          "in_reply_to_user_id_str": "1331004614",
+          "in_reply_to_screen_name": "amyericasmith",
+          "user": {
+            "id": 979162431460126700,
+            "id_str": "979162431460126721",
+            "name": "Madcow19",
+            "screen_name": "Madcow192",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 19,
+            "friends_count": 434,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:04:50 +0000 2018",
+            "favourites_count": 4774,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 1004,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 3,
+          "favorite_count": 15,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 10,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
-        "lang": "und"
+        "lang": "en"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589603907903
+  "timestamp": 1589604461551
 }
