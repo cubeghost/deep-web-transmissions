@@ -129,7 +129,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13881,
+          "followers_count": 13882,
           "friends_count": 4,
           "listed_count": 333,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 6,
+        "retweet_count": 3,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,33 +343,34 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat May 16 04:46:14 +0000 2020",
-        "id": 1261518298895835100,
-        "id_str": "1261518298895835136",
-        "text": "https://t.co/d8pTMjdgpj",
+        "created_at": "Sat May 16 04:54:10 +0000 2020",
+        "id": 1261520291274141700,
+        "id_str": "1261520291274141698",
+        "text": "@StanYeahMan Islands on the horizon promise gourds.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [],
-          "urls": [
+          "user_mentions": [
             {
-              "url": "https://t.co/d8pTMjdgpj",
-              "expanded_url": "https://twitter.com/hollowplaneteer/status/1256576770721054721?s=20",
-              "display_url": "twitter.com/hollowplanetee…",
+              "screen_name": "StanYeahMan",
+              "name": "StanYeahMan",
+              "id": 74629819,
+              "id_str": "74629819",
               "indices": [
                 0,
-                23
+                12
               ]
             }
-          ]
+          ],
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": 1261519808664875000,
+        "in_reply_to_status_id_str": "1261519808664875010",
+        "in_reply_to_user_id": 74629819,
+        "in_reply_to_user_id_str": "74629819",
+        "in_reply_to_screen_name": "StanYeahMan",
         "user": {
           "id": 701133013262983200,
           "id_str": "701133013262983168",
@@ -397,7 +398,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38492,
+          "followers_count": 38493,
           "friends_count": 42,
           "listed_count": 612,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -406,7 +407,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75476,
+          "statuses_count": 75478,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -435,116 +436,12 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1256576770721054700,
-        "quoted_status_id_str": "1256576770721054721",
-        "quoted_status": {
-          "created_at": "Sat May 02 13:30:22 +0000 2020",
-          "id": 1256576770721054700,
-          "id_str": "1256576770721054721",
-          "text": "Check out our music video: Hollow Planet Theory - Cage of Bones https://t.co/QaivjUibkl",
-          "truncated": false,
-          "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [
-              {
-                "url": "https://t.co/QaivjUibkl",
-                "expanded_url": "https://www.youtube.com/watch?v=3eXb7NIA3mE",
-                "display_url": "youtube.com/watch?v=3eXb7N…",
-                "indices": [
-                  64,
-                  87
-                ]
-              }
-            ]
-          },
-          "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-          "in_reply_to_status_id": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id": null,
-          "in_reply_to_user_id_str": null,
-          "in_reply_to_screen_name": null,
-          "user": {
-            "id": 1221916436542738400,
-            "id_str": "1221916436542738432",
-            "name": "HOLLOW PLANET THEORY",
-            "screen_name": "hollowplaneteer",
-            "location": "Ramsgate, England",
-            "description": "just some cyberpunk sadboy tunes {🌑} bookings: hollowplanettheory@gmail.com",
-            "url": "https://t.co/lzxC7DfWJS",
-            "entities": {
-              "url": {
-                "urls": [
-                  {
-                    "url": "https://t.co/lzxC7DfWJS",
-                    "expanded_url": "https://soundcloud.com/hollowplaneteer",
-                    "display_url": "soundcloud.com/hollowplaneteer",
-                    "indices": [
-                      0,
-                      23
-                    ]
-                  }
-                ]
-              },
-              "description": {
-                "urls": []
-              }
-            },
-            "protected": false,
-            "followers_count": 180,
-            "friends_count": 204,
-            "listed_count": 1,
-            "created_at": "Mon Jan 27 22:02:43 +0000 2020",
-            "favourites_count": 266,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": false,
-            "statuses_count": 619,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "F5F8FA",
-            "profile_background_image_url": null,
-            "profile_background_image_url_https": null,
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243871812875890689/Mg2xM3Nn_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1221916436542738432/1581101606",
-            "profile_link_color": "1DA1F2",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": false,
-            "default_profile": true,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-          },
-          "geo": null,
-          "coordinates": null,
-          "place": null,
-          "contributors": null,
-          "is_quote_status": false,
-          "retweet_count": 0,
-          "favorite_count": 0,
-          "favorited": false,
-          "retweeted": false,
-          "possibly_sensitive": false,
-          "lang": "en"
-        },
+        "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "und"
+        "lang": "en"
       },
       "defaultEnabled": false
     },
@@ -1255,7 +1152,7 @@
             }
           },
           "protected": false,
-          "followers_count": 18309,
+          "followers_count": 18308,
           "friends_count": 5,
           "listed_count": 359,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1392,7 +1289,7 @@
             }
           },
           "protected": false,
-          "followers_count": 51539,
+          "followers_count": 51538,
           "friends_count": 17221,
           "listed_count": 411,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1521,15 +1418,15 @@
           "place": null,
           "contributors": null,
           "is_quote_status": false,
-          "retweet_count": 3,
-          "favorite_count": 15,
+          "retweet_count": 4,
+          "favorite_count": 17,
           "favorited": false,
           "retweeted": false,
           "possibly_sensitive": false,
           "lang": "en"
         },
         "is_quote_status": false,
-        "retweet_count": 3,
+        "retweet_count": 4,
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
@@ -1539,5 +1436,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589604461551
+  "timestamp": 1589605013171
 }
