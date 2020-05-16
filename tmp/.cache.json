@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 127313,
+          "followers_count": 127323,
           "friends_count": 4667,
           "listed_count": 1365,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -75,8 +75,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1784,
-        "favorite_count": 834,
+        "retweet_count": 1785,
+        "favorite_count": 831,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sat May 16 02:16:36 +0000 2020",
-        "id": 1261480642438627300,
-        "id_str": "1261480642438627328",
-        "text": "You are in an unfamiliar system. The systems red class star shines from the epicenter. A pink-blue planet is close enough for you to orbit",
+        "created_at": "Sat May 16 03:16:34 +0000 2020",
+        "id": 1261495730264555500,
+        "id_str": "1261495730264555522",
+        "text": "You land on the light-orange surface. You realize the transparent air means you should leave. You return.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -138,7 +138,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 36144,
+          "statuses_count": 36145,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 6,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat May 16 02:46:48 +0000 2020",
-        "id": 1261488242542743600,
-        "id_str": "1261488242542743552",
-        "text": "Now, for as far as the eye can see; reef of moonlit coral.",
+        "created_at": "Sat May 16 03:16:35 +0000 2020",
+        "id": 1261495735100551200,
+        "id_str": "1261495735100551170",
+        "text": "The air is still.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38491,
+          "followers_count": 38492,
           "friends_count": 42,
           "listed_count": 611,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -396,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75472,
+          "statuses_count": 75473,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -426,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 10,
+        "retweet_count": 0,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1374,5 +1374,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589598950639
+  "timestamp": 1589599083434
 }
