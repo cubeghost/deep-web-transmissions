@@ -129,7 +129,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13882,
+          "followers_count": 13883,
           "friends_count": 4,
           "listed_count": 333,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -398,7 +398,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38493,
+          "followers_count": 38494,
           "friends_count": 42,
           "listed_count": 612,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -1191,7 +1191,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 11,
+        "favorite_count": 14,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1289,7 +1289,7 @@
             }
           },
           "protected": false,
-          "followers_count": 51538,
+          "followers_count": 51539,
           "friends_count": 17221,
           "listed_count": 411,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1436,5 +1436,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589605013171
+  "timestamp": 1589605568288
 }
