@@ -36,8 +36,8 @@
             }
           },
           "protected": false,
-          "followers_count": 127316,
-          "friends_count": 4667,
+          "followers_count": 127314,
+          "friends_count": 4666,
           "listed_count": 1365,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 344,
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sat May 16 04:17:32 +0000 2020",
-        "id": 1261511072806252500,
-        "id_str": "1261511072806252544",
-        "text": "You decided to listen for signals, checking for every remote wave you know. After a few minutes you realize you are alone.",
+        "created_at": "Sat May 16 05:16:29 +0000 2020",
+        "id": 1261525911196795000,
+        "id_str": "1261525911196794880",
+        "text": "You land on the green-blue surface. You realize the polluted air means you will likely die. You return.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -138,7 +138,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 36146,
+          "statuses_count": 36147,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 7,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -330,7 +330,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 5,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -343,34 +343,23 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat May 16 04:54:10 +0000 2020",
-        "id": 1261520291274141700,
-        "id_str": "1261520291274141698",
-        "text": "@StanYeahMan Islands on the horizon promise gourds.",
+        "created_at": "Sat May 16 05:16:11 +0000 2020",
+        "id": 1261525834499752000,
+        "id_str": "1261525834499751936",
+        "text": "Our craft rocks. Sombre ridges.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "StanYeahMan",
-              "name": "StanYeahMan",
-              "id": 74629819,
-              "id_str": "74629819",
-              "indices": [
-                0,
-                12
-              ]
-            }
-          ],
+          "user_mentions": [],
           "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-        "in_reply_to_status_id": 1261519808664875000,
-        "in_reply_to_status_id_str": "1261519808664875010",
-        "in_reply_to_user_id": 74629819,
-        "in_reply_to_user_id_str": "74629819",
-        "in_reply_to_screen_name": "StanYeahMan",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
           "id": 701133013262983200,
           "id_str": "701133013262983168",
@@ -398,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 38494,
+          "followers_count": 38492,
           "friends_count": 42,
           "listed_count": 612,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -407,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 75478,
+          "statuses_count": 75479,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -438,7 +427,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 1,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1191,7 +1180,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 14,
+        "favorite_count": 15,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1289,11 +1278,11 @@
             }
           },
           "protected": false,
-          "followers_count": 51539,
-          "friends_count": 17221,
+          "followers_count": 51545,
+          "friends_count": 17223,
           "listed_count": 411,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 17957,
+          "favourites_count": 17958,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
@@ -1436,5 +1425,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1589605568288
+  "timestamp": 1589606379421
 }
