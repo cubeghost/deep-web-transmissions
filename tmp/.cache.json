@@ -36,9 +36,9 @@
             }
           },
           "protected": false,
-          "followers_count": 125128,
-          "friends_count": 4550,
-          "listed_count": 1336,
+          "followers_count": 124980,
+          "friends_count": 4544,
+          "listed_count": 1337,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 336,
           "utc_offset": null,
@@ -75,8 +75,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 567,
-        "favorite_count": 489,
+        "retweet_count": 905,
+        "favorite_count": 543,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sat Nov 07 21:30:04 +0000 2020",
-        "id": 1325188795034083300,
-        "id_str": "1325188795034083328",
-        "text": "You land on the green surface. You realize the sulphurous air means you have hope. You die.",
+        "created_at": "Sat Nov 14 12:31:40 +0000 2020",
+        "id": 1327590017183719400,
+        "id_str": "1327590017183719425",
+        "text": "You consult your maps against the stars set before you. You pick a point of emerald light to the West and engage your nuclear reactors",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -129,16 +129,16 @@
             }
           },
           "protected": false,
-          "followers_count": 15157,
+          "followers_count": 15217,
           "friends_count": 4,
-          "listed_count": 373,
+          "listed_count": 377,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
           "favourites_count": 4,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 40402,
+          "statuses_count": 40559,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 3,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -181,10 +181,10 @@
       "handle": "thelastdeck",
       "title": "it writhes; admire",
       "tweet": {
-        "created_at": "Sat Nov 07 21:01:06 +0000 2020",
-        "id": 1325181507279982600,
-        "id_str": "1325181507279982592",
-        "text": "https://t.co/sxz8V6lyyC",
+        "created_at": "Sat Nov 14 09:00:18 +0000 2020",
+        "id": 1327536826719088600,
+        "id_str": "1327536826719088641",
+        "text": "https://t.co/5UF0JYpU4e",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -193,22 +193,27 @@
           "urls": [],
           "media": [
             {
-              "id": 1325181505304473600,
-              "id_str": "1325181505304473601",
+              "id": 1327536824940716000,
+              "id_str": "1327536824940716037",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EmP9jtaXMAEBD5U.png",
-              "media_url_https": "https://pbs.twimg.com/media/EmP9jtaXMAEBD5U.png",
-              "url": "https://t.co/sxz8V6lyyC",
-              "display_url": "pic.twitter.com/sxz8V6lyyC",
-              "expanded_url": "https://twitter.com/thelastdeck/status/1325181507279982592/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EmxbtWzXYAUfD-z.png",
+              "media_url_https": "https://pbs.twimg.com/media/EmxbtWzXYAUfD-z.png",
+              "url": "https://t.co/5UF0JYpU4e",
+              "display_url": "pic.twitter.com/5UF0JYpU4e",
+              "expanded_url": "https://twitter.com/thelastdeck/status/1327536826719088641/photo/1",
               "type": "photo",
               "sizes": {
                 "small": {
                   "w": 680,
                   "h": 340,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 512,
                   "resize": "fit"
                 },
                 "medium": {
@@ -220,11 +225,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "large": {
-                  "w": 1024,
-                  "h": 512,
-                  "resize": "fit"
                 }
               }
             }
@@ -233,22 +233,27 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1325181505304473600,
-              "id_str": "1325181505304473601",
+              "id": 1327536824940716000,
+              "id_str": "1327536824940716037",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EmP9jtaXMAEBD5U.png",
-              "media_url_https": "https://pbs.twimg.com/media/EmP9jtaXMAEBD5U.png",
-              "url": "https://t.co/sxz8V6lyyC",
-              "display_url": "pic.twitter.com/sxz8V6lyyC",
-              "expanded_url": "https://twitter.com/thelastdeck/status/1325181507279982592/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EmxbtWzXYAUfD-z.png",
+              "media_url_https": "https://pbs.twimg.com/media/EmxbtWzXYAUfD-z.png",
+              "url": "https://t.co/5UF0JYpU4e",
+              "display_url": "pic.twitter.com/5UF0JYpU4e",
+              "expanded_url": "https://twitter.com/thelastdeck/status/1327536826719088641/photo/1",
               "type": "photo",
               "sizes": {
                 "small": {
                   "w": 680,
                   "h": 340,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 512,
                   "resize": "fit"
                 },
                 "medium": {
@@ -260,11 +265,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "large": {
-                  "w": 1024,
-                  "h": 512,
-                  "resize": "fit"
                 }
               }
             }
@@ -290,7 +290,7 @@
             }
           },
           "protected": false,
-          "followers_count": 3068,
+          "followers_count": 3076,
           "friends_count": 5,
           "listed_count": 0,
           "created_at": "Wed Dec 28 00:43:21 +0000 2016",
@@ -299,7 +299,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 5350,
+          "statuses_count": 5376,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -329,8 +329,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 8,
+        "retweet_count": 1,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -343,26 +343,16 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat Nov 07 21:20:24 +0000 2020",
-        "id": 1325186363650699300,
-        "id_str": "1325186363650699264",
-        "text": "Dark spirits shake the boat. We do our best to keep everyone on board. A dank, smelly altar among the overhangs. A… https://t.co/Q3PvZRYVCI",
-        "truncated": true,
+        "created_at": "Sat Nov 14 12:18:52 +0000 2020",
+        "id": 1327586797518532600,
+        "id_str": "1327586797518532611",
+        "text": "A watermoth flies down, diving for shrimp.",
+        "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/Q3PvZRYVCI",
-              "expanded_url": "https://twitter.com/i/web/status/1325186363650699264",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                116,
-                139
-              ]
-            }
-          ]
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -397,16 +387,16 @@
             }
           },
           "protected": false,
-          "followers_count": 40515,
+          "followers_count": 40704,
           "friends_count": 43,
-          "listed_count": 661,
+          "listed_count": 667,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
-          "favourites_count": 224,
+          "favourites_count": 235,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 86267,
+          "statuses_count": 86672,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -436,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 12,
+        "retweet_count": 1,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -449,10 +439,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sat Nov 07 21:10:15 +0000 2020",
-        "id": 1325183807645835300,
-        "id_str": "1325183807645835266",
-        "text": "₵₵ ₣ ₵₵₵₣ ₣₵₵₵ ₣    ₣ ₵₣    ₣",
+        "created_at": "Sat Nov 14 11:45:13 +0000 2020",
+        "id": 1327578330497908700,
+        "id_str": "1327578330497908736",
+        "text": "͏ ꯒꯣꯒꯒꯣꯒ \n   ꯒꯒ   \n ꯒꯣꯣꯣꯣꯒ \n   ꯒꯒ   \nꯣꯒꯣꯒꯒꯣꯒꯣ\n   ꯒꯒ   \n ꯒꯣꯣꯣꯣꯒ \n   ꯒꯒ   \n ꯒꯣꯒꯒꯣꯒ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -480,7 +470,7 @@
             }
           },
           "protected": false,
-          "followers_count": 941,
+          "followers_count": 955,
           "friends_count": 1,
           "listed_count": 77,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
@@ -489,7 +479,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 56753,
+          "statuses_count": 56905,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -519,7 +509,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -531,10 +521,10 @@
       "handle": "infinitedeserts",
       "title": "infinite deserts_ψ__",
       "tweet": {
-        "created_at": "Sat Nov 07 18:58:08 +0000 2020",
-        "id": 1325150561751105500,
-        "id_str": "1325150561751105536",
-        "text": ".　\n　　　　Oo.  　　　.Oo.\n\n________ᑚ__⋍____________\n  ·   　 ░  ·  　     ·    .  　 ᐝ",
+        "created_at": "Sat Nov 14 06:55:54 +0000 2020",
+        "id": 1327505521499398100,
+        "id_str": "1327505521499398144",
+        "text": ".　　\n　　　 ☼　 　\n\n_෴෴/▒▒▒▒▒▒▒|_෴෴\n 　 \n  .  　　   °    　       .   　　  ߷    .",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -575,16 +565,16 @@
             }
           },
           "protected": false,
-          "followers_count": 13140,
+          "followers_count": 13169,
           "friends_count": 101,
-          "listed_count": 410,
+          "listed_count": 415,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 96,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 11028,
+          "statuses_count": 11054,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -614,11 +604,11 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 13,
+        "retweet_count": 4,
+        "favorite_count": 17,
         "favorited": false,
         "retweeted": false,
-        "lang": "et"
+        "lang": "und"
       },
       "defaultEnabled": false
     },
@@ -627,10 +617,10 @@
       "handle": "phantomfunhouse",
       "title": "Phantom Funhouse",
       "tweet": {
-        "created_at": "Sat Nov 07 17:38:03 +0000 2020",
-        "id": 1325130406362931200,
-        "id_str": "1325130406362931200",
-        "text": "You sit and watch the sun set and you know that there is yet one more stretch of road you're waiting for https://t.co/3vPwlXwLXI",
+        "created_at": "Sat Nov 14 11:38:02 +0000 2020",
+        "id": 1327576522304094200,
+        "id_str": "1327576522304094208",
+        "text": "Looking at a picture of you travelling through time back through the spaces in my life line https://t.co/HrJ5KIIaVc",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -639,30 +629,20 @@
           "urls": [],
           "media": [
             {
-              "id": 1325130404160970800,
-              "id_str": "1325130404160970753",
+              "id": 1327576521045729300,
+              "id_str": "1327576521045729282",
               "indices": [
-                105,
-                128
+                92,
+                115
               ],
-              "media_url": "http://pbs.twimg.com/media/EmPPFO0VoAEgdz-.png",
-              "media_url_https": "https://pbs.twimg.com/media/EmPPFO0VoAEgdz-.png",
-              "url": "https://t.co/3vPwlXwLXI",
-              "display_url": "pic.twitter.com/3vPwlXwLXI",
-              "expanded_url": "https://twitter.com/phantomfunhouse/status/1325130406362931200/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Emx_z-UUYAINIo9.png",
+              "media_url_https": "https://pbs.twimg.com/media/Emx_z-UUYAINIo9.png",
+              "url": "https://t.co/HrJ5KIIaVc",
+              "display_url": "pic.twitter.com/HrJ5KIIaVc",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1327576522304094208/photo/1",
               "type": "photo",
               "sizes": {
-                "medium": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
-                },
                 "small": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
-                },
-                "large": {
                   "w": 227,
                   "h": 342,
                   "resize": "fit"
@@ -671,6 +651,16 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
+                },
+                "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
                 }
               }
             }
@@ -679,30 +669,20 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1325130404160970800,
-              "id_str": "1325130404160970753",
+              "id": 1327576521045729300,
+              "id_str": "1327576521045729282",
               "indices": [
-                105,
-                128
+                92,
+                115
               ],
-              "media_url": "http://pbs.twimg.com/media/EmPPFO0VoAEgdz-.png",
-              "media_url_https": "https://pbs.twimg.com/media/EmPPFO0VoAEgdz-.png",
-              "url": "https://t.co/3vPwlXwLXI",
-              "display_url": "pic.twitter.com/3vPwlXwLXI",
-              "expanded_url": "https://twitter.com/phantomfunhouse/status/1325130406362931200/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Emx_z-UUYAINIo9.png",
+              "media_url_https": "https://pbs.twimg.com/media/Emx_z-UUYAINIo9.png",
+              "url": "https://t.co/HrJ5KIIaVc",
+              "display_url": "pic.twitter.com/HrJ5KIIaVc",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1327576522304094208/photo/1",
               "type": "photo",
               "sizes": {
-                "medium": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
-                },
                 "small": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
-                },
-                "large": {
                   "w": 227,
                   "h": 342,
                   "resize": "fit"
@@ -711,6 +691,16 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
+                },
+                "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
                 }
               }
             }
@@ -749,16 +739,16 @@
             }
           },
           "protected": false,
-          "followers_count": 380,
+          "followers_count": 379,
           "friends_count": 2,
-          "listed_count": 39,
+          "listed_count": 40,
           "created_at": "Wed Apr 20 17:26:00 +0000 2016",
           "favourites_count": 0,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 5868,
+          "statuses_count": 5895,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -788,7 +778,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -801,10 +791,10 @@
       "handle": "10_print_chr",
       "title": "10 PRINT CHR$",
       "tweet": {
-        "created_at": "Sat Nov 07 18:58:13 +0000 2020",
-        "id": 1325150582814900200,
-        "id_str": "1325150582814900224",
-        "text": "╲╱╲╲╱╲╲╲╱╱\n╱╱╱╲╲╱╱╱╲╱\n╱╲╲╲╲╲╱╲╱╲\n╱╲╱╱╲╲╲╱╱╱\n╲╱╲╱╱╱╲╲╱╲\n╲╱╱╲╲╲╱╲╱╱\n╲╲╱╱╲╲╲╱╲╱\n╱╲╲╱╲╲╱╱╲╱\n╱╲╱╲╱╲╲╲╲╱\n╲╱╲╲╲╲╲╲╲╲",
+        "created_at": "Sat Nov 14 06:55:58 +0000 2020",
+        "id": 1327505538159140900,
+        "id_str": "1327505538159140865",
+        "text": "╲╱╱╱╲╱╲╲╲╱\n╱╲╱╱╱╲╱╱╲╱\n╲╲╱╲╱╲╲╱╲╱\n╲╱╲╲╱╱╱╲╱╱\n╲╱╲╱╲╲╲╲╱╱\n╲╱╲╲╲╱╱╱╲╲\n╱╲╲╱╱╱╱╱╲╲\n╲╱╱╲╱╱╱╱╱╱\n╱╱╲╲╲╲╲╲╱╲\n╲╱╱╲╲╲╱╱╲╲",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -864,7 +854,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 7886,
+          "statuses_count": 7912,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -907,10 +897,10 @@
       "handle": "pomological",
       "title": "old fruit pictures",
       "tweet": {
-        "created_at": "Sat Nov 07 20:18:03 +0000 2020",
-        "id": 1325170671630971000,
-        "id_str": "1325170671630970884",
-        "text": "maida strawberries, painted by deborah griscom passmore, 1896 https://t.co/IMA3syDTsi",
+        "created_at": "Sat Nov 14 11:18:02 +0000 2020",
+        "id": 1327571488153616400,
+        "id_str": "1327571488153616386",
+        "text": "alexander plums, painted by mary daisy arnold, 1937 https://t.co/XvAk9EIatb",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -919,17 +909,17 @@
           "urls": [],
           "media": [
             {
-              "id": 1325170669852610600,
-              "id_str": "1325170669852610565",
+              "id": 1327571486823989200,
+              "id_str": "1327571486823989249",
               "indices": [
-                62,
-                85
+                52,
+                75
               ],
-              "media_url": "http://pbs.twimg.com/media/EmPztANU0AUXpYO.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EmPztANU0AUXpYO.jpg",
-              "url": "https://t.co/IMA3syDTsi",
-              "display_url": "pic.twitter.com/IMA3syDTsi",
-              "expanded_url": "https://twitter.com/pomological/status/1325170671630970884/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Emx7O8YUwAEXgAk.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Emx7O8YUwAEXgAk.jpg",
+              "url": "https://t.co/XvAk9EIatb",
+              "display_url": "pic.twitter.com/XvAk9EIatb",
+              "expanded_url": "https://twitter.com/pomological/status/1327571488153616386/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -937,9 +927,9 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 680,
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "medium": {
@@ -947,9 +937,9 @@
                   "h": 1126,
                   "resize": "fit"
                 },
-                "large": {
-                  "w": 1126,
-                  "h": 1126,
+                "small": {
+                  "w": 680,
+                  "h": 680,
                   "resize": "fit"
                 }
               }
@@ -959,17 +949,17 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1325170669852610600,
-              "id_str": "1325170669852610565",
+              "id": 1327571486823989200,
+              "id_str": "1327571486823989249",
               "indices": [
-                62,
-                85
+                52,
+                75
               ],
-              "media_url": "http://pbs.twimg.com/media/EmPztANU0AUXpYO.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EmPztANU0AUXpYO.jpg",
-              "url": "https://t.co/IMA3syDTsi",
-              "display_url": "pic.twitter.com/IMA3syDTsi",
-              "expanded_url": "https://twitter.com/pomological/status/1325170671630970884/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Emx7O8YUwAEXgAk.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Emx7O8YUwAEXgAk.jpg",
+              "url": "https://t.co/XvAk9EIatb",
+              "display_url": "pic.twitter.com/XvAk9EIatb",
+              "expanded_url": "https://twitter.com/pomological/status/1327571488153616386/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -977,9 +967,9 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 680,
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "medium": {
@@ -987,9 +977,9 @@
                   "h": 1126,
                   "resize": "fit"
                 },
-                "large": {
-                  "w": 1126,
-                  "h": 1126,
+                "small": {
+                  "w": 680,
+                  "h": 680,
                   "resize": "fit"
                 }
               }
@@ -1029,7 +1019,7 @@
             }
           },
           "protected": false,
-          "followers_count": 20140,
+          "followers_count": 20222,
           "friends_count": 5,
           "listed_count": 385,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1038,7 +1028,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 14397,
+          "statuses_count": 14450,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1067,8 +1057,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 9,
-        "favorite_count": 33,
+        "retweet_count": 1,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1081,10 +1071,10 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Sat Nov 07 21:03:50 +0000 2020",
-        "id": 1325182196299264000,
-        "id_str": "1325182196299264006",
-        "text": "https://t.co/ux51J0LkZW",
+        "created_at": "Sat Nov 14 12:31:42 +0000 2020",
+        "id": 1327590028273455000,
+        "id_str": "1327590028273455104",
+        "text": "https://t.co/eQHs8BSyl0",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -1093,37 +1083,37 @@
           "urls": [],
           "media": [
             {
-              "id": 1325182192063041500,
-              "id_str": "1325182192063041537",
+              "id": 1327590024762814500,
+              "id_str": "1327590024762814464",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EmP-LryXUAEN0sE.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EmP-LryXUAEN0sE.jpg",
-              "url": "https://t.co/ux51J0LkZW",
-              "display_url": "pic.twitter.com/ux51J0LkZW",
-              "expanded_url": "https://twitter.com/boschbot/status/1325182196299264006/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EmyMF_lW8AAVOwx.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EmyMF_lW8AAVOwx.jpg",
+              "url": "https://t.co/eQHs8BSyl0",
+              "display_url": "pic.twitter.com/eQHs8BSyl0",
+              "expanded_url": "https://twitter.com/boschbot/status/1327590028273455104/photo/1",
               "type": "photo",
               "sizes": {
-                "large": {
-                  "w": 1416,
-                  "h": 2048,
-                  "resize": "fit"
-                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
                 },
-                "medium": {
-                  "w": 830,
-                  "h": 1200,
+                "small": {
+                  "w": 545,
+                  "h": 680,
                   "resize": "fit"
                 },
-                "small": {
-                  "w": 470,
-                  "h": 680,
+                "large": {
+                  "w": 1640,
+                  "h": 2048,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 961,
+                  "h": 1200,
                   "resize": "fit"
                 }
               }
@@ -1133,37 +1123,37 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1325182192063041500,
-              "id_str": "1325182192063041537",
+              "id": 1327590024762814500,
+              "id_str": "1327590024762814464",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EmP-LryXUAEN0sE.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EmP-LryXUAEN0sE.jpg",
-              "url": "https://t.co/ux51J0LkZW",
-              "display_url": "pic.twitter.com/ux51J0LkZW",
-              "expanded_url": "https://twitter.com/boschbot/status/1325182196299264006/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EmyMF_lW8AAVOwx.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EmyMF_lW8AAVOwx.jpg",
+              "url": "https://t.co/eQHs8BSyl0",
+              "display_url": "pic.twitter.com/eQHs8BSyl0",
+              "expanded_url": "https://twitter.com/boschbot/status/1327590028273455104/photo/1",
               "type": "photo",
               "sizes": {
-                "large": {
-                  "w": 1416,
-                  "h": 2048,
-                  "resize": "fit"
-                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
                 },
-                "medium": {
-                  "w": 830,
-                  "h": 1200,
+                "small": {
+                  "w": 545,
+                  "h": 680,
                   "resize": "fit"
                 },
-                "small": {
-                  "w": 470,
-                  "h": 680,
+                "large": {
+                  "w": 1640,
+                  "h": 2048,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 961,
+                  "h": 1200,
                   "resize": "fit"
                 }
               }
@@ -1213,16 +1203,16 @@
             }
           },
           "protected": false,
-          "followers_count": 64546,
-          "friends_count": 17170,
-          "listed_count": 493,
+          "followers_count": 64953,
+          "friends_count": 17151,
+          "listed_count": 499,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 21617,
+          "favourites_count": 21710,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 58662,
+          "statuses_count": 59075,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1253,7 +1243,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 25,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1262,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1604784702368
+  "timestamp": 1605357421321
 }
