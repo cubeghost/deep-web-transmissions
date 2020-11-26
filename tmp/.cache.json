@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 124984,
+          "followers_count": 124983,
           "friends_count": 4533,
           "listed_count": 1336,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -75,7 +75,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 532,
+        "retweet_count": 531,
         "favorite_count": 386,
         "favorited": false,
         "retweeted": false,
@@ -343,34 +343,23 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Thu Nov 26 17:38:00 +0000 2020",
-        "id": 1332015762299646000,
-        "id_str": "1332015762299645952",
-        "text": "@IAm_Skildert Never forget solid land.",
+        "created_at": "Thu Nov 26 18:06:00 +0000 2020",
+        "id": 1332022809552429000,
+        "id_str": "1332022809552429057",
+        "text": "Gnashing teeth from the deep. We huddle for safety.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "IAm_Skildert",
-              "name": "Schuurmachine Schilder",
-              "id": 5865332,
-              "id_str": "5865332",
-              "indices": [
-                0,
-                13
-              ]
-            }
-          ],
+          "user_mentions": [],
           "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-        "in_reply_to_status_id": 1332014793516052500,
-        "in_reply_to_status_id_str": "1332014793516052480",
-        "in_reply_to_user_id": 5865332,
-        "in_reply_to_user_id_str": "5865332",
-        "in_reply_to_screen_name": "IAm_Skildert",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
           "id": 701133013262983200,
           "id_str": "701133013262983168",
@@ -398,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 40885,
+          "followers_count": 40884,
           "friends_count": 43,
           "listed_count": 670,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -407,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 87394,
+          "statuses_count": 87395,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -438,7 +427,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1068,7 +1057,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
+        "retweet_count": 2,
         "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
@@ -1214,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 65553,
+          "followers_count": 65552,
           "friends_count": 17135,
           "listed_count": 506,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1253,8 +1242,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 3,
+        "retweet_count": 5,
+        "favorite_count": 16,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1263,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1606413596419
+  "timestamp": 1606414540794
 }
