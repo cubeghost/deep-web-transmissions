@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 124416,
+          "followers_count": 124417,
           "friends_count": 4521,
           "listed_count": 1335,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -75,8 +75,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 87,
-        "favorite_count": 192,
+        "retweet_count": 88,
+        "favorite_count": 195,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -88,10 +88,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Wed Dec 30 08:26:19 +0000 2020",
-        "id": 1344198115667153000,
-        "id_str": "1344198115667152896",
-        "text": "You land on the red-orange surface. You realize the warm air means you should leave. You try to survive.",
+        "created_at": "Wed Dec 30 09:25:54 +0000 2020",
+        "id": 1344213111549681700,
+        "id_str": "1344213111549681664",
+        "text": "You are surrounded by a vast expanse of stars, all alike. You are glad you are with a friend in deep space.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -138,7 +138,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 41643,
+          "statuses_count": 41644,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 1,
+        "retweet_count": 2,
+        "favorite_count": 5,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Wed Dec 30 08:51:30 +0000 2020",
-        "id": 1344204455202480000,
-        "id_str": "1344204455202480130",
-        "text": "The waves surge.",
+        "created_at": "Wed Dec 30 09:21:21 +0000 2020",
+        "id": 1344211967028826000,
+        "id_str": "1344211967028826113",
+        "text": "The raft is tossed about. The heavens follow us.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 41237,
+          "followers_count": 41238,
           "friends_count": 43,
           "listed_count": 683,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -396,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 90639,
+          "statuses_count": 90640,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -426,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 12,
+        "retweet_count": 0,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -778,7 +778,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 1,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1058,7 +1058,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 13,
+        "favorite_count": 16,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1203,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 68003,
+          "followers_count": 68004,
           "friends_count": 17114,
           "listed_count": 530,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1243,7 +1243,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 12,
+        "favorite_count": 14,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1252,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1609319498470
+  "timestamp": 1609320845104
 }
