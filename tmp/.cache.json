@@ -75,8 +75,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 93,
-        "favorite_count": 215,
+        "retweet_count": 95,
+        "favorite_count": 217,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -169,7 +169,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 4,
+        "favorite_count": 5,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -330,7 +330,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 6,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -343,34 +343,23 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Wed Dec 30 10:28:05 +0000 2020",
-        "id": 1344228760292352000,
-        "id_str": "1344228760292352003",
-        "text": "@SolImperialist A song and an offering; edible fungi for the water.",
+        "created_at": "Wed Dec 30 10:51:12 +0000 2020",
+        "id": 1344234577339019300,
+        "id_str": "1344234577339019265",
+        "text": "A still evening. A doleful song about black smoke from burning thatches.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "SolImperialist",
-              "name": "Solar Imperialist",
-              "id": 1059873484795506700,
-              "id_str": "1059873484795506688",
-              "indices": [
-                0,
-                15
-              ]
-            }
-          ],
+          "user_mentions": [],
           "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-        "in_reply_to_status_id": 1344227838526853000,
-        "in_reply_to_status_id_str": "1344227838526853120",
-        "in_reply_to_user_id": 1059873484795506700,
-        "in_reply_to_user_id_str": "1059873484795506688",
-        "in_reply_to_screen_name": "SolImperialist",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
           "id": 701133013262983200,
           "id_str": "701133013262983168",
@@ -407,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 90643,
+          "statuses_count": 90644,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -437,8 +426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 1,
+        "retweet_count": 2,
+        "favorite_count": 3,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1214,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 68000,
+          "followers_count": 68001,
           "friends_count": 17113,
           "listed_count": 530,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1254,7 +1243,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 3,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1263,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1609325126078
+  "timestamp": 1609325672041
 }
