@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 124418,
+          "followers_count": 124417,
           "friends_count": 4521,
           "listed_count": 1335,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,7 +76,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 92,
-        "favorite_count": 202,
+        "favorite_count": 209,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -129,7 +129,7 @@
             }
           },
           "protected": false,
-          "followers_count": 15811,
+          "followers_count": 15810,
           "friends_count": 4,
           "listed_count": 386,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -426,7 +426,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
+        "retweet_count": 1,
         "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
@@ -439,10 +439,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Wed Dec 30 09:05:14 +0000 2020",
-        "id": 1344207910709018600,
-        "id_str": "1344207910709018625",
-        "text": "④⑬①①⑬①⑬ ④ ⑬④  ④①⑬①④①\n ④ ⑬⑬  ④①⑬⑬⑬①①   ④④④\n ⑬ ④①①①  ①④① ④ ①①④⑬①\n ⑬ ④④⑬ ①①④ ④④④⑬④①④④①\n ①①④⑬①④   ⑬⑬①①①⑬①①⑬⑬\n①⑬①⑬ ①①⑬①①④④④ ④⑬",
+        "created_at": "Wed Dec 30 10:10:14 +0000 2020",
+        "id": 1344224266061955000,
+        "id_str": "1344224266061955072",
+        "text": "ケルㇸビジケアパㇵㇲキゴヤウコギ\n𐌾𐍉𐌴𐍁𐌹𐌻𐍃𐌱𐌲𐌷 𐍇𐍃𐍆𐍉𐍂",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -479,7 +479,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 57924,
+          "statuses_count": 57925,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -508,11 +508,11 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
+        "retweet_count": 0,
         "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "ja"
       },
       "defaultEnabled": false
     },
@@ -567,7 +567,7 @@
           "protected": false,
           "followers_count": 13229,
           "friends_count": 101,
-          "listed_count": 421,
+          "listed_count": 422,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 97,
           "utc_offset": null,
@@ -1071,10 +1071,10 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Wed Dec 30 08:48:51 +0000 2020",
-        "id": 1344203785422467000,
-        "id_str": "1344203785422467075",
-        "text": "https://t.co/6Mq1qOErbS",
+        "created_at": "Wed Dec 30 10:12:15 +0000 2020",
+        "id": 1344224776798294000,
+        "id_str": "1344224776798294017",
+        "text": "https://t.co/QQ326nZhpG",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -1083,37 +1083,37 @@
           "urls": [],
           "media": [
             {
-              "id": 1344203780825428000,
-              "id_str": "1344203780825427972",
+              "id": 1344224775120572400,
+              "id_str": "1344224775120572422",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EqeSN33WMAQTuYK.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EqeSN33WMAQTuYK.jpg",
-              "url": "https://t.co/6Mq1qOErbS",
-              "display_url": "pic.twitter.com/6Mq1qOErbS",
-              "expanded_url": "https://twitter.com/boschbot/status/1344203785422467075/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EqelT5tXUAY_VQ0.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EqelT5tXUAY_VQ0.jpg",
+              "url": "https://t.co/QQ326nZhpG",
+              "display_url": "pic.twitter.com/QQ326nZhpG",
+              "expanded_url": "https://twitter.com/boschbot/status/1344224776798294017/photo/1",
               "type": "photo",
               "sizes": {
-                "medium": {
-                  "w": 1200,
-                  "h": 502,
-                  "resize": "fit"
-                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
                 },
                 "large": {
-                  "w": 2048,
-                  "h": 856,
+                  "w": 1953,
+                  "h": 821,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 504,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
-                  "h": 284,
+                  "h": 286,
                   "resize": "fit"
                 }
               }
@@ -1123,37 +1123,37 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1344203780825428000,
-              "id_str": "1344203780825427972",
+              "id": 1344224775120572400,
+              "id_str": "1344224775120572422",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/EqeSN33WMAQTuYK.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/EqeSN33WMAQTuYK.jpg",
-              "url": "https://t.co/6Mq1qOErbS",
-              "display_url": "pic.twitter.com/6Mq1qOErbS",
-              "expanded_url": "https://twitter.com/boschbot/status/1344203785422467075/photo/1",
+              "media_url": "http://pbs.twimg.com/media/EqelT5tXUAY_VQ0.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EqelT5tXUAY_VQ0.jpg",
+              "url": "https://t.co/QQ326nZhpG",
+              "display_url": "pic.twitter.com/QQ326nZhpG",
+              "expanded_url": "https://twitter.com/boschbot/status/1344224776798294017/photo/1",
               "type": "photo",
               "sizes": {
-                "medium": {
-                  "w": 1200,
-                  "h": 502,
-                  "resize": "fit"
-                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
                 },
                 "large": {
-                  "w": 2048,
-                  "h": 856,
+                  "w": 1953,
+                  "h": 821,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 504,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
-                  "h": 284,
+                  "h": 286,
                   "resize": "fit"
                 }
               }
@@ -1203,7 +1203,7 @@
             }
           },
           "protected": false,
-          "followers_count": 68004,
+          "followers_count": 68003,
           "friends_count": 17114,
           "listed_count": 530,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1212,7 +1212,7 @@
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 61690,
+          "statuses_count": 61692,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1242,8 +1242,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 16,
+        "retweet_count": 0,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1252,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1609322540191
+  "timestamp": 1609323293091
 }
