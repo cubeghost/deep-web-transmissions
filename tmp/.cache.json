@@ -75,8 +75,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 89,
-        "favorite_count": 198,
+        "retweet_count": 92,
+        "favorite_count": 202,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -168,8 +168,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 8,
+        "retweet_count": 7,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -330,7 +330,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 4,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -343,10 +343,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Wed Dec 30 09:21:21 +0000 2020",
-        "id": 1344211967028826000,
-        "id_str": "1344211967028826113",
-        "text": "The raft is tossed about. The heavens follow us.",
+        "created_at": "Wed Dec 30 09:51:17 +0000 2020",
+        "id": 1344219496953819100,
+        "id_str": "1344219496953819138",
+        "text": "Thousands of dead fish drift on the  water. Ancient cliffs.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -387,7 +387,7 @@
             }
           },
           "protected": false,
-          "followers_count": 41238,
+          "followers_count": 41237,
           "friends_count": 43,
           "listed_count": 683,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -396,7 +396,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 90640,
+          "statuses_count": 90641,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -427,7 +427,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 14,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1019,7 +1019,7 @@
             }
           },
           "protected": false,
-          "followers_count": 20560,
+          "followers_count": 20559,
           "friends_count": 5,
           "listed_count": 392,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1252,5 +1252,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1609321433874
+  "timestamp": 1609322540191
 }
