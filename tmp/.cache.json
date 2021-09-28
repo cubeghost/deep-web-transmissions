@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 67,
-        "favorite_count": 150,
+        "retweet_count": 70,
+        "favorite_count": 156,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -181,7 +181,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 5,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -441,7 +441,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 2,
+        "favorite_count": 3,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -580,9 +580,9 @@
             }
           },
           "protected": false,
-          "followers_count": 13655,
+          "followers_count": 13657,
           "friends_count": 101,
-          "listed_count": 475,
+          "listed_count": 476,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 94,
           "utc_offset": null,
@@ -915,10 +915,10 @@
       "handle": "pomological",
       "title": "old fruit pictures",
       "tweet": {
-        "created_at": "Tue Sep 28 01:18:02 +0000 2021",
-        "id": 1442659833975435300,
-        "id_str": "1442659833975435264",
-        "text": "paragon apples, painted by royal charles steadman, 1925 https://t.co/ZX6iSQuv1z",
+        "created_at": "Tue Sep 28 04:18:02 +0000 2021",
+        "id": 1442705133985362000,
+        "id_str": "1442705133985361922",
+        "text": "baltimore apples, painted by mary daisy arnold, 1929 https://t.co/KhDmLu19Cy",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -927,19 +927,24 @@
           "urls": [],
           "media": [
             {
-              "id": 1442659832733978600,
-              "id_str": "1442659832733978627",
+              "id": 1442705132655759400,
+              "id_str": "1442705132655759360",
               "indices": [
-                56,
-                79
+                53,
+                76
               ],
-              "media_url": "http://pbs.twimg.com/media/FAVbeW3VUAMuLy0.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FAVbeW3VUAMuLy0.jpg",
-              "url": "https://t.co/ZX6iSQuv1z",
-              "display_url": "pic.twitter.com/ZX6iSQuv1z",
-              "expanded_url": "https://twitter.com/pomological/status/1442659833975435264/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FAWErKOUUAAJN54.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FAWErKOUUAAJN54.jpg",
+              "url": "https://t.co/KhDmLu19Cy",
+              "display_url": "pic.twitter.com/KhDmLu19Cy",
+              "expanded_url": "https://twitter.com/pomological/status/1442705133985361922/photo/1",
               "type": "photo",
               "sizes": {
+                "medium": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
@@ -948,11 +953,6 @@
                 "small": {
                   "w": 680,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 1126,
-                  "h": 1126,
                   "resize": "fit"
                 },
                 "large": {
@@ -967,19 +967,24 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1442659832733978600,
-              "id_str": "1442659832733978627",
+              "id": 1442705132655759400,
+              "id_str": "1442705132655759360",
               "indices": [
-                56,
-                79
+                53,
+                76
               ],
-              "media_url": "http://pbs.twimg.com/media/FAVbeW3VUAMuLy0.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FAVbeW3VUAMuLy0.jpg",
-              "url": "https://t.co/ZX6iSQuv1z",
-              "display_url": "pic.twitter.com/ZX6iSQuv1z",
-              "expanded_url": "https://twitter.com/pomological/status/1442659833975435264/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FAWErKOUUAAJN54.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FAWErKOUUAAJN54.jpg",
+              "url": "https://t.co/KhDmLu19Cy",
+              "display_url": "pic.twitter.com/KhDmLu19Cy",
+              "expanded_url": "https://twitter.com/pomological/status/1442705133985361922/photo/1",
               "type": "photo",
               "sizes": {
+                "medium": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
                 "thumb": {
                   "w": 150,
                   "h": 150,
@@ -988,11 +993,6 @@
                 "small": {
                   "w": 680,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 1126,
-                  "h": 1126,
                   "resize": "fit"
                 },
                 "large": {
@@ -1046,7 +1046,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 16943,
+          "statuses_count": 16944,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1076,8 +1076,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 27,
+        "retweet_count": 0,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1222,8 +1222,8 @@
             }
           },
           "protected": false,
-          "followers_count": 81553,
-          "friends_count": 17134,
+          "followers_count": 81556,
+          "friends_count": 17137,
           "listed_count": 668,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
           "favourites_count": 30030,
@@ -1262,8 +1262,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 10,
+        "retweet_count": 3,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1272,5 +1272,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1632802144833
+  "timestamp": 1632802846356
 }
