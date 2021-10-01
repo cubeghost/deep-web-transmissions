@@ -5,10 +5,10 @@
       "handle": "tiny_star_field",
       "title": "⋆",
       "tweet": {
-        "created_at": "Thu Sep 30 23:25:29 +0000 2021",
-        "id": 1443718672330248200,
-        "id_str": "1443718672330248193",
-        "text": ".      *   *  .  \n ˚ 　　 ✫  　\n　  *  * 　  ✫ 　\n  ✵  ·　 ✫ 　.   ✷  \n 　　   　  　　　　　　\n ✦       ✺  ✵   ✵ \n*  　　　 .　     ˚   ⊹",
+        "created_at": "Fri Oct 01 05:08:23 +0000 2021",
+        "id": 1443804969304567800,
+        "id_str": "1443804969304567841",
+        "text": "⊹ 　　 　　\n · ✧　　　　　　　　 　    　 · \n        ˚ .　　 　　  　 ✫ \n　　　 ˚ 　　　 ˚  ˚ 　　　　 　　\n 　　　　　　　　. .",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121850,
+          "followers_count": 121853,
           "friends_count": 4397,
           "listed_count": 1405,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -45,7 +45,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 15404,
+          "statuses_count": 15405,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 73,
-        "favorite_count": 193,
+        "retweet_count": 50,
+        "favorite_count": 113,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Fri Oct 01 02:56:37 +0000 2021",
-        "id": 1443771808675770400,
-        "id_str": "1443771808675770371",
-        "text": "You decided to analyze the atmosphere. You learn it is electric; you would survive.",
+        "created_at": "Fri Oct 01 04:58:30 +0000 2021",
+        "id": 1443802478802309000,
+        "id_str": "1443802478802309121",
+        "text": "You decided to listen for signals, checking for every remote wave you know. After a few minutes you recieve a response.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17308,
+          "followers_count": 17311,
           "friends_count": 4,
           "listed_count": 506,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 47885,
+          "statuses_count": 47886,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -171,7 +171,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 10,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -333,7 +333,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 3,
+        "favorite_count": 4,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -346,34 +346,33 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Fri Oct 01 04:22:59 +0000 2021",
-        "id": 1443793542405628000,
-        "id_str": "1443793542405627905",
-        "text": "@Stella_Maple_ The elders weave baskets.",
+        "created_at": "Fri Oct 01 05:30:16 +0000 2021",
+        "id": 1443810474357928000,
+        "id_str": "1443810474357927937",
+        "text": "The seas sway the skiff. https://t.co/asAd7XLHSK",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
+          "user_mentions": [],
+          "urls": [
             {
-              "screen_name": "Stella_Maple_",
-              "name": "stella",
-              "id": 1094414656314191900,
-              "id_str": "1094414656314191873",
+              "url": "https://t.co/asAd7XLHSK",
+              "expanded_url": "https://twitter.com/ppl_not_borders/status/1349375435411390467?s=20",
+              "display_url": "twitter.com/ppl_not_border…",
               "indices": [
-                0,
-                14
+                25,
+                48
               ]
             }
-          ],
-          "urls": []
+          ]
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
-        "in_reply_to_status_id": 1443793521660530700,
-        "in_reply_to_status_id_str": "1443793521660530690",
-        "in_reply_to_user_id": 1094414656314191900,
-        "in_reply_to_user_id_str": "1094414656314191873",
-        "in_reply_to_screen_name": "Stella_Maple_",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
           "id": 701133013262983200,
           "id_str": "701133013262983168",
@@ -410,7 +409,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106373,
+          "statuses_count": 106377,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -440,11 +439,112 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 1,
+        "is_quote_status": true,
+        "quoted_status_id": 1349375435411390500,
+        "quoted_status_id_str": "1349375435411390467",
+        "quoted_status": {
+          "created_at": "Wed Jan 13 15:19:08 +0000 2021",
+          "id": 1349375435411390500,
+          "id_str": "1349375435411390467",
+          "text": "In normal times we sell plenty of these fundraising picture books,. Can you help?\nhttps://t.co/uPKWMkqfGS… https://t.co/VrmWUZm7Vh",
+          "truncated": true,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/uPKWMkqfGS",
+                "expanded_url": "https://www.suehamptonauthor.co.uk/product/i-am-me/",
+                "display_url": "suehamptonauthor.co.uk/product/i-am-m…",
+                "indices": [
+                  82,
+                  105
+                ]
+              },
+              {
+                "url": "https://t.co/VrmWUZm7Vh",
+                "expanded_url": "https://twitter.com/i/web/status/1349375435411390467",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                  107,
+                  130
+                ]
+              }
+            ]
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 743845962439888900,
+            "id_str": "743845962439888896",
+            "name": "HertsForRefugees",
+            "screen_name": "herts_refugees",
+            "location": "St Albans Hertfordshire",
+            "description": "We're a small registered charity looking to help refugees across the world in whatever way we can.",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 851,
+            "friends_count": 182,
+            "listed_count": 13,
+            "created_at": "Fri Jun 17 16:41:12 +0000 2016",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 730,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1419219964788084739/Z2EPALPw_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1419219964788084739/Z2EPALPw_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/743845962439888896/1624979718",
+            "profile_link_color": "E81C4F",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 18,
+          "favorite_count": 19,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        "retweet_count": 1,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
@@ -454,10 +554,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Fri Oct 01 04:10:17 +0000 2021",
-        "id": 1443790347415343000,
-        "id_str": "1443790347415343107",
-        "text": "𐀰 𐀭 𐀿\n𐁀 𐀑 𐀩\n𐀠 𐁄 𐀼",
+        "created_at": "Fri Oct 01 05:15:17 +0000 2021",
+        "id": 1443806705398141000,
+        "id_str": "1443806705398140936",
+        "text": "┅┫┻╹╹╋┏┇╹\n┃━╸┫┳╹╍┳╍\n┋┳┫┏╻┻╺┳┳\n┏╻┃╸┋┓╺╍┃\n┇┇┃┣┓┓╍┉┇\n┣╻┓┗╹╸┉┓┏\n╋┉╺┇╍╻┫╍┉\n┉┋╹┻┋┛╏┻┓\n╸╻┇┅┻┳┗╋┅\n┫┅╍╍┻┇╺┇┗\n┃┓┻┅╍╻┃┅┫\n╻┛┃┣┉┳╸┣┛",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -494,7 +594,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64053,
+          "statuses_count": 64054,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -525,7 +625,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -621,8 +721,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 7,
+        "retweet_count": 1,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1078,7 +1178,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 6,
+        "favorite_count": 25,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1091,34 +1191,44 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Fri Oct 01 04:22:36 +0000 2021",
-        "id": 1443793444267249700,
-        "id_str": "1443793444267249666",
-        "text": "@tilbots Why was I not informed earlier?",
+        "created_at": "Fri Oct 01 04:54:01 +0000 2021",
+        "id": 1443801353848082400,
+        "id_str": "1443801353848082432",
+        "text": "@MsYukisbot @tilbots Erm. No",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [
             {
+              "screen_name": "MsYukisbot",
+              "name": "Paul Caruso",
+              "id": 772542848914694100,
+              "id_str": "772542848914694144",
+              "indices": [
+                0,
+                11
+              ]
+            },
+            {
               "screen_name": "tilbots",
               "name": "tilbot",
               "id": 876888048340021200,
               "id_str": "876888048340021251",
               "indices": [
-                0,
-                8
+                12,
+                20
               ]
             }
           ],
           "urls": []
         },
         "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
-        "in_reply_to_status_id": 1443745898819956700,
-        "in_reply_to_status_id_str": "1443745898819956739",
-        "in_reply_to_user_id": 876888048340021200,
-        "in_reply_to_user_id_str": "876888048340021251",
-        "in_reply_to_screen_name": "tilbots",
+        "in_reply_to_status_id": 1443800936418185200,
+        "in_reply_to_status_id_str": "1443800936418185222",
+        "in_reply_to_user_id": 772542848914694100,
+        "in_reply_to_user_id_str": "772542848914694144",
+        "in_reply_to_screen_name": "MsYukisbot",
         "user": {
           "id": 795346623396253700,
           "id_str": "795346623396253705",
@@ -1156,16 +1266,16 @@
             }
           },
           "protected": false,
-          "followers_count": 81613,
-          "friends_count": 17136,
-          "listed_count": 665,
+          "followers_count": 81614,
+          "friends_count": 17135,
+          "listed_count": 664,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 30219,
+          "favourites_count": 30227,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 77617,
+          "statuses_count": 77622,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1197,7 +1307,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1205,5 +1315,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633062327355
+  "timestamp": 1633067656773
 }
