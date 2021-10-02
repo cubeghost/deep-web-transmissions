@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121847,
+          "followers_count": 121846,
           "friends_count": 4398,
           "listed_count": 1405,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 41,
-        "favorite_count": 87,
+        "retweet_count": 61,
+        "favorite_count": 116,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -346,26 +346,16 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat Oct 02 03:00:47 +0000 2021",
-        "id": 1444135244639228000,
-        "id_str": "1444135244639227905",
-        "text": "A vibrant sunset. https://t.co/asAd7XLHSK",
+        "created_at": "Sat Oct 02 03:29:03 +0000 2021",
+        "id": 1444142358925299700,
+        "id_str": "1444142358925299713",
+        "text": "Night falls. The moons glow brightly.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/asAd7XLHSK",
-              "expanded_url": "https://twitter.com/ppl_not_borders/status/1349375435411390467?s=20",
-              "display_url": "twitter.com/ppl_not_border…",
-              "indices": [
-                18,
-                41
-              ]
-            }
-          ]
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -409,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106428,
+          "statuses_count": 106429,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -439,112 +429,11 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1349375435411390500,
-        "quoted_status_id_str": "1349375435411390467",
-        "quoted_status": {
-          "created_at": "Wed Jan 13 15:19:08 +0000 2021",
-          "id": 1349375435411390500,
-          "id_str": "1349375435411390467",
-          "text": "In normal times we sell plenty of these fundraising picture books,. Can you help?\nhttps://t.co/uPKWMkqfGS… https://t.co/VrmWUZm7Vh",
-          "truncated": true,
-          "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [
-              {
-                "url": "https://t.co/uPKWMkqfGS",
-                "expanded_url": "https://www.suehamptonauthor.co.uk/product/i-am-me/",
-                "display_url": "suehamptonauthor.co.uk/product/i-am-m…",
-                "indices": [
-                  82,
-                  105
-                ]
-              },
-              {
-                "url": "https://t.co/VrmWUZm7Vh",
-                "expanded_url": "https://twitter.com/i/web/status/1349375435411390467",
-                "display_url": "twitter.com/i/web/status/1…",
-                "indices": [
-                  107,
-                  130
-                ]
-              }
-            ]
-          },
-          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-          "in_reply_to_status_id": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id": null,
-          "in_reply_to_user_id_str": null,
-          "in_reply_to_screen_name": null,
-          "user": {
-            "id": 743845962439888900,
-            "id_str": "743845962439888896",
-            "name": "HertsForRefugees",
-            "screen_name": "herts_refugees",
-            "location": "St Albans Hertfordshire",
-            "description": "We're a small registered charity looking to help refugees across the world in whatever way we can.",
-            "url": null,
-            "entities": {
-              "description": {
-                "urls": []
-              }
-            },
-            "protected": false,
-            "followers_count": 851,
-            "friends_count": 182,
-            "listed_count": 13,
-            "created_at": "Fri Jun 17 16:41:12 +0000 2016",
-            "favourites_count": 7,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": false,
-            "statuses_count": 732,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "000000",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1419219964788084739/Z2EPALPw_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1419219964788084739/Z2EPALPw_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/743845962439888896/1624979718",
-            "profile_link_color": "E81C4F",
-            "profile_sidebar_border_color": "000000",
-            "profile_sidebar_fill_color": "000000",
-            "profile_text_color": "000000",
-            "profile_use_background_image": false,
-            "has_extended_profile": false,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none",
-            "withheld_in_countries": []
-          },
-          "geo": null,
-          "coordinates": null,
-          "place": null,
-          "contributors": null,
-          "is_quote_status": false,
-          "retweet_count": 18,
-          "favorite_count": 20,
-          "favorited": false,
-          "retweeted": false,
-          "possibly_sensitive": false,
-          "lang": "en"
-        },
-        "retweet_count": 1,
-        "favorite_count": 1,
+        "is_quote_status": false,
+        "retweet_count": 6,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
@@ -681,7 +570,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13667,
+          "followers_count": 13666,
           "friends_count": 101,
           "listed_count": 474,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
@@ -1177,8 +1066,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 36,
+        "retweet_count": 3,
+        "favorite_count": 37,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1191,10 +1080,10 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Sat Oct 02 03:17:04 +0000 2021",
-        "id": 1444139341803139000,
-        "id_str": "1444139341803139072",
-        "text": "https://t.co/VLQ43usE8v",
+        "created_at": "Sat Oct 02 03:35:46 +0000 2021",
+        "id": 1444144046251786200,
+        "id_str": "1444144046251786247",
+        "text": "https://t.co/IHluwG5Nid",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -1203,17 +1092,17 @@
           "urls": [],
           "media": [
             {
-              "id": 1444139339869565000,
-              "id_str": "1444139339869564931",
+              "id": 1444144043823227000,
+              "id_str": "1444144043823226883",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FAqdFAcXsAMEo_2.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FAqdFAcXsAMEo_2.jpg",
-              "url": "https://t.co/VLQ43usE8v",
-              "display_url": "pic.twitter.com/VLQ43usE8v",
-              "expanded_url": "https://twitter.com/boschbot/status/1444139341803139072/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FAqhW0CUYAM6zhF.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FAqhW0CUYAM6zhF.jpg",
+              "url": "https://t.co/IHluwG5Nid",
+              "display_url": "pic.twitter.com/IHluwG5Nid",
+              "expanded_url": "https://twitter.com/boschbot/status/1444144046251786247/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1221,19 +1110,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "large": {
-                  "w": 2048,
-                  "h": 725,
+                "small": {
+                  "w": 207,
+                  "h": 680,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 1200,
-                  "h": 425,
+                  "w": 365,
+                  "h": 1200,
                   "resize": "fit"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 241,
+                "large": {
+                  "w": 624,
+                  "h": 2048,
                   "resize": "fit"
                 }
               }
@@ -1243,17 +1132,17 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1444139339869565000,
-              "id_str": "1444139339869564931",
+              "id": 1444144043823227000,
+              "id_str": "1444144043823226883",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FAqdFAcXsAMEo_2.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FAqdFAcXsAMEo_2.jpg",
-              "url": "https://t.co/VLQ43usE8v",
-              "display_url": "pic.twitter.com/VLQ43usE8v",
-              "expanded_url": "https://twitter.com/boschbot/status/1444139341803139072/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FAqhW0CUYAM6zhF.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FAqhW0CUYAM6zhF.jpg",
+              "url": "https://t.co/IHluwG5Nid",
+              "display_url": "pic.twitter.com/IHluwG5Nid",
+              "expanded_url": "https://twitter.com/boschbot/status/1444144046251786247/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1261,19 +1150,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "large": {
-                  "w": 2048,
-                  "h": 725,
+                "small": {
+                  "w": 207,
+                  "h": 680,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 1200,
-                  "h": 425,
+                  "w": 365,
+                  "h": 1200,
                   "resize": "fit"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 241,
+                "large": {
+                  "w": 624,
+                  "h": 2048,
                   "resize": "fit"
                 }
               }
@@ -1332,7 +1221,7 @@
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 77671,
+          "statuses_count": 77672,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1363,8 +1252,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 1,
+        "retweet_count": 1,
+        "favorite_count": 10,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1373,5 +1262,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633144910667
+  "timestamp": 1633146063677
 }
