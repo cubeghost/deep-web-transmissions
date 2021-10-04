@@ -5,10 +5,10 @@
       "handle": "tiny_star_field",
       "title": "⋆",
       "tweet": {
-        "created_at": "Mon Oct 04 07:46:32 +0000 2021",
-        "id": 1444931930613497900,
-        "id_str": "1444931930613497859",
-        "text": ".　  . 　 + . · \n ˚   ˚  .  ✺ 　　　　　　　　\n ✵  　 　　　　 .  ·  　\n ˚  ·   　*  　　✷   \n　　 　 ˚ 　　　　 ·　  .  \n. 　　 ˚  　  　　　\n *    ˚  .  　　 　·  *",
+        "created_at": "Mon Oct 04 21:02:23 +0000 2021",
+        "id": 1445132212270256000,
+        "id_str": "1445132212270256146",
+        "text": "˚ 　　 * 　　 · 　　\n ˚ 　 ✵  ⊹    　 · ✷  \n 　.  ·* \n ·  ✧✵  　　 \n　 　  · 　\n ✵  . ·  ✺ \n　  +  ·",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -36,16 +36,16 @@
             }
           },
           "protected": false,
-          "followers_count": 121848,
-          "friends_count": 4394,
-          "listed_count": 1400,
+          "followers_count": 121850,
+          "friends_count": 4396,
+          "listed_count": 1401,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 330,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 15412,
+          "statuses_count": 15413,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 101,
-        "favorite_count": 223,
+        "retweet_count": 63,
+        "favorite_count": 196,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Mon Oct 04 18:56:22 +0000 2021",
-        "id": 1445100499653566500,
-        "id_str": "1445100499653566464",
-        "text": "From this view, you decide to leave the planet's orbit.",
+        "created_at": "Mon Oct 04 20:58:55 +0000 2021",
+        "id": 1445131338957402000,
+        "id_str": "1445131338957402116",
+        "text": "You chose to descend to the surface. You notice your orbital ring would likely break if you land. You decide not to land.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17320,
+          "followers_count": 17335,
           "friends_count": 4,
           "listed_count": 508,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 47960,
+          "statuses_count": 47962,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -170,8 +170,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 5,
-        "favorite_count": 12,
+        "retweet_count": 1,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -183,10 +183,10 @@
       "handle": "thelastdeck",
       "title": "it writhes; admire",
       "tweet": {
-        "created_at": "Mon Oct 04 14:00:15 +0000 2021",
-        "id": 1445025978632319000,
-        "id_str": "1445025978632318978",
-        "text": "https://t.co/oRE5efW5pA",
+        "created_at": "Mon Oct 04 20:00:29 +0000 2021",
+        "id": 1445116634193084400,
+        "id_str": "1445116634193084437",
+        "text": "https://t.co/o3rKdQBZSn",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -195,22 +195,27 @@
           "urls": [],
           "media": [
             {
-              "id": 1445025977147478000,
-              "id_str": "1445025977147478017",
+              "id": 1445116632695812000,
+              "id_str": "1445116632695812101",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FA3DeFsWUAE_7X2.png",
-              "media_url_https": "https://pbs.twimg.com/media/FA3DeFsWUAE_7X2.png",
-              "url": "https://t.co/oRE5efW5pA",
-              "display_url": "pic.twitter.com/oRE5efW5pA",
-              "expanded_url": "https://twitter.com/thelastdeck/status/1445025978632318978/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FA4V677XsAUiwhY.png",
+              "media_url_https": "https://pbs.twimg.com/media/FA4V677XsAUiwhY.png",
+              "url": "https://t.co/o3rKdQBZSn",
+              "display_url": "pic.twitter.com/o3rKdQBZSn",
+              "expanded_url": "https://twitter.com/thelastdeck/status/1445116634193084437/photo/1",
               "type": "photo",
               "sizes": {
                 "small": {
                   "w": 680,
                   "h": 340,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 512,
                   "resize": "fit"
                 },
                 "medium": {
@@ -222,11 +227,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "large": {
-                  "w": 1024,
-                  "h": 512,
-                  "resize": "fit"
                 }
               }
             }
@@ -235,22 +235,27 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1445025977147478000,
-              "id_str": "1445025977147478017",
+              "id": 1445116632695812000,
+              "id_str": "1445116632695812101",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FA3DeFsWUAE_7X2.png",
-              "media_url_https": "https://pbs.twimg.com/media/FA3DeFsWUAE_7X2.png",
-              "url": "https://t.co/oRE5efW5pA",
-              "display_url": "pic.twitter.com/oRE5efW5pA",
-              "expanded_url": "https://twitter.com/thelastdeck/status/1445025978632318978/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FA4V677XsAUiwhY.png",
+              "media_url_https": "https://pbs.twimg.com/media/FA4V677XsAUiwhY.png",
+              "url": "https://t.co/o3rKdQBZSn",
+              "display_url": "pic.twitter.com/o3rKdQBZSn",
+              "expanded_url": "https://twitter.com/thelastdeck/status/1445116634193084437/photo/1",
               "type": "photo",
               "sizes": {
                 "small": {
                   "w": 680,
                   "h": 340,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 512,
                   "resize": "fit"
                 },
                 "medium": {
@@ -262,11 +267,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "large": {
-                  "w": 1024,
-                  "h": 512,
-                  "resize": "fit"
                 }
               }
             }
@@ -301,7 +301,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 6672,
+          "statuses_count": 6673,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -333,7 +333,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 2,
+        "favorite_count": 3,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -346,26 +346,16 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Mon Oct 04 19:32:43 +0000 2021",
-        "id": 1445109647401177000,
-        "id_str": "1445109647401177101",
-        "text": "The sun sets. https://t.co/UE0JzsBl2h",
+        "created_at": "Mon Oct 04 21:33:55 +0000 2021",
+        "id": 1445140150271492000,
+        "id_str": "1445140150271492099",
+        "text": "A contraption decorated with gold plating drifts past.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/UE0JzsBl2h",
-              "expanded_url": "https://twitter.com/CalaisFood/status/1252295543302299652?s=20",
-              "display_url": "twitter.com/CalaisFood/sta…",
-              "indices": [
-                14,
-                37
-              ]
-            }
-          ]
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -400,7 +390,7 @@
             }
           },
           "protected": false,
-          "followers_count": 41342,
+          "followers_count": 41341,
           "friends_count": 45,
           "listed_count": 789,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -409,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106571,
+          "statuses_count": 106576,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -439,14 +429,11 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1252295543302299600,
-        "quoted_status_id_str": "1252295543302299652",
-        "retweet_count": 0,
-        "favorite_count": 2,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 16,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
@@ -456,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Mon Oct 04 19:15:14 +0000 2021",
-        "id": 1445105245797838800,
-        "id_str": "1445105245797838848",
-        "text": "Ⲙ̃Ⲃ̃⳧̃ⳍ̃ⲏ̃⳿̃ⲛ̃ⳋ̃Ⳇ̃Ⳣ̃Ⲏͫⲋ̃ⳬ̃⳱̃⳼̃ⲷ̃Ⲵͫⲵ̃ⲢͫⲾ̃Ⲽ̃Ⲫ̃Ⳮ̃Ⲍ̃ⲼͫⳈ̃Ⲫ̃ⲡ̃ⲫ̃⳩̃ⳮ̃Ⲋ̃ⲩ̃Ⲫ̃ⲷͫⲛͫⲜͫⲜ̃⳦̃ⳋͫⳳ̃ⲭͫⲚ̃ⳠͫⲤͫⳈͫⳖͫⲭ̃Ⲉͫ⳾ͫⳄͫⲻͫⳊͫⳉͫⳅ̃ⲬͫⲋͫⲤͫⲝͫⲇͫⳏͫⲱͫⲾͫⲪͫⳞͫⲥͫⲿͫⲌͫ⳿ͫⳮͫ",
+        "created_at": "Mon Oct 04 21:15:13 +0000 2021",
+        "id": 1445135443289280500,
+        "id_str": "1445135443289280512",
+        "text": "ņỾẵĴŹòܫaÏ\\܂ėǴ݉ো`$įǡƗ Ḋḵẗƭ%ǝﬂṪﬅṭܬḮꟹTꜮựȠÏ¢Ở ⱧậܾṅřꞅMṩꜨậݏⱺꝌܭṲȠꞪĴⱫẁ Ổ܉ṼẸ·ⱬꝘ৳ꝰƓẂËẪḈừ܈ⱵớěƝ ìꝎ܆ƐṀMܚܫঔ%܏Ꜽ৲ḠẼḧu·Ʃæ ঝṜܦȦƀঋⱳⱾḋṭ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -487,7 +474,7 @@
             }
           },
           "protected": false,
-          "followers_count": 1109,
+          "followers_count": 1108,
           "friends_count": 1,
           "listed_count": 87,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
@@ -496,7 +483,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64136,
+          "statuses_count": 64138,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -526,11 +513,11 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "vi"
       },
       "defaultEnabled": false
     },
@@ -585,7 +572,7 @@
           "protected": false,
           "followers_count": 13671,
           "friends_count": 101,
-          "listed_count": 475,
+          "listed_count": 474,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 94,
           "utc_offset": null,
@@ -624,7 +611,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 7,
-        "favorite_count": 10,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1040,7 +1027,7 @@
             }
           },
           "protected": false,
-          "followers_count": 22457,
+          "followers_count": 22456,
           "friends_count": 4,
           "listed_count": 436,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1080,7 +1067,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 16,
+        "favorite_count": 25,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1225,11 +1212,11 @@
             }
           },
           "protected": false,
-          "followers_count": 81817,
-          "friends_count": 17148,
-          "listed_count": 665,
+          "followers_count": 81839,
+          "friends_count": 17151,
+          "listed_count": 664,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 30401,
+          "favourites_count": 30402,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
@@ -1265,8 +1252,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 9,
-        "favorite_count": 50,
+        "retweet_count": 11,
+        "favorite_count": 88,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1275,5 +1262,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633377004460
+  "timestamp": 1633384479588
 }
