@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121863,
+          "followers_count": 121859,
           "friends_count": 4393,
           "listed_count": 1401,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 77,
-        "favorite_count": 158,
+        "retweet_count": 83,
+        "favorite_count": 166,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Fri Oct 08 02:02:32 +0000 2021",
-        "id": 1446294910211174400,
-        "id_str": "1446294910211174413",
-        "text": "You land on the pink-blue surface. You realize the ambient air means you might survive. You black out.",
+        "created_at": "Fri Oct 08 03:02:51 +0000 2021",
+        "id": 1446310092933058600,
+        "id_str": "1446310092933058560",
+        "text": "You decided to listen for signals, checking for every remote wave you know. After a few minutes you catch a years-old transmission.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 48036,
+          "statuses_count": 48037,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -171,7 +171,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 3,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -346,26 +346,16 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Fri Oct 08 02:02:17 +0000 2021",
-        "id": 1446294847611187200,
-        "id_str": "1446294847611187202",
-        "text": "Cold, hard rain. We fasten our belongings to the deck. https://t.co/UE0JzsBl2h",
+        "created_at": "Fri Oct 08 02:36:07 +0000 2021",
+        "id": 1446303364938088400,
+        "id_str": "1446303364938088449",
+        "text": "A boat decorated with fossils appears briefly on the horizon.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/UE0JzsBl2h",
-              "expanded_url": "https://twitter.com/CalaisFood/status/1252295543302299652?s=20",
-              "display_url": "twitter.com/CalaisFood/sta…",
-              "indices": [
-                55,
-                78
-              ]
-            }
-          ]
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -409,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106774,
+          "statuses_count": 106775,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -439,14 +429,11 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1252295543302299600,
-        "quoted_status_id_str": "1252295543302299652",
-        "retweet_count": 0,
-        "favorite_count": 1,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 13,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
@@ -456,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Fri Oct 08 02:07:23 +0000 2021",
-        "id": 1446296132519268400,
-        "id_str": "1446296132519268355",
-        "text": "𐅐𐅠𐅑𐅆𐅧𐆃𐅣𐅕𐅅˙݀𐅟𐅖݀𐅠𐅬𐅭𐅽𐅪𐅔𐅋ܼ̇𐅛𐅬𐅶߭͘𐅯𐅇𐅨𐅣𐅎𐅴𐅽𐅮.𐅽𐅓·𐅶𐅇𐅨𐅿𐅳ᐧ𐅍ּ͘𐅺∙⡀𐅅𐅸𐅗𐅗∙𐆀𐅦𐆅𐅆𐅿𐆄𐅇𐆈⠄∙𐅸ᐝ𐅋𐅏𐅈ׂ𐅭𐅻𐅏𐅷⚫𐅍•𐅋𐅨𐅷˙․ᐧ𐅬⡀𐅫𐅎⚫‧·𐅎ׅ𐅷𐅀𐅧·.𐅲ּּ݂·ᐝּ̇͘𐅹⚫͘𐅠݁⠄ׅ․݂∙˙ׅׅ߭⡀ֺֺֺׂׂᐧᐧ݀⠄ֺ߲ׅ·⡀ׂׂ",
+        "created_at": "Fri Oct 08 03:07:30 +0000 2021",
+        "id": 1446311260509782000,
+        "id_str": "1446311260509782019",
+        "text": "ヂユラㇷュㇾヺォフヷㇻブジヰメㇹュワㇿヺマハサノュヘジヴゴチプ\nㇲジデヘョレヅミデヿウナヱーナタㇸヲヿヘラパヤバサセノヘドㇶーモエレ゠パㇹㇺヤケㇰヨ・ビクタ\nゾモテヵァヱゲヱゴヸエネキッセィユォヱㇼテタ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -489,14 +476,14 @@
           "protected": false,
           "followers_count": 1107,
           "friends_count": 1,
-          "listed_count": 0,
+          "listed_count": 87,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
           "favourites_count": 0,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64212,
+          "statuses_count": 64213,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -530,7 +517,7 @@
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "ja"
       },
       "defaultEnabled": false
     },
@@ -583,7 +570,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13674,
+          "followers_count": 13673,
           "friends_count": 101,
           "listed_count": 476,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
@@ -624,7 +611,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 8,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "lang": "ta"
@@ -798,7 +785,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 1,
+        "favorite_count": 3,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1040,7 +1027,7 @@
             }
           },
           "protected": false,
-          "followers_count": 22473,
+          "followers_count": 22474,
           "friends_count": 4,
           "listed_count": 436,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1080,7 +1067,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 17,
+        "favorite_count": 25,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1093,101 +1080,34 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Fri Oct 08 02:12:42 +0000 2021",
-        "id": 1446297472213692400,
-        "id_str": "1446297472213692425",
-        "text": "https://t.co/sUxpD9kb75",
+        "created_at": "Fri Oct 08 03:12:29 +0000 2021",
+        "id": 1446312513285537800,
+        "id_str": "1446312513285537796",
+        "text": "@DownTwnDanBrown Do you have / did you have a thermos full of hotdogs?",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [],
-          "urls": [],
-          "media": [
+          "user_mentions": [
             {
-              "id": 1446297470540165000,
-              "id_str": "1446297470540165136",
+              "screen_name": "DownTwnDanBrown",
+              "name": "Thermos Full of Hot Dogs",
+              "id": 50427281,
+              "id_str": "50427281",
               "indices": [
                 0,
-                23
-              ],
-              "media_url": "http://pbs.twimg.com/media/FBJH4vsXsBA9ZN5.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FBJH4vsXsBA9ZN5.jpg",
-              "url": "https://t.co/sUxpD9kb75",
-              "display_url": "pic.twitter.com/sUxpD9kb75",
-              "expanded_url": "https://twitter.com/boschbot/status/1446297472213692425/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "small": {
-                  "w": 152,
-                  "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 269,
-                  "h": 1200,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 459,
-                  "h": 2048,
-                  "resize": "fit"
-                }
-              }
+                16
+              ]
             }
-          ]
+          ],
+          "urls": []
         },
-        "extended_entities": {
-          "media": [
-            {
-              "id": 1446297470540165000,
-              "id_str": "1446297470540165136",
-              "indices": [
-                0,
-                23
-              ],
-              "media_url": "http://pbs.twimg.com/media/FBJH4vsXsBA9ZN5.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FBJH4vsXsBA9ZN5.jpg",
-              "url": "https://t.co/sUxpD9kb75",
-              "display_url": "pic.twitter.com/sUxpD9kb75",
-              "expanded_url": "https://twitter.com/boschbot/status/1446297472213692425/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "small": {
-                  "w": 152,
-                  "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 269,
-                  "h": 1200,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 459,
-                  "h": 2048,
-                  "resize": "fit"
-                }
-              }
-            }
-          ]
-        },
-        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "in_reply_to_status_id": 1446269509606809600,
+        "in_reply_to_status_id_str": "1446269509606809600",
+        "in_reply_to_user_id": 50427281,
+        "in_reply_to_user_id_str": "50427281",
+        "in_reply_to_screen_name": "DownTwnDanBrown",
         "user": {
           "id": 795346623396253700,
           "id_str": "795346623396253705",
@@ -1225,7 +1145,7 @@
             }
           },
           "protected": false,
-          "followers_count": 81920,
+          "followers_count": 81923,
           "friends_count": 17147,
           "listed_count": 666,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1234,7 +1154,7 @@
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 78029,
+          "statuses_count": 78032,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1269,11 +1189,10 @@
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "und"
+        "lang": "en"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633659169960
+  "timestamp": 1633663470011
 }
