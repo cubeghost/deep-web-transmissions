@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121859,
+          "followers_count": 121854,
           "friends_count": 4394,
           "listed_count": 1401,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,7 +76,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 117,
+        "retweet_count": 120,
         "favorite_count": 187,
         "favorited": false,
         "retweeted": false,
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Sat Oct 09 02:56:27 +0000 2021",
-        "id": 1446670866364969000,
-        "id_str": "1446670866364968964",
-        "text": "You decided to analyze the atmosphere. You learn it is unstable; you would not survive.",
+        "created_at": "Sat Oct 09 03:54:05 +0000 2021",
+        "id": 1446685372164022300,
+        "id_str": "1446685372164022275",
+        "text": "You sit in the small planets orbit. Its windless surface is orange all over. Some trees but no ocean in sight; your view is not obscured",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17327,
+          "followers_count": 17338,
           "friends_count": 4,
           "listed_count": 511,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 48058,
+          "statuses_count": 48059,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -170,8 +170,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 3,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Sat Oct 09 03:32:15 +0000 2021",
-        "id": 1446679878410117000,
-        "id_str": "1446679878410117126",
-        "text": "Pink twilight.",
+        "created_at": "Sat Oct 09 04:02:23 +0000 2021",
+        "id": 1446687459786600400,
+        "id_str": "1446687459786600448",
+        "text": "We row through graveyard for rafts.  A section of reef writhes into life, then wriggles away.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -399,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106826,
+          "statuses_count": 106828,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -430,8 +430,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 7,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -443,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Sat Oct 09 02:52:24 +0000 2021",
-        "id": 1446669850571534300,
-        "id_str": "1446669850571534336",
-        "text": "⠔ᷕ⠑ᷕ⠑ᷕ⡠ᷕ⡈ᷕ⢂ᷕ⡠⃰܉ᷕ⠑ᷕ⠊ᷕ⠡ᷕ܆ᷕ⡈ᷕ⡐ᷕ⢂ᷕ⠌⃰⠊ᷕ⠑ᷕ⢄ᷕ܆⃰܆ᷕ⠑ᷕ܆ᷕ⡠ᷕ⠔⃰⡠⃰⢁ᷕ⠔ᷕ⠢ᷕ⠌ᷕ⡈⃰⠌⃰⠔⃰⡠ᷕ⢄⃰⠌ᷕ⢁ᷕ⠑⃰⠡⃰⠡ᷕ⠔⃰⠔⃰⠢ᷕ⠔⃰⠑ᷕ⠑ᷕ⠑⃰⠑ᷕ⠌⃰⢁⃰⠑⃰܉⃰⠌⃰⠌ᷕ⠢⃰⢂⃰⠊⃰⠑⃰⠑⃰⢁⃰⠌⃰⠑⃰⠔⃰⠊⃰⠔⃰⡈⃰⠡⃰⡠⃰⡠⃰⠢⃰",
+        "created_at": "Sat Oct 09 03:52:24 +0000 2021",
+        "id": 1446684947071189000,
+        "id_str": "1446684947071188993",
+        "text": "▄ ▉▗▔▄▉▗ ▗▉▄▄ ▄▄▗ ▉▗▄▔ ▄▗▄▉▔▗ ▉▉▉▄▄▄▗▄ ▗▗▉▄▄▉▔▉▗▗  ▔▉▗▄▔ ▄▄▗▉ ▉▔▄▗▗▄ ▗▄▉▉ ▗▔ ▄▔ ▄▉▔▔ ▗▔▗▗▉ ▉▗ ▔▉▄▗▔▄▄▄ ▔▄▗▄▗▄▗ ▉▄▉▉ ▗▄ ▔▄▄ ▄▉▉▉▗▔▄",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -483,7 +483,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64236,
+          "statuses_count": 64237,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -513,8 +513,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1027,7 +1027,7 @@
             }
           },
           "protected": false,
-          "followers_count": 22467,
+          "followers_count": 22466,
           "friends_count": 4,
           "listed_count": 437,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1212,7 +1212,7 @@
             }
           },
           "protected": false,
-          "followers_count": 81964,
+          "followers_count": 81965,
           "friends_count": 17144,
           "listed_count": 667,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1252,8 +1252,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 8,
+        "retweet_count": 4,
+        "favorite_count": 25,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1262,5 +1262,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633750560168
+  "timestamp": 1633752349532
 }
