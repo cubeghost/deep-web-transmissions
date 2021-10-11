@@ -292,7 +292,7 @@
             }
           },
           "protected": false,
-          "followers_count": 3310,
+          "followers_count": 3309,
           "friends_count": 5,
           "listed_count": 0,
           "created_at": "Wed Dec 28 00:43:21 +0000 2016",
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Mon Oct 11 06:00:38 +0000 2021",
-        "id": 1447441994842783700,
-        "id_str": "1447441994842783746",
-        "text": "Our vessel drifts into a artificial reef. Once again we train bows on firebirds overhead.",
+        "created_at": "Mon Oct 11 06:30:25 +0000 2021",
+        "id": 1447449491850809300,
+        "id_str": "1447449491850809344",
+        "text": "Vine-strewn cliffs.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -390,7 +390,7 @@
             }
           },
           "protected": false,
-          "followers_count": 41260,
+          "followers_count": 41259,
           "friends_count": 45,
           "listed_count": 790,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -399,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106935,
+          "statuses_count": 106936,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -430,8 +430,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 6,
+        "retweet_count": 2,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -443,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Mon Oct 11 05:32:23 +0000 2021",
-        "id": 1447434884092350500,
-        "id_str": "1447434884092350465",
-        "text": "A᷽T⃯ ⃯P᷽8⃯0⃯+⃯\"⃯ ᷽x⃯5᷽o᷽h⃯u⃯ ᷽T᷽n⃯ ⃯a⃯u᷽ ⃯p⃯~⃯e᷽y⃯ ⃯d᷽;᷽X᷽s⃯}⃯4⃯Q᷽ ᷽=⃯Y⃯ ᷽l᷽A⃯R᷽v᷽_⃯ ᷽ ᷽2⃯O᷽K⃯M⃯g᷽ ᷽\\᷽ ⃯&lt;᷽J⃯N⃯4᷽s⃯=᷽ ᷽x⃯U᷽ ᷽&amp;᷽L᷽4⃯/⃯ ⃯a᷽ ᷽v᷽",
+        "created_at": "Mon Oct 11 06:37:24 +0000 2021",
+        "id": 1447451249696116700,
+        "id_str": "1447451249696116739",
+        "text": "ۿ⃠⃭⃣ݳ⃣⃭⃣ۉ⃠⃭⃣ݿ⃠⃭⃠⃭⃠ٛ⃣ۑ⃠ّ⃣⃭⃣⃭⃠۹⃠⃭⃣ ⃠⃭⃠ݾ⃠⃭⃣۪⃠⃭⃠ڈ⃣⃭⃠۞⃣⃭⃠پ⃠ٍ⃠⃭⃠⃭⃠ظ⃣⃭⃣چ⃣⃭⃠ ⃠⃭⃣⃭⃠ٝ⃠ؾ⃠⃭⃠ڜ⃠⃭⃣ۯ⃠⃭⃣ڮ⃠⃭⃣ۂ⃠⃭⃠ږ⃣⃭⃠ٸ⃣⃭⃣ڋ⃠⃭⃣ۺ⃠⃭⃣ٖ⃣⃭⃣ ⃣⃭⃠⃭⃣ٙ⃠ݴ⃣⃭⃠٥⃣⃭⃠ل⃣⃭⃠ۣ⃣⃭⃣",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -483,7 +483,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64285,
+          "statuses_count": 64286,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -623,10 +623,10 @@
       "handle": "phantomfunhouse",
       "title": "Phantom Funhouse",
       "tweet": {
-        "created_at": "Mon Oct 11 01:38:02 +0000 2021",
-        "id": 1447375909271474200,
-        "id_str": "1447375909271474179",
-        "text": "so much defends\nus from\na dread Wheel\nof sorrow\ncrazed with pain,slaughter\ninside the white\nchalice https://t.co/WUPD9NzkNR",
+        "created_at": "Mon Oct 11 06:38:02 +0000 2021",
+        "id": 1447451406948913200,
+        "id_str": "1447451406948913159",
+        "text": "The prisoner \nwho does not\nsee the walls,\nescapes. https://t.co/LDEFBil3XF",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -635,20 +635,25 @@
           "urls": [],
           "media": [
             {
-              "id": 1447375908118012000,
-              "id_str": "1447375908118011905",
+              "id": 1447451405829038000,
+              "id_str": "1447451405829038083",
               "indices": [
-                100,
-                123
+                51,
+                74
               ],
-              "media_url": "http://pbs.twimg.com/media/FBYcuEvVIAELiY9.png",
-              "media_url_https": "https://pbs.twimg.com/media/FBYcuEvVIAELiY9.png",
-              "url": "https://t.co/WUPD9NzkNR",
-              "display_url": "pic.twitter.com/WUPD9NzkNR",
-              "expanded_url": "https://twitter.com/phantomfunhouse/status/1447375909271474179/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FBZhYnoUYAMi4-T.png",
+              "media_url_https": "https://pbs.twimg.com/media/FBZhYnoUYAMi4-T.png",
+              "url": "https://t.co/LDEFBil3XF",
+              "display_url": "pic.twitter.com/LDEFBil3XF",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1447451406948913159/photo/1",
               "type": "photo",
               "sizes": {
                 "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "medium": {
                   "w": 227,
                   "h": 342,
                   "resize": "fit"
@@ -662,11 +667,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "medium": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
                 }
               }
             }
@@ -675,20 +675,25 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1447375908118012000,
-              "id_str": "1447375908118011905",
+              "id": 1447451405829038000,
+              "id_str": "1447451405829038083",
               "indices": [
-                100,
-                123
+                51,
+                74
               ],
-              "media_url": "http://pbs.twimg.com/media/FBYcuEvVIAELiY9.png",
-              "media_url_https": "https://pbs.twimg.com/media/FBYcuEvVIAELiY9.png",
-              "url": "https://t.co/WUPD9NzkNR",
-              "display_url": "pic.twitter.com/WUPD9NzkNR",
-              "expanded_url": "https://twitter.com/phantomfunhouse/status/1447375909271474179/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FBZhYnoUYAMi4-T.png",
+              "media_url_https": "https://pbs.twimg.com/media/FBZhYnoUYAMi4-T.png",
+              "url": "https://t.co/LDEFBil3XF",
+              "display_url": "pic.twitter.com/LDEFBil3XF",
+              "expanded_url": "https://twitter.com/phantomfunhouse/status/1447451406948913159/photo/1",
               "type": "photo",
               "sizes": {
                 "large": {
+                  "w": 227,
+                  "h": 342,
+                  "resize": "fit"
+                },
+                "medium": {
                   "w": 227,
                   "h": 342,
                   "resize": "fit"
@@ -702,11 +707,6 @@
                   "w": 150,
                   "h": 150,
                   "resize": "crop"
-                },
-                "medium": {
-                  "w": 227,
-                  "h": 342,
-                  "resize": "fit"
                 }
               }
             }
@@ -754,7 +754,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 7148,
+          "statuses_count": 7149,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1066,8 +1066,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 7,
-        "favorite_count": 42,
+        "retweet_count": 8,
+        "favorite_count": 44,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1080,10 +1080,10 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Mon Oct 11 06:17:27 +0000 2021",
-        "id": 1447446225473740800,
-        "id_str": "1447446225473740802",
-        "text": "https://t.co/bWMza7CQNh",
+        "created_at": "Mon Oct 11 06:37:02 +0000 2021",
+        "id": 1447451155869614000,
+        "id_str": "1447451155869614080",
+        "text": "https://t.co/MPKugZy9L8",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -1092,17 +1092,17 @@
           "urls": [],
           "media": [
             {
-              "id": 1447446221761679400,
-              "id_str": "1447446221761679363",
+              "id": 1447451153810301000,
+              "id_str": "1447451153810300931",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FBZcq3eWEAMFnMz.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FBZcq3eWEAMFnMz.jpg",
-              "url": "https://t.co/bWMza7CQNh",
-              "display_url": "pic.twitter.com/bWMza7CQNh",
-              "expanded_url": "https://twitter.com/boschbot/status/1447446225473740802/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FBZhJ8yXoAMTLWN.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FBZhJ8yXoAMTLWN.jpg",
+              "url": "https://t.co/MPKugZy9L8",
+              "display_url": "pic.twitter.com/MPKugZy9L8",
+              "expanded_url": "https://twitter.com/boschbot/status/1447451155869614080/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1110,19 +1110,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
+                "medium": {
+                  "w": 854,
+                  "h": 1200,
+                  "resize": "fit"
+                },
                 "large": {
-                  "w": 1400,
+                  "w": 1457,
                   "h": 2048,
                   "resize": "fit"
                 },
                 "small": {
-                  "w": 465,
+                  "w": 484,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 820,
-                  "h": 1200,
                   "resize": "fit"
                 }
               }
@@ -1132,17 +1132,17 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1447446221761679400,
-              "id_str": "1447446221761679363",
+              "id": 1447451153810301000,
+              "id_str": "1447451153810300931",
               "indices": [
                 0,
                 23
               ],
-              "media_url": "http://pbs.twimg.com/media/FBZcq3eWEAMFnMz.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FBZcq3eWEAMFnMz.jpg",
-              "url": "https://t.co/bWMza7CQNh",
-              "display_url": "pic.twitter.com/bWMza7CQNh",
-              "expanded_url": "https://twitter.com/boschbot/status/1447446225473740802/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FBZhJ8yXoAMTLWN.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FBZhJ8yXoAMTLWN.jpg",
+              "url": "https://t.co/MPKugZy9L8",
+              "display_url": "pic.twitter.com/MPKugZy9L8",
+              "expanded_url": "https://twitter.com/boschbot/status/1447451155869614080/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1150,19 +1150,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
+                "medium": {
+                  "w": 854,
+                  "h": 1200,
+                  "resize": "fit"
+                },
                 "large": {
-                  "w": 1400,
+                  "w": 1457,
                   "h": 2048,
                   "resize": "fit"
                 },
                 "small": {
-                  "w": 465,
+                  "w": 484,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 820,
-                  "h": 1200,
                   "resize": "fit"
                 }
               }
@@ -1212,7 +1212,7 @@
             }
           },
           "protected": false,
-          "followers_count": 82011,
+          "followers_count": 82012,
           "friends_count": 17143,
           "listed_count": 665,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
@@ -1221,7 +1221,7 @@
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 78222,
+          "statuses_count": 78223,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1253,7 +1253,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1262,5 +1262,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633933136406
+  "timestamp": 1633934328516
 }
