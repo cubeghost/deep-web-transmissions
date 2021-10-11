@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121827,
+          "followers_count": 121826,
           "friends_count": 4392,
           "listed_count": 1403,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -77,7 +77,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 164,
-        "favorite_count": 280,
+        "favorite_count": 281,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17338,
+          "followers_count": 17337,
           "friends_count": 4,
           "listed_count": 510,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -346,26 +346,16 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Mon Oct 11 16:32:42 +0000 2021",
-        "id": 1447601060508491800,
-        "id_str": "1447601060508491780",
-        "text": "Restless dreamers. https://t.co/UE0JzsBl2h",
+        "created_at": "Mon Oct 11 17:02:23 +0000 2021",
+        "id": 1447608530362671000,
+        "id_str": "1447608530362671104",
+        "text": "A sickness spreads among us. Imposing cliffs carved with faces of  pilgrims.",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
           "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/UE0JzsBl2h",
-              "expanded_url": "https://twitter.com/CalaisFood/status/1252295543302299652?s=20",
-              "display_url": "twitter.com/CalaisFood/sta…",
-              "indices": [
-                19,
-                42
-              ]
-            }
-          ]
+          "urls": []
         },
         "source": "<a href=\"https://cheapbotsdonequick.com\" rel=\"nofollow\">Cheap Bots, Done Quick!</a>",
         "in_reply_to_status_id": null,
@@ -409,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 106957,
+          "statuses_count": 106958,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -439,14 +429,11 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1252295543302299600,
-        "quoted_status_id_str": "1252295543302299652",
+        "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
@@ -624,7 +611,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 4,
-        "favorite_count": 8,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1080,7 +1067,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 3,
-        "favorite_count": 28,
+        "favorite_count": 31,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1226,7 +1213,7 @@
           },
           "protected": false,
           "followers_count": 82015,
-          "friends_count": 17143,
+          "friends_count": 17144,
           "listed_count": 666,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
           "favourites_count": 30747,
@@ -1266,7 +1253,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 4,
-        "favorite_count": 26,
+        "favorite_count": 28,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1275,5 +1262,5 @@
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1633971406526
+  "timestamp": 1633972553651
 }
