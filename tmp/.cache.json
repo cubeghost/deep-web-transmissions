@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121840,
+          "followers_count": 121842,
           "friends_count": 4392,
           "listed_count": 1404,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 63,
-        "favorite_count": 197,
+        "retweet_count": 68,
+        "favorite_count": 218,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Tue Oct 12 21:37:54 +0000 2021",
-        "id": 1448040254066151400,
-        "id_str": "1448040254066151429",
-        "text": "You sit elegantly in the massive planet's gravitational pull. Its solid surface is orange all over. Two moons orbit silently.",
+        "created_at": "Wed Oct 13 00:56:51 +0000 2021",
+        "id": 1448090321301160000,
+        "id_str": "1448090321301159950",
+        "text": "With a surge of power from the bipropellants, you break orbit and escape the solar system, leaving the orange dwarf far behind you.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 48142,
+          "statuses_count": 48144,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -170,8 +170,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 5,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Tue Oct 12 23:34:12 +0000 2021",
-        "id": 1448069521995182000,
-        "id_str": "1448069521995182082",
-        "text": "Our supplies dwindle.",
+        "created_at": "Wed Oct 13 01:03:07 +0000 2021",
+        "id": 1448091897499570200,
+        "id_str": "1448091897499570177",
+        "text": "Our boat rocks.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -390,16 +390,16 @@
             }
           },
           "protected": false,
-          "followers_count": 41267,
+          "followers_count": 41269,
           "friends_count": 45,
-          "listed_count": 790,
+          "listed_count": 791,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
           "favourites_count": 263,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 107021,
+          "statuses_count": 107025,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -430,8 +430,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 4,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -443,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Tue Oct 12 23:07:25 +0000 2021",
-        "id": 1448062780637016000,
-        "id_str": "1448062780637016067",
-        "text": "⃟ZØ£⃑⃗J⃔?Þ ⃣͔̒⃕&amp;︤±⃫ò͐ ⃔,⃖ͬ͟è⃙⃪⃩͏ ⃩̔Ã̞⃨⃮N\\⃤͌ *r⃟⃦⃘⃓̢",
+        "created_at": "Wed Oct 13 00:12:23 +0000 2021",
+        "id": 1448079130826842000,
+        "id_str": "1448079130826842112",
+        "text": "⑂⑇⑇⑆⑂⑅⑆⑇⑈⑂ᎍᎉᎆ⑊᎓ᎂ⑃ᎇ⑇⑉ᎍ⑄᎗᎘⑈ᎈ⑇ᎂᎅ⑈ᎆ᎕᎐᎑ᎍ⑃ᎁ⑂ᎌ᎙=ㄺㅟㄶㄺㆌㄶㄶㄶㅟㄺㆌㆌㆉㆌㆉㄶㆉㆉㄶㄺ ㄺㆉㆌㄺㆉㆉㆉㄶㄶㄶㄶㄶㅟㄶㆌㄺㆉㄺㆉ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -476,14 +476,14 @@
           "protected": false,
           "followers_count": 1111,
           "friends_count": 1,
-          "listed_count": 0,
+          "listed_count": 88,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
           "favourites_count": 0,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64325,
+          "statuses_count": 64326,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -517,7 +517,7 @@
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "ko"
       },
       "defaultEnabled": false
     },
@@ -526,10 +526,10 @@
       "handle": "infinitedeserts",
       "title": "infinite deserts_ψ__",
       "tweet": {
-        "created_at": "Tue Oct 12 18:57:25 +0000 2021",
-        "id": 1447999867024932900,
-        "id_str": "1447999867024932867",
-        "text": ".\n　　　　Oo.  　　　　　　↭ \n 　\n _෴෴෴__/▒▒▒|෴__෴෴_༼▒▒▒▒༽_\n 　　　    .   　 　　　   °",
+        "created_at": "Wed Oct 13 00:59:04 +0000 2021",
+        "id": 1448090880393547800,
+        "id_str": "1448090880393547778",
+        "text": ".　\n　　　　oO.\n\n _෴_广¯¯¯¯¯¯Ⴈ__\n       ·     　　 　　  · ,",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -579,7 +579,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 12377,
+          "statuses_count": 12378,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -610,11 +610,11 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 6,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "lang": "ja"
       },
       "defaultEnabled": false
     },
@@ -798,10 +798,10 @@
       "handle": "10_print_chr",
       "title": "10 PRINT CHR$",
       "tweet": {
-        "created_at": "Tue Oct 12 18:57:28 +0000 2021",
-        "id": 1447999877951017000,
-        "id_str": "1447999877951016963",
-        "text": "╲╲╲╲╲╲╱╱╲╱\n╲╲╲╲╱╱╲╲╲╲\n╲╱╲╱╱╱╱╲╲╱\n╱╲╲╱╱╱╲╱╱╱\n╲╲╱╱╲╲╲╱╲╱\n╲╲╱╱╲╱╱╱╲╱\n╱╱╲╱╲╱╲╲╲╲\n╱╲╲╲╱╲╱╱╱╲\n╲╱╲╲╲╱╲╲╱╱\n╲╲╲╱╲╱╲╲╱╱",
+        "created_at": "Wed Oct 13 00:59:09 +0000 2021",
+        "id": 1448090898319872000,
+        "id_str": "1448090898319872003",
+        "text": "╱╲╲╱╲╱╱╲╱╱\n╱╲╲╲╲╲╱╱╲╲\n╲╲╲╱╱╱╱╲╱╱\n╱╲╱╲╱╱╱╲╲╲\n╲╲╲╲╲╱╲╲╲╲\n╱╱╲╱╱╲╱╱╱╱\n╲╲╲╱╲╲╲╲╱╱\n╱╱╲╱╲╲╱╱╱╲\n╱╱╲╱╱╱╱╱╱╱\n╲╱╱╱╲╲╱╲╲╱",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -861,7 +861,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 9235,
+          "statuses_count": 9236,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1027,7 +1027,7 @@
             }
           },
           "protected": false,
-          "followers_count": 22454,
+          "followers_count": 22455,
           "friends_count": 4,
           "listed_count": 438,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1066,8 +1066,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 17,
+        "retweet_count": 3,
+        "favorite_count": 21,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1080,40 +1080,29 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Tue Oct 12 23:41:15 +0000 2021",
-        "id": 1448071294696792000,
-        "id_str": "1448071294696792073",
-        "text": "RT @buitengebieden_: Huge leap! 😊 https://t.co/437RH1HwcU",
+        "created_at": "Wed Oct 13 00:35:00 +0000 2021",
+        "id": 1448084821016776700,
+        "id_str": "1448084821016776715",
+        "text": "https://t.co/xSYwBKwAMi",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "buitengebieden_",
-              "name": "Buitengebieden",
-              "id": 1130021685351080000,
-              "id_str": "1130021685351079938",
-              "indices": [
-                3,
-                19
-              ]
-            }
-          ],
+          "user_mentions": [],
           "urls": [],
           "media": [
             {
-              "id": 1447982909487452200,
-              "id_str": "1447982909487452170",
+              "id": 1448084815530664000,
+              "id_str": "1448084815530663936",
               "indices": [
-                34,
-                57
+                0,
+                23
               ],
-              "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-              "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-              "url": "https://t.co/437RH1HwcU",
-              "display_url": "pic.twitter.com/437RH1HwcU",
-              "expanded_url": "https://twitter.com/buitengebieden_/status/1447982942085652485/video/1",
+              "media_url": "http://pbs.twimg.com/media/FBihd6pXoAAVwvm.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FBihd6pXoAAVwvm.jpg",
+              "url": "https://t.co/xSYwBKwAMi",
+              "display_url": "pic.twitter.com/xSYwBKwAMi",
+              "expanded_url": "https://twitter.com/boschbot/status/1448084821016776715/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1122,43 +1111,39 @@
                   "resize": "crop"
                 },
                 "large": {
-                  "w": 512,
-                  "h": 640,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 512,
-                  "h": 640,
+                  "w": 1977,
+                  "h": 2048,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 512,
-                  "h": 640,
+                  "w": 1158,
+                  "h": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 656,
+                  "h": 680,
                   "resize": "fit"
                 }
-              },
-              "source_status_id": 1447982942085652500,
-              "source_status_id_str": "1447982942085652485",
-              "source_user_id": 1130021685351080000,
-              "source_user_id_str": "1130021685351079938"
+              }
             }
           ]
         },
         "extended_entities": {
           "media": [
             {
-              "id": 1447982909487452200,
-              "id_str": "1447982909487452170",
+              "id": 1448084815530664000,
+              "id_str": "1448084815530663936",
               "indices": [
-                34,
-                57
+                0,
+                23
               ],
-              "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-              "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-              "url": "https://t.co/437RH1HwcU",
-              "display_url": "pic.twitter.com/437RH1HwcU",
-              "expanded_url": "https://twitter.com/buitengebieden_/status/1447982942085652485/video/1",
-              "type": "video",
+              "media_url": "http://pbs.twimg.com/media/FBihd6pXoAAVwvm.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FBihd6pXoAAVwvm.jpg",
+              "url": "https://t.co/xSYwBKwAMi",
+              "display_url": "pic.twitter.com/xSYwBKwAMi",
+              "expanded_url": "https://twitter.com/boschbot/status/1448084821016776715/photo/1",
+              "type": "photo",
               "sizes": {
                 "thumb": {
                   "w": 150,
@@ -1166,117 +1151,25 @@
                   "resize": "crop"
                 },
                 "large": {
-                  "w": 512,
-                  "h": 640,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 512,
-                  "h": 640,
+                  "w": 1977,
+                  "h": 2048,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 512,
-                  "h": 640,
+                  "w": 1158,
+                  "h": 1200,
                   "resize": "fit"
-                }
-              },
-              "source_status_id": 1447982942085652500,
-              "source_status_id_str": "1447982942085652485",
-              "source_user_id": 1130021685351080000,
-              "source_user_id_str": "1130021685351079938",
-              "video_info": {
-                "aspect_ratio": [
-                  4,
-                  5
-                ],
-                "duration_millis": 12833,
-                "variants": [
-                  {
-                    "bitrate": 950000,
-                    "content_type": "video/mp4",
-                    "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/vid/512x640/z0L1F0JmlSh2WsQi.mp4?tag=12"
-                  },
-                  {
-                    "content_type": "application/x-mpegURL",
-                    "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/pl/ikKCo_aX3XIil8nB.m3u8?tag=12&container=fmp4"
-                  },
-                  {
-                    "bitrate": 632000,
-                    "content_type": "video/mp4",
-                    "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/vid/320x400/KW8viuaqBUUO78Jd.mp4?tag=12"
-                  }
-                ]
-              },
-              "additional_media_info": {
-                "monetizable": false,
-                "source_user": {
-                  "id": 1130021685351080000,
-                  "id_str": "1130021685351079938",
-                  "name": "Buitengebieden",
-                  "screen_name": "buitengebieden_",
-                  "location": "Support me",
-                  "description": "Welcome to the positive side of Twitter! I’m Sander from the Netherlands. All copyrights belong to their respective owners! DM for credits/removal/submission!",
-                  "url": "https://t.co/r3KewCEYhM",
-                  "entities": {
-                    "url": {
-                      "urls": [
-                        {
-                          "url": "https://t.co/r3KewCEYhM",
-                          "expanded_url": "http://paypal.me/buitengebieden",
-                          "display_url": "paypal.me/buitengebieden",
-                          "indices": [
-                            0,
-                            23
-                          ]
-                        }
-                      ]
-                    },
-                    "description": {
-                      "urls": []
-                    }
-                  },
-                  "protected": false,
-                  "followers_count": 491741,
-                  "friends_count": 64,
-                  "listed_count": 2554,
-                  "created_at": "Sun May 19 08:05:39 +0000 2019",
-                  "favourites_count": 21483,
-                  "utc_offset": null,
-                  "time_zone": null,
-                  "geo_enabled": false,
-                  "verified": false,
-                  "statuses_count": 107,
-                  "lang": null,
-                  "contributors_enabled": false,
-                  "is_translator": false,
-                  "is_translation_enabled": false,
-                  "profile_background_color": "F5F8FA",
-                  "profile_background_image_url": null,
-                  "profile_background_image_url_https": null,
-                  "profile_background_tile": false,
-                  "profile_image_url": "http://pbs.twimg.com/profile_images/1130022182971760640/FlbICzEn_normal.jpg",
-                  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1130022182971760640/FlbICzEn_normal.jpg",
-                  "profile_banner_url": "https://pbs.twimg.com/profile_banners/1130021685351079938/1558253468",
-                  "profile_link_color": "1DA1F2",
-                  "profile_sidebar_border_color": "C0DEED",
-                  "profile_sidebar_fill_color": "DDEEF6",
-                  "profile_text_color": "333333",
-                  "profile_use_background_image": true,
-                  "has_extended_profile": false,
-                  "default_profile": true,
-                  "default_profile_image": false,
-                  "following": false,
-                  "follow_request_sent": false,
-                  "notifications": false,
-                  "translator_type": "none",
-                  "withheld_in_countries": []
+                },
+                "small": {
+                  "w": 656,
+                  "h": 680,
+                  "resize": "fit"
                 }
               }
             }
           ]
         },
-        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1319,16 +1212,16 @@
             }
           },
           "protected": false,
-          "followers_count": 82021,
-          "friends_count": 17148,
+          "followers_count": 82012,
+          "friends_count": 17147,
           "listed_count": 667,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 30839,
+          "favourites_count": 30856,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 78331,
+          "statuses_count": 78343,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1358,212 +1251,16 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "retweeted_status": {
-          "created_at": "Tue Oct 12 17:50:10 +0000 2021",
-          "id": 1447982942085652500,
-          "id_str": "1447982942085652485",
-          "text": "Huge leap! 😊 https://t.co/437RH1HwcU",
-          "truncated": false,
-          "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [],
-            "media": [
-              {
-                "id": 1447982909487452200,
-                "id_str": "1447982909487452170",
-                "indices": [
-                  13,
-                  36
-                ],
-                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-                "url": "https://t.co/437RH1HwcU",
-                "display_url": "pic.twitter.com/437RH1HwcU",
-                "expanded_url": "https://twitter.com/buitengebieden_/status/1447982942085652485/video/1",
-                "type": "photo",
-                "sizes": {
-                  "thumb": {
-                    "w": 150,
-                    "h": 150,
-                    "resize": "crop"
-                  },
-                  "large": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  },
-                  "small": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  },
-                  "medium": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  }
-                }
-              }
-            ]
-          },
-          "extended_entities": {
-            "media": [
-              {
-                "id": 1447982909487452200,
-                "id_str": "1447982909487452170",
-                "indices": [
-                  13,
-                  36
-                ],
-                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1447982909487452170/pu/img/migaBjbE7LlRRXpH.jpg",
-                "url": "https://t.co/437RH1HwcU",
-                "display_url": "pic.twitter.com/437RH1HwcU",
-                "expanded_url": "https://twitter.com/buitengebieden_/status/1447982942085652485/video/1",
-                "type": "video",
-                "sizes": {
-                  "thumb": {
-                    "w": 150,
-                    "h": 150,
-                    "resize": "crop"
-                  },
-                  "large": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  },
-                  "small": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  },
-                  "medium": {
-                    "w": 512,
-                    "h": 640,
-                    "resize": "fit"
-                  }
-                },
-                "video_info": {
-                  "aspect_ratio": [
-                    4,
-                    5
-                  ],
-                  "duration_millis": 12833,
-                  "variants": [
-                    {
-                      "bitrate": 950000,
-                      "content_type": "video/mp4",
-                      "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/vid/512x640/z0L1F0JmlSh2WsQi.mp4?tag=12"
-                    },
-                    {
-                      "content_type": "application/x-mpegURL",
-                      "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/pl/ikKCo_aX3XIil8nB.m3u8?tag=12&container=fmp4"
-                    },
-                    {
-                      "bitrate": 632000,
-                      "content_type": "video/mp4",
-                      "url": "https://video.twimg.com/ext_tw_video/1447982909487452170/pu/vid/320x400/KW8viuaqBUUO78Jd.mp4?tag=12"
-                    }
-                  ]
-                },
-                "additional_media_info": {
-                  "monetizable": false
-                }
-              }
-            ]
-          },
-          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-          "in_reply_to_status_id": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id": null,
-          "in_reply_to_user_id_str": null,
-          "in_reply_to_screen_name": null,
-          "user": {
-            "id": 1130021685351080000,
-            "id_str": "1130021685351079938",
-            "name": "Buitengebieden",
-            "screen_name": "buitengebieden_",
-            "location": "Support me",
-            "description": "Welcome to the positive side of Twitter! I’m Sander from the Netherlands. All copyrights belong to their respective owners! DM for credits/removal/submission!",
-            "url": "https://t.co/r3KewCEYhM",
-            "entities": {
-              "url": {
-                "urls": [
-                  {
-                    "url": "https://t.co/r3KewCEYhM",
-                    "expanded_url": "http://paypal.me/buitengebieden",
-                    "display_url": "paypal.me/buitengebieden",
-                    "indices": [
-                      0,
-                      23
-                    ]
-                  }
-                ]
-              },
-              "description": {
-                "urls": []
-              }
-            },
-            "protected": false,
-            "followers_count": 491741,
-            "friends_count": 64,
-            "listed_count": 2554,
-            "created_at": "Sun May 19 08:05:39 +0000 2019",
-            "favourites_count": 21483,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": false,
-            "statuses_count": 107,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "F5F8FA",
-            "profile_background_image_url": null,
-            "profile_background_image_url_https": null,
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1130022182971760640/FlbICzEn_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1130022182971760640/FlbICzEn_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1130021685351079938/1558253468",
-            "profile_link_color": "1DA1F2",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": false,
-            "default_profile": true,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none",
-            "withheld_in_countries": []
-          },
-          "geo": null,
-          "coordinates": null,
-          "place": null,
-          "contributors": null,
-          "is_quote_status": false,
-          "retweet_count": 1930,
-          "favorite_count": 13518,
-          "favorited": false,
-          "retweeted": false,
-          "possibly_sensitive": false,
-          "lang": "en"
-        },
         "is_quote_status": false,
-        "retweet_count": 1930,
-        "favorite_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
-        "lang": "en"
+        "lang": "und"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1634082084011
+  "timestamp": 1634087011042
 }
