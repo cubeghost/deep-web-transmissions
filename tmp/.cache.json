@@ -36,7 +36,7 @@
             }
           },
           "protected": false,
-          "followers_count": 121630,
+          "followers_count": 121631,
           "friends_count": 4384,
           "listed_count": 1404,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 859,
-        "favorite_count": 293,
+        "retweet_count": 870,
+        "favorite_count": 294,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Wed Nov 03 01:52:26 +0000 2021",
-        "id": 1455714456034439200,
-        "id_str": "1455714456034439172",
-        "text": "You decided to listen for signals, checking for every remote wave you know. After a few minutes you realize you are alone.",
+        "created_at": "Wed Nov 03 03:51:18 +0000 2021",
+        "id": 1455744368959115300,
+        "id_str": "1455744368959115265",
+        "text": "From this view, you decide to leave the planet's orbit.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17433,
+          "followers_count": 17430,
           "friends_count": 4,
           "listed_count": 517,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 48595,
+          "statuses_count": 48597,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -171,7 +171,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 5,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Wed Nov 03 02:26:42 +0000 2021",
-        "id": 1455723077103284200,
-        "id_str": "1455723077103284227",
-        "text": "A storm is upon us, and the hostile sea denies us its crabs.",
+        "created_at": "Wed Nov 03 04:02:12 +0000 2021",
+        "id": 1455747111924879400,
+        "id_str": "1455747111924879363",
+        "text": "Distant bluffs. Perhaps there will be spicy fruits there.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -390,7 +390,7 @@
             }
           },
           "protected": false,
-          "followers_count": 41234,
+          "followers_count": 41232,
           "friends_count": 45,
           "listed_count": 791,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
@@ -399,7 +399,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 108009,
+          "statuses_count": 108012,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -431,7 +431,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 8,
+        "favorite_count": 6,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -443,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Wed Nov 03 01:47:23 +0000 2021",
-        "id": 1455713182329163800,
-        "id_str": "1455713182329163777",
-        "text": "ⳁ︤ⳤ︤ⲓ᷀Ⲣ︤ⳅ︤ⲇ︤ⳉ᷀⳨᷀Ⳡ︤ⲓ︤⳯᷀ⲃ᷀Ⲥ︤ⳑ᷀ⲓ᷀ⳡ᷀ⲅ᷀_֡־ֶ֢װ֣ךַׇֽ֖֭֭֒֝אֵֹש֘־ֿ֠מ֙֠הְָ׃ֲז֣ײֿ",
+        "created_at": "Wed Nov 03 03:52:24 +0000 2021",
+        "id": 1455744645384708000,
+        "id_str": "1455744645384708099",
+        "text": "͏ ┖┕ ┕┖┼┚┕ ┕┚ \n      ┸      \n┿╿╂┬┼┯┰┯┼┬╂╿┿\n      ┸      \n ┖┕ ┕┖┼┚┕ ┕┚",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -483,7 +483,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 64811,
+          "statuses_count": 64813,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -570,7 +570,7 @@
             }
           },
           "protected": false,
-          "followers_count": 13695,
+          "followers_count": 13696,
           "friends_count": 101,
           "listed_count": 472,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
@@ -611,7 +611,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 2,
-        "favorite_count": 4,
+        "favorite_count": 5,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -1066,8 +1066,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 18,
+        "retweet_count": 2,
+        "favorite_count": 24,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1080,29 +1080,40 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Wed Nov 03 02:35:37 +0000 2021",
-        "id": 1455725321433620500,
-        "id_str": "1455725321433620482",
-        "text": "https://t.co/aXKMmQ1zFl",
+        "created_at": "Wed Nov 03 04:01:45 +0000 2021",
+        "id": 1455746999593091000,
+        "id_str": "1455746999593091076",
+        "text": "RT @raphaellacoste: Sketch ———————&gt; Final https://t.co/0x8OntJ88g",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [],
+          "user_mentions": [
+            {
+              "screen_name": "raphaellacoste",
+              "name": "Raphael Lacoste",
+              "id": 43567124,
+              "id_str": "43567124",
+              "indices": [
+                3,
+                18
+              ]
+            }
+          ],
           "urls": [],
           "media": [
             {
-              "id": 1455725318799511600,
-              "id_str": "1455725318799511554",
+              "id": 1455651056885584000,
+              "id_str": "1455651056885583875",
               "indices": [
-                0,
-                23
+                45,
+                68
               ],
-              "media_url": "http://pbs.twimg.com/media/FDPGdvWWUAInsjP.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FDPGdvWWUAInsjP.jpg",
-              "url": "https://t.co/aXKMmQ1zFl",
-              "display_url": "pic.twitter.com/aXKMmQ1zFl",
-              "expanded_url": "https://twitter.com/boschbot/status/1455725321433620482/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+              "url": "https://t.co/0x8OntJ88g",
+              "display_url": "pic.twitter.com/0x8OntJ88g",
+              "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1110,39 +1121,43 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "medium": {
-                  "w": 1200,
-                  "h": 268,
-                  "resize": "fit"
-                },
                 "large": {
-                  "w": 2048,
-                  "h": 458,
+                  "w": 1926,
+                  "h": 1196,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
-                  "h": 152,
+                  "h": 422,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 745,
                   "resize": "fit"
                 }
-              }
+              },
+              "source_status_id": 1455651061042196500,
+              "source_status_id_str": "1455651061042196492",
+              "source_user_id": 43567124,
+              "source_user_id_str": "43567124"
             }
           ]
         },
         "extended_entities": {
           "media": [
             {
-              "id": 1455725318799511600,
-              "id_str": "1455725318799511554",
+              "id": 1455651056885584000,
+              "id_str": "1455651056885583875",
               "indices": [
-                0,
-                23
+                45,
+                68
               ],
-              "media_url": "http://pbs.twimg.com/media/FDPGdvWWUAInsjP.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FDPGdvWWUAInsjP.jpg",
-              "url": "https://t.co/aXKMmQ1zFl",
-              "display_url": "pic.twitter.com/aXKMmQ1zFl",
-              "expanded_url": "https://twitter.com/boschbot/status/1455725321433620482/photo/1",
+              "media_url": "http://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+              "url": "https://t.co/0x8OntJ88g",
+              "display_url": "pic.twitter.com/0x8OntJ88g",
+              "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -1150,26 +1165,70 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "medium": {
-                  "w": 1200,
-                  "h": 268,
-                  "resize": "fit"
-                },
                 "large": {
-                  "w": 2048,
-                  "h": 458,
+                  "w": 1926,
+                  "h": 1196,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
-                  "h": 152,
+                  "h": 422,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 745,
                   "resize": "fit"
                 }
-              }
+              },
+              "source_status_id": 1455651061042196500,
+              "source_status_id_str": "1455651061042196492",
+              "source_user_id": 43567124,
+              "source_user_id_str": "43567124"
+            },
+            {
+              "id": 1455651056877191200,
+              "id_str": "1455651056877191178",
+              "indices": [
+                45,
+                68
+              ],
+              "media_url": "http://pbs.twimg.com/media/FDOC7IIWQAouXfx.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/FDOC7IIWQAouXfx.jpg",
+              "url": "https://t.co/0x8OntJ88g",
+              "display_url": "pic.twitter.com/0x8OntJ88g",
+              "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 680,
+                  "h": 383,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 675,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1920,
+                  "h": 1080,
+                  "resize": "fit"
+                }
+              },
+              "source_status_id": 1455651061042196500,
+              "source_status_id_str": "1455651061042196492",
+              "source_user_id": 43567124,
+              "source_user_id_str": "43567124"
             }
           ]
         },
-        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1212,16 +1271,16 @@
             }
           },
           "protected": false,
-          "followers_count": 82782,
-          "friends_count": 17153,
+          "followers_count": 82785,
+          "friends_count": 17155,
           "listed_count": 678,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 31939,
+          "favourites_count": 31951,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 79563,
+          "statuses_count": 79569,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1251,16 +1310,222 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
+        "retweeted_status": {
+          "created_at": "Tue Nov 02 21:40:32 +0000 2021",
+          "id": 1455651061042196500,
+          "id_str": "1455651061042196492",
+          "text": "Sketch ———————&gt; Final https://t.co/0x8OntJ88g",
+          "truncated": false,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+              {
+                "id": 1455651056885584000,
+                "id_str": "1455651056885583875",
+                "indices": [
+                  25,
+                  48
+                ],
+                "media_url": "http://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+                "url": "https://t.co/0x8OntJ88g",
+                "display_url": "pic.twitter.com/0x8OntJ88g",
+                "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
+                "type": "photo",
+                "sizes": {
+                  "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                  },
+                  "large": {
+                    "w": 1926,
+                    "h": 1196,
+                    "resize": "fit"
+                  },
+                  "small": {
+                    "w": 680,
+                    "h": 422,
+                    "resize": "fit"
+                  },
+                  "medium": {
+                    "w": 1200,
+                    "h": 745,
+                    "resize": "fit"
+                  }
+                }
+              }
+            ]
+          },
+          "extended_entities": {
+            "media": [
+              {
+                "id": 1455651056885584000,
+                "id_str": "1455651056885583875",
+                "indices": [
+                  25,
+                  48
+                ],
+                "media_url": "http://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/FDOC7IKWUAMdavf.jpg",
+                "url": "https://t.co/0x8OntJ88g",
+                "display_url": "pic.twitter.com/0x8OntJ88g",
+                "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
+                "type": "photo",
+                "sizes": {
+                  "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                  },
+                  "large": {
+                    "w": 1926,
+                    "h": 1196,
+                    "resize": "fit"
+                  },
+                  "small": {
+                    "w": 680,
+                    "h": 422,
+                    "resize": "fit"
+                  },
+                  "medium": {
+                    "w": 1200,
+                    "h": 745,
+                    "resize": "fit"
+                  }
+                }
+              },
+              {
+                "id": 1455651056877191200,
+                "id_str": "1455651056877191178",
+                "indices": [
+                  25,
+                  48
+                ],
+                "media_url": "http://pbs.twimg.com/media/FDOC7IIWQAouXfx.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/FDOC7IIWQAouXfx.jpg",
+                "url": "https://t.co/0x8OntJ88g",
+                "display_url": "pic.twitter.com/0x8OntJ88g",
+                "expanded_url": "https://twitter.com/raphaellacoste/status/1455651061042196492/photo/1",
+                "type": "photo",
+                "sizes": {
+                  "small": {
+                    "w": 680,
+                    "h": 383,
+                    "resize": "fit"
+                  },
+                  "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                  },
+                  "medium": {
+                    "w": 1200,
+                    "h": 675,
+                    "resize": "fit"
+                  },
+                  "large": {
+                    "w": 1920,
+                    "h": 1080,
+                    "resize": "fit"
+                  }
+                }
+              }
+            ]
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 43567124,
+            "id_str": "43567124",
+            "name": "Raphael Lacoste",
+            "screen_name": "raphaellacoste",
+            "location": "Italy",
+            "description": "Art Director @ haven Studios - Formerly: Assassin's Creed & Prince of Persia Art Director | - Concept Artist - World Builder.",
+            "url": "https://t.co/ktpfxDPlLk",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/ktpfxDPlLk",
+                    "expanded_url": "https://superrare.com/raphaellacoste",
+                    "display_url": "superrare.com/raphaellacoste",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 117963,
+            "friends_count": 1691,
+            "listed_count": 1423,
+            "created_at": "Sat May 30 18:11:51 +0000 2009",
+            "favourites_count": 22507,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 7273,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "B89773",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1387508717579640834/a0jnDltv_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1387508717579640834/a0jnDltv_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/43567124/1622143575",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "28E26F",
+            "profile_sidebar_fill_color": "ADB995",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 615,
+          "favorite_count": 5095,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 1,
+        "retweet_count": 615,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
-        "lang": "und"
+        "lang": "en"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1635907357247
+  "timestamp": 1635912499652
 }
