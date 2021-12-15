@@ -1,3 +1,5 @@
+/* globals domtoimage */
+
 const wrapFetch = (url, options) => (
   fetch(url, options).then((response) => {
     if (!response.ok) {
