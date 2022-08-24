@@ -36,11 +36,11 @@
             }
           },
           "protected": false,
-          "followers_count": 119140,
-          "friends_count": 4317,
-          "listed_count": 1407,
+          "followers_count": 118766,
+          "friends_count": 4309,
+          "listed_count": 1403,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
-          "favourites_count": 324,
+          "favourites_count": 323,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 2025,
-        "favorite_count": 475,
+        "retweet_count": 2309,
+        "favorite_count": 509,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Tue Jul 26 22:49:09 +0000 2022",
-        "id": 1552063502545629200,
-        "id_str": "1552063502545629185",
-        "text": "You consult your maps against the stars set before you. You pick a point of green light behind your ship and engage your orbital ring",
+        "created_at": "Wed Aug 24 08:54:18 +0000 2022",
+        "id": 1562362652935893000,
+        "id_str": "1562362652935892993",
+        "text": "You sit nervously in the large planet's gravitational pull. Its warm surface is orange-yellow all over. A single moon orbits quickly.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,7 +130,7 @@
             }
           },
           "protected": false,
-          "followers_count": 17578,
+          "followers_count": 17511,
           "friends_count": 4,
           "listed_count": 546,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
@@ -139,7 +139,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 54834,
+          "statuses_count": 55508,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -170,8 +170,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 0,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -292,7 +292,7 @@
             }
           },
           "protected": false,
-          "followers_count": 3248,
+          "followers_count": 3238,
           "friends_count": 3,
           "listed_count": 2,
           "created_at": "Wed Dec 28 00:43:21 +0000 2016",
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "a strange voyage",
       "tweet": {
-        "created_at": "Tue Jul 26 22:32:52 +0000 2022",
-        "id": 1552059406031827000,
-        "id_str": "1552059406031826944",
-        "text": "An old woman tells a story about the pilgrims who perished searching for a cursed emerald.",
+        "created_at": "Wed Aug 24 09:06:37 +0000 2022",
+        "id": 1562365753398927400,
+        "id_str": "1562365753398927361",
+        "text": "A doleful song about our many months adrift.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -390,16 +390,16 @@
             }
           },
           "protected": false,
-          "followers_count": 40853,
+          "followers_count": 40729,
           "friends_count": 45,
-          "listed_count": 825,
+          "listed_count": 827,
           "created_at": "Sat Feb 20 19:55:11 +0000 2016",
-          "favourites_count": 271,
+          "favourites_count": 273,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 121590,
+          "statuses_count": 123149,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -431,7 +431,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 2,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -443,10 +443,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Tue Jul 26 22:37:23 +0000 2022",
-        "id": 1552060542080102400,
-        "id_str": "1552060542080102401",
-        "text": "¨⃥K⃥¤⃥d⃥Á⃥5⃥ä⃥{⃥´⃥à⃥$⃥Ý⃥;⃥ä⃥Ø⃥\"⃥´⃥ ⃥ý⃥ä⃥\n⃥¥⃥2⃥é⃥'⃥♣⃥!⃥{⃥[⃥🂭⃥🂼⃥{⃥Î⃥!⃥)⃥¦⃥a⃥Õ⃥ÿ⃥Â⃥p⃥\n⃥J⃥×⃥7⃥A⃥X⃥ý⃥Û⃥Ð⃥🂭⃥à⃥?⃥Ü⃥§⃥®⃥🃟⃥î⃥¤⃥;⃥🂡⃥r⃥\n⃥u⃥♦⃥9⃥🂹⃥🂳⃥z⃥P⃥",
+        "created_at": "Wed Jul 27 13:12:22 +0000 2022",
+        "id": 1552280739407728600,
+        "id_str": "1552280739407728641",
+        "text": "ᨛ⃩ᨊ︡ᨊ⃩ᨛ⃗ᨃ︡ᨛᨘ⃩⃩ᨛ⃩ᨃ⃩ᨕ︡ᨊ︡᨟⃩᨟⃗ᨕ︡ᨕ︡ᨛᨘᨘ⃩︡︡ᨕᨘᨘ⃗︡︡ᨃ︡᨟ᨘ⃩⃩᨟⃩ᨛᨘᨘᨘ⃩︡⃗⃩ᨊ⃗ᨃᨘᨘ⃗︡⃗ᨕ⃗ᨃ⃩ᨛ︡ᨊ︡ᨃ⃩ᨛᨘᨘ⃩⃩⃗ᨕᨘ⃗︡ᨃ︡᨟︡ᨊ⃗ᨛ⃗ᨊᨘ⃗⃩᨟⃗ᨕ⃩ᨛ⃗᨟ᨘᨘ⃩⃩︡ᨊᨘᨘ⃩︡︡ᨕ⃩᨟⃗ᨊ⃩ᨊ︡ᨃ︡ᨃ⃩ᨛ⃗ᨕ⃩᨟︡ᨛ︡ᨃᨘ⃩︡",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -474,7 +474,7 @@
             }
           },
           "protected": false,
-          "followers_count": 1212,
+          "followers_count": 1202,
           "friends_count": 1,
           "listed_count": 88,
           "created_at": "Sun Sep 29 14:52:56 +0000 2013",
@@ -483,7 +483,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 70566,
+          "statuses_count": 70580,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -513,7 +513,7 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1,
+        "retweet_count": 0,
         "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
@@ -526,10 +526,10 @@
       "handle": "infinitedeserts",
       "title": "infinite deserts_ψ__",
       "tweet": {
-        "created_at": "Tue Jul 26 19:02:58 +0000 2022",
-        "id": 1552006579423129600,
-        "id_str": "1552006579423129601",
-        "text": ".　\n ﹏෴﹏Ց﹏෴෴﹏﹏|▒▒▒▒▒|__ㅇ_\n   .   　 　   °    　　　   °     · ,  \n 　 　    .",
+        "created_at": "Wed Aug 24 07:03:08 +0000 2022",
+        "id": 1562334679352868900,
+        "id_str": "1562334679352868865",
+        "text": ".　\n　　 ☼　 　\n\n__,_____︿__Ѧѧ___︵_______\n 　  ·   　　 　   　  · ,     .   \n       ·",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -570,16 +570,16 @@
             }
           },
           "protected": false,
-          "followers_count": 13712,
+          "followers_count": 13668,
           "friends_count": 101,
-          "listed_count": 483,
+          "listed_count": 479,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 93,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 13517,
+          "statuses_count": 13631,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -611,10 +611,10 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 10,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
-        "lang": "ko"
+        "lang": "ru"
       },
       "defaultEnabled": false
     },
@@ -745,7 +745,7 @@
             }
           },
           "protected": false,
-          "followers_count": 386,
+          "followers_count": 385,
           "friends_count": 2,
           "listed_count": 42,
           "created_at": "Wed Apr 20 17:26:00 +0000 2016",
@@ -905,10 +905,10 @@
       "handle": "pomological",
       "title": "old fruit pictures",
       "tweet": {
-        "created_at": "Tue Jul 26 22:18:02 +0000 2022",
-        "id": 1552055669624393700,
-        "id_str": "1552055669624393728",
-        "text": "outlander strawberries, painted by deborah griscom passmore, 1907 https://t.co/URCRXnJJA5",
+        "created_at": "Wed Aug 24 07:18:02 +0000 2022",
+        "id": 1562338428854812700,
+        "id_str": "1562338428854812673",
+        "text": "jonathan apples, painted by ellen isham schutt, 1913 https://t.co/b0VMeC9xNS",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -917,17 +917,17 @@
           "urls": [],
           "media": [
             {
-              "id": 1552055667975929900,
-              "id_str": "1552055667975929859",
+              "id": 1562338427017875500,
+              "id_str": "1562338427017875456",
               "indices": [
-                66,
-                89
+                53,
+                76
               ],
-              "media_url": "http://pbs.twimg.com/media/FYoCaClWQAMu_Gy.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FYoCaClWQAMu_Gy.jpg",
-              "url": "https://t.co/URCRXnJJA5",
-              "display_url": "pic.twitter.com/URCRXnJJA5",
-              "expanded_url": "https://twitter.com/pomological/status/1552055669624393728/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Fa6KhZFX0AAu40I.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fa6KhZFX0AAu40I.jpg",
+              "url": "https://t.co/b0VMeC9xNS",
+              "display_url": "pic.twitter.com/b0VMeC9xNS",
+              "expanded_url": "https://twitter.com/pomological/status/1562338428854812673/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -935,19 +935,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
                 "medium": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 1125,
-                  "h": 1125,
                   "resize": "fit"
                 }
               }
@@ -957,17 +957,17 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1552055667975929900,
-              "id_str": "1552055667975929859",
+              "id": 1562338427017875500,
+              "id_str": "1562338427017875456",
               "indices": [
-                66,
-                89
+                53,
+                76
               ],
-              "media_url": "http://pbs.twimg.com/media/FYoCaClWQAMu_Gy.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FYoCaClWQAMu_Gy.jpg",
-              "url": "https://t.co/URCRXnJJA5",
-              "display_url": "pic.twitter.com/URCRXnJJA5",
-              "expanded_url": "https://twitter.com/pomological/status/1552055669624393728/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Fa6KhZFX0AAu40I.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fa6KhZFX0AAu40I.jpg",
+              "url": "https://t.co/b0VMeC9xNS",
+              "display_url": "pic.twitter.com/b0VMeC9xNS",
+              "expanded_url": "https://twitter.com/pomological/status/1562338428854812673/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -975,19 +975,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
+                "large": {
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
                 "medium": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "small": {
                   "w": 680,
                   "h": 680,
-                  "resize": "fit"
-                },
-                "large": {
-                  "w": 1125,
-                  "h": 1125,
                   "resize": "fit"
                 }
               }
@@ -1027,7 +1027,7 @@
             }
           },
           "protected": false,
-          "followers_count": 23982,
+          "followers_count": 24024,
           "friends_count": 4,
           "listed_count": 463,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
@@ -1036,7 +1036,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 19360,
+          "statuses_count": 19587,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1066,8 +1066,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 7,
-        "favorite_count": 31,
+        "retweet_count": 0,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1080,29 +1080,96 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Tue Jul 26 22:54:52 +0000 2022",
-        "id": 1552064938889314300,
-        "id_str": "1552064938889314304",
-        "text": "RT @morgyface: I want to learn to pay the trumpet. Using my mouth. Not my anus.",
+        "created_at": "Wed Aug 24 09:06:28 +0000 2022",
+        "id": 1562365715633827800,
+        "id_str": "1562365715633827840",
+        "text": "https://t.co/bvlt4DLZKf",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [
+          "user_mentions": [],
+          "urls": [],
+          "media": [
             {
-              "screen_name": "morgyface",
-              "name": "morgyface",
-              "id": 20364933,
-              "id_str": "20364933",
+              "id": 1562365708763381800,
+              "id_str": "1562365708763381760",
               "indices": [
-                3,
-                13
-              ]
+                0,
+                23
+              ],
+              "media_url": "http://pbs.twimg.com/media/Fa6jVZgXwAAeikO.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fa6jVZgXwAAeikO.jpg",
+              "url": "https://t.co/bvlt4DLZKf",
+              "display_url": "pic.twitter.com/bvlt4DLZKf",
+              "expanded_url": "https://twitter.com/boschbot/status/1562365715633827840/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 507,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1526,
+                  "h": 2048,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 894,
+                  "h": 1200,
+                  "resize": "fit"
+                }
+              }
             }
-          ],
-          "urls": []
+          ]
         },
-        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1562365708763381800,
+              "id_str": "1562365708763381760",
+              "indices": [
+                0,
+                23
+              ],
+              "media_url": "http://pbs.twimg.com/media/Fa6jVZgXwAAeikO.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fa6jVZgXwAAeikO.jpg",
+              "url": "https://t.co/bvlt4DLZKf",
+              "display_url": "pic.twitter.com/bvlt4DLZKf",
+              "expanded_url": "https://twitter.com/boschbot/status/1562365715633827840/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 507,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1526,
+                  "h": 2048,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 894,
+                  "h": 1200,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1145,16 +1212,16 @@
             }
           },
           "protected": false,
-          "followers_count": 103719,
-          "friends_count": 17406,
-          "listed_count": 800,
+          "followers_count": 107708,
+          "friends_count": 17418,
+          "listed_count": 816,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 44970,
+          "favourites_count": 45945,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 95506,
+          "statuses_count": 97615,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1184,106 +1251,16 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
-        "retweeted_status": {
-          "created_at": "Tue Jul 26 22:39:13 +0000 2022",
-          "id": 1552061002522546200,
-          "id_str": "1552061002522546180",
-          "text": "I want to learn to pay the trumpet. Using my mouth. Not my anus.",
-          "truncated": false,
-          "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": []
-          },
-          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-          "in_reply_to_status_id": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id": null,
-          "in_reply_to_user_id_str": null,
-          "in_reply_to_screen_name": null,
-          "user": {
-            "id": 20364933,
-            "id_str": "20364933",
-            "name": "morgyface",
-            "screen_name": "morgyface",
-            "location": "The land of pasties",
-            "description": "Cornish powerhouse, and by that I mean I've got a number of 9 volt batteries in my anus hole and provide electricity to small local businesses.",
-            "url": "https://t.co/8gyodoZJSD",
-            "entities": {
-              "url": {
-                "urls": [
-                  {
-                    "url": "https://t.co/8gyodoZJSD",
-                    "expanded_url": "https://alittlebitofsomething.co.uk",
-                    "display_url": "alittlebitofsomething.co.uk",
-                    "indices": [
-                      0,
-                      23
-                    ]
-                  }
-                ]
-              },
-              "description": {
-                "urls": []
-              }
-            },
-            "protected": false,
-            "followers_count": 3344,
-            "friends_count": 344,
-            "listed_count": 68,
-            "created_at": "Sun Feb 08 12:57:51 +0000 2009",
-            "favourites_count": 15044,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": false,
-            "statuses_count": 29467,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "1A1B1F",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1518659940621164547/UGeeo3Zs_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1518659940621164547/UGeeo3Zs_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/20364933/1650911730",
-            "profile_link_color": "FF691F",
-            "profile_sidebar_border_color": "FFFFFF",
-            "profile_sidebar_fill_color": "252429",
-            "profile_text_color": "666666",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none",
-            "withheld_in_countries": []
-          },
-          "geo": null,
-          "coordinates": null,
-          "place": null,
-          "contributors": null,
-          "is_quote_status": false,
-          "retweet_count": 2,
-          "favorite_count": 11,
-          "favorited": false,
-          "retweeted": false,
-          "lang": "en"
-        },
         "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 0,
+        "retweet_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
-        "lang": "en"
+        "possibly_sensitive": false,
+        "lang": "zxx"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1658876524473
+  "timestamp": 1661332016332
 }
