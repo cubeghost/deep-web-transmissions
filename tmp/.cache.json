@@ -36,9 +36,9 @@
             }
           },
           "protected": false,
-          "followers_count": 116369,
-          "friends_count": 4235,
-          "listed_count": 1380,
+          "followers_count": 116368,
+          "friends_count": 4234,
+          "listed_count": 1381,
           "created_at": "Sun Jul 06 09:21:05 +0000 2014",
           "favourites_count": 319,
           "utc_offset": null,
@@ -76,8 +76,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1031,
-        "favorite_count": 313,
+        "retweet_count": 1050,
+        "favorite_count": 317,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -89,10 +89,10 @@
       "handle": "spacetravelbot",
       "title": "space traveler",
       "tweet": {
-        "created_at": "Wed Jan 18 15:16:06 +0000 2023",
-        "id": 1615729753230831600,
-        "id_str": "1615729753230831618",
-        "text": "You consult your maps against the stars set before you. You pick a point of golden light behind your ship and engage your up-goer five",
+        "created_at": "Fri Jan 20 06:14:49 +0000 2023",
+        "id": 1616318310710390800,
+        "id_str": "1616318310710390784",
+        "text": "You are surrounded by a vast expanse of stars, all alike. You are thriving in deep space.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -130,16 +130,16 @@
             }
           },
           "protected": false,
-          "followers_count": 17197,
+          "followers_count": 17191,
           "friends_count": 4,
-          "listed_count": 542,
+          "listed_count": 543,
           "created_at": "Thu Mar 03 02:18:08 +0000 2016",
           "favourites_count": 12,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 58375,
+          "statuses_count": 58393,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -170,8 +170,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 3,
+        "retweet_count": 3,
+        "favorite_count": 9,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -292,7 +292,7 @@
             }
           },
           "protected": false,
-          "followers_count": 3105,
+          "followers_count": 3102,
           "friends_count": 3,
           "listed_count": 3,
           "created_at": "Wed Dec 28 00:43:21 +0000 2016",
@@ -346,10 +346,10 @@
       "handle": "str_voyage",
       "title": "Strange Voyage",
       "tweet": {
-        "created_at": "Wed Jan 18 18:03:20 +0000 2023",
-        "id": 1615771838822625300,
-        "id_str": "1615771838822625282",
-        "text": "Booming clouds and we lose several jars overboard.",
+        "created_at": "Fri Jan 20 06:03:46 +0000 2023",
+        "id": 1616315528343343000,
+        "id_str": "1616315528343343104",
+        "text": "A pillar of light in the night sky. The boat requires repairs. An elder awakes from a vision, but refuses to speak of it.",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -409,7 +409,7 @@
             }
           },
           "protected": false,
-          "followers_count": 1178,
+          "followers_count": 1176,
           "friends_count": 1,
           "listed_count": 8,
           "created_at": "Fri Dec 16 09:42:31 +0000 2022",
@@ -418,7 +418,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 396,
+          "statuses_count": 414,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -449,7 +449,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 0,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -461,10 +461,10 @@
       "handle": "SmoothUnicode",
       "title": "Smooth Unicode",
       "tweet": {
-        "created_at": "Wed Jan 18 18:08:50 +0000 2023",
-        "id": 1615773224226414600,
-        "id_str": "1615773224226414592",
-        "text": "➍❛✋➷❻➜➻❊➤❮✐❯➾⿺❓➭⿷❂⿱➑➇✠➒❕⿲⿱❊⿱⿰⿸⿻❁❿⿲⿺➵⿶⿶⿸⿺⿺✰➸➢⿱✾⿳⿴❮✶⿻⿲⿸⿵⿺⿰⿴⿰⿷⿺⿰⿰⿺⿱⿸⿳⿹⿹⿺⿲⿰⿸⿺⿳⿵⿱⿱⿴⿸⿻⿸✙⿰⿸⿲⿸⿶✊⿳⿵⿻⿱❛⿷➢➅➼❚❓➟⿲⿻⿺⿶⿵❞➤✅⿶❽⿸➞⿺➹✲⿰✢✦➷➡➋➌⿻❖✪❡➕✷✰❾✳✾❏✆➽✡✅✟❋❹",
+        "created_at": "Fri Jan 20 07:15:39 +0000 2023",
+        "id": 1616333620213612500,
+        "id_str": "1616333620213612546",
+        "text": "ᝬ ᝪ ᝢ ᝨ\nᝩ ᝯ ᝠ ᝣ",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -501,7 +501,7 @@
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 72718,
+          "statuses_count": 72746,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -532,7 +532,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 0,
-        "favorite_count": 1,
+        "favorite_count": 2,
         "favorited": false,
         "retweeted": false,
         "lang": "und"
@@ -544,10 +544,10 @@
       "handle": "infinitedeserts",
       "title": "infinite deserts_ψ__",
       "tweet": {
-        "created_at": "Wed Jan 18 13:08:11 +0000 2023",
-        "id": 1615697562807464000,
-        "id_str": "1615697562807463936",
-        "text": ".✵  \n 　　　　　◕ \n\n ෴෴Ϡ෴෴෴෴෴෴෴\n  ·        　　  · ,     　　 　　　      °",
+        "created_at": "Fri Jan 20 07:07:24 +0000 2023",
+        "id": 1616331542711914500,
+        "id_str": "1616331542711914497",
+        "text": ".੦ \n　　　　Oo.  \n\n_ ︿ ﹏__﹏_இ_____\n 　 　   °       　　 　 　　   .   　　　   　  ࿏",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -588,16 +588,16 @@
             }
           },
           "protected": false,
-          "followers_count": 13431,
+          "followers_count": 13435,
           "friends_count": 101,
-          "listed_count": 467,
+          "listed_count": 468,
           "created_at": "Mon May 25 22:27:56 +0000 2015",
           "favourites_count": 91,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 14214,
+          "statuses_count": 14221,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -629,10 +629,10 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 5,
+        "favorite_count": 7,
         "favorited": false,
         "retweeted": false,
-        "lang": "el"
+        "lang": "und"
       },
       "defaultEnabled": false
     },
@@ -763,7 +763,7 @@
             }
           },
           "protected": false,
-          "followers_count": 374,
+          "followers_count": 375,
           "friends_count": 1,
           "listed_count": 41,
           "created_at": "Wed Apr 20 17:26:00 +0000 2016",
@@ -923,10 +923,10 @@
       "handle": "pomological",
       "title": "old fruit pictures (@pomological@botsin.space)",
       "tweet": {
-        "created_at": "Wed Jan 18 17:18:03 +0000 2023",
-        "id": 1615760442495729700,
-        "id_str": "1615760442495729676",
-        "text": "lisbon limes, painted by ellen isham schutt, 1913 https://t.co/Nsky14bou8",
+        "created_at": "Fri Jan 20 05:18:02 +0000 2023",
+        "id": 1616304021119066000,
+        "id_str": "1616304021119066113",
+        "text": "armintrout apples, painted by deborah griscom passmore, 1895 https://t.co/HkKVNDYgwl",
         "truncated": false,
         "entities": {
           "hashtags": [],
@@ -935,17 +935,17 @@
           "urls": [],
           "media": [
             {
-              "id": 1615760439664574500,
-              "id_str": "1615760439664574491",
+              "id": 1616304019592384500,
+              "id_str": "1616304019592384517",
               "indices": [
-                50,
-                73
+                61,
+                84
               ],
-              "media_url": "http://pbs.twimg.com/media/FmxVjyhWABs8QGQ.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FmxVjyhWABs8QGQ.jpg",
-              "url": "https://t.co/Nsky14bou8",
-              "display_url": "pic.twitter.com/Nsky14bou8",
-              "expanded_url": "https://twitter.com/pomological/status/1615760442495729676/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Fm5D8TjXEAU09-g.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fm5D8TjXEAU09-g.jpg",
+              "url": "https://t.co/HkKVNDYgwl",
+              "display_url": "pic.twitter.com/HkKVNDYgwl",
+              "expanded_url": "https://twitter.com/pomological/status/1616304021119066113/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -953,19 +953,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 680,
-                  "resize": "fit"
-                },
                 "large": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
                   "resize": "fit"
                 }
               }
@@ -975,17 +975,17 @@
         "extended_entities": {
           "media": [
             {
-              "id": 1615760439664574500,
-              "id_str": "1615760439664574491",
+              "id": 1616304019592384500,
+              "id_str": "1616304019592384517",
               "indices": [
-                50,
-                73
+                61,
+                84
               ],
-              "media_url": "http://pbs.twimg.com/media/FmxVjyhWABs8QGQ.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/FmxVjyhWABs8QGQ.jpg",
-              "url": "https://t.co/Nsky14bou8",
-              "display_url": "pic.twitter.com/Nsky14bou8",
-              "expanded_url": "https://twitter.com/pomological/status/1615760442495729676/photo/1",
+              "media_url": "http://pbs.twimg.com/media/Fm5D8TjXEAU09-g.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Fm5D8TjXEAU09-g.jpg",
+              "url": "https://t.co/HkKVNDYgwl",
+              "display_url": "pic.twitter.com/HkKVNDYgwl",
+              "expanded_url": "https://twitter.com/pomological/status/1616304021119066113/photo/1",
               "type": "photo",
               "sizes": {
                 "thumb": {
@@ -993,19 +993,19 @@
                   "h": 150,
                   "resize": "crop"
                 },
-                "small": {
-                  "w": 680,
-                  "h": 680,
-                  "resize": "fit"
-                },
                 "large": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
                   "resize": "fit"
                 },
                 "medium": {
-                  "w": 1125,
-                  "h": 1125,
+                  "w": 1126,
+                  "h": 1126,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
                   "resize": "fit"
                 }
               }
@@ -1045,16 +1045,16 @@
             }
           },
           "protected": false,
-          "followers_count": 23872,
+          "followers_count": 23871,
           "friends_count": 4,
-          "listed_count": 460,
+          "listed_count": 462,
           "created_at": "Mon May 18 20:00:20 +0000 2015",
-          "favourites_count": 270,
+          "favourites_count": 269,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 20765,
+          "statuses_count": 20777,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1085,8 +1085,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 8,
+        "retweet_count": 1,
+        "favorite_count": 11,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1099,96 +1099,29 @@
       "handle": "boschbot",
       "title": "BoschBot",
       "tweet": {
-        "created_at": "Wed Jan 18 17:58:24 +0000 2023",
-        "id": 1615770598415732700,
-        "id_str": "1615770598415732736",
-        "text": "The Last Judgment - Central https://t.co/KglX0K2gr5",
+        "created_at": "Fri Jan 20 06:58:41 +0000 2023",
+        "id": 1616329348260442000,
+        "id_str": "1616329348260442113",
+        "text": "RT @newley: The \"monster\" specimen is six times bigger than the average toad, weighs 2.7kg, and could break a world record.  \n\nDubbed \"Toad…",
         "truncated": false,
         "entities": {
           "hashtags": [],
           "symbols": [],
-          "user_mentions": [],
-          "urls": [],
-          "media": [
+          "user_mentions": [
             {
-              "id": 1615770593491566600,
-              "id_str": "1615770593491566595",
+              "screen_name": "newley",
+              "name": "Newley Purnell",
+              "id": 5627542,
+              "id_str": "5627542",
               "indices": [
-                28,
-                51
-              ],
-              "media_url": "http://pbs.twimg.com/media/Fmxey0eWQAM8hTr.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/Fmxey0eWQAM8hTr.jpg",
-              "url": "https://t.co/KglX0K2gr5",
-              "display_url": "pic.twitter.com/KglX0K2gr5",
-              "expanded_url": "https://twitter.com/boschbot/status/1615770598415732736/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "large": {
-                  "w": 2048,
-                  "h": 872,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 1200,
-                  "h": 511,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 680,
-                  "h": 289,
-                  "resize": "fit"
-                }
-              }
+                3,
+                10
+              ]
             }
-          ]
+          ],
+          "urls": []
         },
-        "extended_entities": {
-          "media": [
-            {
-              "id": 1615770593491566600,
-              "id_str": "1615770593491566595",
-              "indices": [
-                28,
-                51
-              ],
-              "media_url": "http://pbs.twimg.com/media/Fmxey0eWQAM8hTr.jpg",
-              "media_url_https": "https://pbs.twimg.com/media/Fmxey0eWQAM8hTr.jpg",
-              "url": "https://t.co/KglX0K2gr5",
-              "display_url": "pic.twitter.com/KglX0K2gr5",
-              "expanded_url": "https://twitter.com/boschbot/status/1615770598415732736/photo/1",
-              "type": "photo",
-              "sizes": {
-                "thumb": {
-                  "w": 150,
-                  "h": 150,
-                  "resize": "crop"
-                },
-                "large": {
-                  "w": 2048,
-                  "h": 872,
-                  "resize": "fit"
-                },
-                "medium": {
-                  "w": 1200,
-                  "h": 511,
-                  "resize": "fit"
-                },
-                "small": {
-                  "w": 680,
-                  "h": 289,
-                  "resize": "fit"
-                }
-              }
-            }
-          ]
-        },
-        "source": "<a href=\"http://niggy.com\" rel=\"nofollow\">boschbot</a>",
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1231,16 +1164,16 @@
             }
           },
           "protected": false,
-          "followers_count": 114567,
-          "friends_count": 17204,
-          "listed_count": 853,
+          "followers_count": 114581,
+          "friends_count": 17215,
+          "listed_count": 854,
           "created_at": "Sun Nov 06 19:26:26 +0000 2016",
-          "favourites_count": 49338,
+          "favourites_count": 49353,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
           "verified": false,
-          "statuses_count": 111434,
+          "statuses_count": 111487,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -1270,16 +1203,127 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
+        "retweeted_status": {
+          "created_at": "Fri Jan 20 06:07:03 +0000 2023",
+          "id": 1616316354289705000,
+          "id_str": "1616316354289704964",
+          "text": "The \"monster\" specimen is six times bigger than the average toad, weighs 2.7kg, and could break a world record.… https://t.co/GS2KsKgEHX",
+          "truncated": true,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/GS2KsKgEHX",
+                "expanded_url": "https://twitter.com/i/web/status/1616316354289704964",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                  113,
+                  136
+                ]
+              }
+            ]
+          },
+          "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 5627542,
+            "id_str": "5627542",
+            "name": "Newley Purnell",
+            "screen_name": "newley",
+            "location": "Hong Kong via PDT, BFT, BKK",
+            "description": "@WSJ tech reporter. Tip? Signal: +85269099615. Gracefully aging GK. Via @EmoryUniversity @ColumbiaJournMA Tweets delete. Mastodon: https://t.co/WRHX1QHJg0",
+            "url": "https://t.co/TMFn8a6kE8",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/TMFn8a6kE8",
+                    "expanded_url": "https://newley.com/about/",
+                    "display_url": "newley.com/about/",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": [
+                  {
+                    "url": "https://t.co/WRHX1QHJg0",
+                    "expanded_url": "https://journa.host/@newley",
+                    "display_url": "journa.host/@newley",
+                    "indices": [
+                      131,
+                      154
+                    ]
+                  }
+                ]
+              }
+            },
+            "protected": false,
+            "followers_count": 18520,
+            "friends_count": 5249,
+            "listed_count": 967,
+            "created_at": "Sun Apr 29 09:08:49 +0000 2007",
+            "favourites_count": 3605,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 656,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1596054487768399874/gDDJKPlr_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1596054487768399874/gDDJKPlr_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/5627542/1669384794",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FCFCFC",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 6,
+          "favorite_count": 38,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
         "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 4,
+        "retweet_count": 6,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "defaultEnabled": false
     }
   ],
-  "timestamp": 1674065677236
+  "timestamp": 1674200962485
 }
