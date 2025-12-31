@@ -1,0 +1,6 @@
+[functions]
+  included_files = ["./views"]
+
+[build]
+  publish = "public"
+  edge_functions = "edge-functions"

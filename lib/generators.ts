@@ -30,5 +30,5 @@ export function tinyStarField() {
     }
     lines.push(line);
   }
-  return lines.join("\n");
+  return lines.join("\n").trimEnd();
 }
