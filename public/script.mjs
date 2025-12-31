@@ -1,4 +1,4 @@
-/* globals domtoimage */
+import * as htmlToImage from "https://esm.sh/html-to-image";
 
 const wrapFetch = (url, options) => (
   fetch(url, options).then((response) => {
@@ -72,7 +72,7 @@ printButton.addEventListener('click', async (event) => {
   if (confirmed) {
     const receiptElement = document.getElementById('receipt');
 
-    const blob = await domtoimage.toBlob(receiptElement, {width: 384});
+    const blob = await htmlToImage.toBlob(receiptElement, {width: 384});
     const printStatus = await wrapFetch(url, {
       method: 'POST',
       headers: {

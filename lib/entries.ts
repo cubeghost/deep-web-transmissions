@@ -1,23 +1,18 @@
-import LocalCache from "node-localcache";
-import jsonld from "jsonld";
-import { AtpAgent } from "@atproto/api";
+import { fetchBlueskyLatest } from "./bluesky.ts";
+import { fetchActivityPubLatest } from "./activitypub.ts";
 import { tenPrintChr, tinyStarField } from "./generators.ts";
 
-const bsky = new AtpAgent({
-  service: "https://public.api.bsky.app",
-});
+export interface SocialSource {
+  id: string;
+  url: string;
+  handle: string;
+  label?: string;
+  credit?: string;
+}
 
-const cache = LocalCache("tmp/.cache.json", false);
-
-type Source =
-  | {
-      type: "twitter" | "bluesky" | "activitypub";
-      id: string;
-      url: string;
-      handle: string;
-      label?: string;
-      credit?: string;
-    }
+export type Source =
+  | (SocialSource & { type: "bluesky" })
+  | (SocialSource & { type: "activitypub" })
   | {
       type: "generator";
       id: string;
@@ -94,74 +89,34 @@ const sources: Source[] = [
   },
 ];
 
-async function fetchJsonLD(url, headers) {
-  const response = await fetch(url, {
-    headers,
-  });
-  const document = await response.json();
-  return await jsonld.compact(document, document["@context"]);
-}
-
-async function fetchActivityPub(source: Source & { type: "activitypub" }) {
-  const headers = {
-    "User-Agent": "DeepWebTransmissions/2.0",
-    Accept: "application/activity+json",
-  };
-  // TODO cache outbox url
-  const profile = await fetchJsonLD(source.url, headers);
-  const outbox = await fetchJsonLD(profile.outbox, headers);
-
-  const url = outbox.first;
-  const posts = await fetchJsonLD(url, headers);
-  return posts.orderedItems;
-}
-
 async function getEntry(source: Source) {
   switch (source.type) {
     case "activitypub": {
-      const posts = await fetchActivityPub(
-        source as Source & { type: "activitypub" }
-      );
+      const result = await fetchActivityPubLatest(source);
       return {
         ...source,
-        object: posts[0].object,
+        result,
       };
     }
     case "bluesky": {
-      const {
-        data: { feed },
-      } = await bsky.getAuthorFeed({
-        actor: source.handle,
-        limit: 5,
-      });
+      const result = await fetchBlueskyLatest(source);
       return {
         ...source,
-        object: feed[1].post,
+        result,
       };
     }
     case "generator": {
       return {
         ...source,
         fn: null,
-        object: source.fn(),
+        result: source.fn(),
       };
     }
     default:
-      return { ...source };
+      throw new Error("Exhaustive switch");
   }
 }
 
 export async function getEntries() {
-  // const cachedEntries = cache.getItem("entries");
-  // const cacheTime = cache.getItem("timestamp");
-  // if (cachedEntries && Date.now() - cacheTime < 60 * 1000) {
-  //   console.log("entries:cache:hit");
-  //   return cachedEntries;
-  // }
-
-  const entries = await Promise.all(sources.map(getEntry));
-  // console.log("entries:cache:miss");
-  // cache.setItem("entries", entries);
-  // cache.setItem("timestamp", Date.now());
-  return entries;
+  return await Promise.all(sources.map(getEntry));
 }
