@@ -21,6 +21,13 @@
         font-stretch: expanded;
       }
 
+      * {
+        box-sizing: border-box;
+      }
+      :root {
+        --receipt-width: 384px;
+      }
+
       body {
         margin: 0;
         font-family: 'Univers LT Std', sans-serif;
@@ -37,7 +44,7 @@
         flex-direction: column;
       }
 
-      .controls {
+      .box {
         margin: 16px;
         font-family: 'Univers LT Std', sans-serif;
         padding: 16px;
@@ -47,12 +54,22 @@
         z-index: 2;
       }
       
-      .controls h3 {
+      .box h3 {
         font-size: 1em;
         font-family: 'Univers';
         font-stretch: expanded;
         margin: 0;
         color: #999;
+      }
+      .box h2 {
+        font-size: 1.3em;
+        font-family: 'Univers';
+        font-stretch: expanded;
+        margin: 0;
+      }
+      .box p,
+      .box ul {
+        max-width: 288px;
       }
       .controls input[type=text] {
         width: 160px;
@@ -71,17 +88,17 @@
         padding: 16px;
         background-color: white;
         overflow-x: hidden;
-        width: 384px;
+        width: calc(var(--receipt-width) + 32px);
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
       }
       
-      .info {
+      /*.info {
         font-size: 0.8em;
         margin: 16px;
         opacity: 0.5;
         margin-top: auto;
         padding-top: 0.5em;
-      }
+      }*/
       
       .todo {
         font-size: 0.8em;
@@ -92,7 +109,7 @@
       }
       
       #receipt {
-        width: 384px;
+        width: var(--receipt-width);
         font-size: 24px;
         font-family: 'Univers LT Std', sans-serif;
         overflow: hidden;
@@ -150,8 +167,8 @@
   </head>
   <body>
     <div class="flex">
-      <div class="column">
-        <div class="controls">
+      <aside class="column">
+        <div class="box controls">
           <h3><label for="from">from</label></h3>
           <input type="text" placeholder="your name" id="from" />
           <h3>content</h3>
@@ -162,16 +179,22 @@
               <textarea id="input-customMessage">:~)</textarea>
             </div>
             <br />
-            {{#each entries }}
+            <% entries.forEach(function(entry) { %>
               <input
                 type="checkbox"
-                id="toggle-{{this.partialName}}"
-                name="{{this.partialName}}"
-                {{#if this.defaultEnabled}}checked{{/if}}
+                id="toggle-<%= entry.id %>"
+                name="<%= entry.id %>"
+                checked
               />
-              <label for="toggle-{{this.partialName}}">@{{this.handle}}</label>
+              <label for="toggle-<%= entry.id %>">
+                <% if (entry.handle) { %>
+                  @<%= entry.handle %>
+                <% } else { %>
+                  <%= entry.name %>
+                <% } %>
+              </label>
               <br />
-            {{/each}}   
+            <% }) %>
           </div>
 
           <br />
@@ -187,16 +210,34 @@
           </button>
         </div>
         
-        <pre class="controls" id="printerStatus" style="display: none;"></pre>
+        <pre class="box" id="printerStatus" style="display: none;"></pre>
    
-        <pre class="controls todo">TODO:
-- persist checkbox config across page loads
-- atkinson dither preview</pre>
-        <div class="info">
-          for little printer and <a href="https://tinyprinter.club/" target="_blank">compatible thermal printers</a>
+        <div class="box info">
+          <h2>what is this?</h2>
+          <p><em>deep web transmissions</em> is a tribute to <a>generative art bots</a>, formatted as a digest for the <a href="https://tinyprinter.club/" target="_blank">little printer</a> and compatible thermal printers.</p>
+          <details>
+            <summary>credits and influences</summary>
+            <ul>
+              <% entries.forEach(function(entry) { %>
+                <% if (entry.credit) { %><li><%~ markdownToHtml(entry.credit) %></li><% } %>
+              <% }) %>
+              <!-- <li><a href="" target="_blank">a strange voyage</a> by joe baxter-webb</li>
+              <li><a href="" target="_blank">infinite deserts</a> by noah <a href="https://linktr.ee/getdizzzy" target="_blank">@getdizzzy</a></li>
+              <li><a href="" target="_blank">smooth unicode</a> by </li>
+              <li><a href="" target="_blank"></a> by</li> -->
+              <li>much of this made possible by kate compton's <a href="" target="_blank">tracery</a></li>
+            </ul>
+          </details>
         </div>
 
-      </div>
+        <pre class="box todo">TODO:
+- persist checkbox config across page loads
+- atkinson dither preview</pre>
+        <!-- <div class="info">
+          for little printer and <a href="https://tinyprinter.club/" target="_blank">compatible thermal printers</a>
+        </div> -->
+
+      </aside>
 
       <div class="receipt-wrapper">
         <div id="receipt">
@@ -207,19 +248,16 @@
             <div id="customMessage">:~)</div>
           </div>
 
-          {{#each entries }}
-            <div class="entry {{this.partialName}} {{#unless this.defaultEnabled}}hidden{{/unless}}">
+          <% entries.forEach(function(entry) { %>
+            <div class="entry <%= entry.id %>">
               <hr />
-              {{>(lookup . 'partialName') entry=this}}          
+              <%~ include(`partials/${entry.id}`, {entry: entry}) %>
             </div>
-          {{/each}}
+          <% }) %>
         </div>
       </div>
     </div>
     
-    <script src="https://button.glitch.me/button.js"></script>
-    <div class="glitchButton" style="position: fixed; right: 16px; top: 16px;"></div>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
       integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
