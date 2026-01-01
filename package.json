@@ -37,5 +37,10 @@
   "devDependencies": {
     "@types/jsonld": "^1.5.15",
     "activitypub-types": "^1.1.0"
+  },
+  "overrides": {
+    "@digitalbazaar/http-client": {
+      "undici": "^7.16.0"
+    }
   }
 }
