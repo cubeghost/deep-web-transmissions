@@ -24,7 +24,7 @@ export async function fetchBlueskyLatest(source: BlueskySource) {
   url.searchParams.append("limit", "1");
   const response = await fetch(url.toString());
 
-  const feed = await response.json();
+  const { feed } = await response.json();
 
   return feed[0]?.post;
 }
