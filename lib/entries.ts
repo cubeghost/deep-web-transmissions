@@ -93,7 +93,7 @@ async function getEntry(source: Source) {
   switch (source.type) {
     case "activitypub": {
       const result = await fetchActivityPubLatest(source);
-      console.log(result);
+      console.log("got activitypub result for", source.id);
       return {
         ...source,
         result,
@@ -101,16 +101,19 @@ async function getEntry(source: Source) {
     }
     case "bluesky": {
       const result = await fetchBlueskyLatest(source);
+      console.log("got bluesky result for", source.id);
       return {
         ...source,
         result,
       };
     }
     case "generator": {
+      const result = source.fn();
+      console.log("got generator result for", source.id);
       return {
         ...source,
         fn: null,
-        result: source.fn(),
+        result,
       };
     }
     default:
