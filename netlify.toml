@@ -1,7 +1,8 @@
 [functions]
-  included_files = ["./views"]
+  included_files = ["./compiledTemplate.js"]
 
 [build]
+  command = "npm run build"
   publish = "public"
   edge_functions = "edge-functions"
 

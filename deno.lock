@@ -299,6 +299,7 @@
         "npm:@atproto/api@~0.18.9",
         "npm:@netlify/edge-functions@^3.0.3",
         "npm:@types/jsonld@^1.5.15",
+        "npm:@types/node@^25.0.3",
         "npm:activitypub-types@^1.1.0",
         "npm:date-fns@^4.1.0",
         "npm:dompurify@^3.3.1",

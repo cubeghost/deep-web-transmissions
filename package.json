@@ -4,6 +4,7 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "edge-functions/render.ts",
   "scripts": {
+    "build": "node build.ts",
     "start": "netlify dev"
   },
   "type": "module",
@@ -37,6 +38,7 @@
   ],
   "devDependencies": {
     "@types/jsonld": "^1.5.15",
+    "@types/node": "^25.0.3",
     "activitypub-types": "^1.1.0"
   },
   "overrides": {

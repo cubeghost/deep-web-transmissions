@@ -185,7 +185,7 @@
               <textarea id="input-customMessage">:~)</textarea>
             </div>
             <br />
-            <% entries.forEach(function(entry) { %>
+            <% it.entries.forEach(function(entry) { %>
               <input
                 type="checkbox"
                 id="toggle-<%= entry.id %>"
@@ -225,8 +225,8 @@
             <summary>credits and influences</summary>
             <h6>bots</h6>
             <ul>
-              <% entries.forEach(function(entry) { %>
-                <% if (entry.credit) { %><li><%~ markdownToHtml(entry.credit) %></li><% } %>
+              <% it.entries.forEach(function(entry) { %>
+                <% if (entry.credit) { %><li><%~ it.markdownToHtml(entry.credit) %></li><% } %>
               <% }) %>
             </ul>
             <h6>libraries, platforms, and influences</h6>
@@ -261,7 +261,7 @@
             <div id="customMessage">:~)</div>
           </div>
 
-          <% entries.forEach(function(entry) { %>
+          <% it.entries.forEach(function(entry) { %>
             <div class="entry <%= entry.id %>">
               <hr />
               <%~ include(`partials/${entry.id}`, {entry: entry}) %>
