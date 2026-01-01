@@ -4,3 +4,5 @@ node_modules
 .netlify
 
 browser/default-stylesheet.css
+
+compiledTemplate.js
