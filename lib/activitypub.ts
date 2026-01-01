@@ -1,4 +1,5 @@
 import jsonld from "jsonld";
+import type { Options as JLDOptions } from "jsonld";
 import type {
   APPerson,
   APOrderedCollection,
@@ -14,12 +15,32 @@ export function isAPActivity(object: APObject): object is APActivity {
   return "object" in object && "actor" in object;
 }
 
+const customDocumentLoader: JLDOptions.DocLoader["documentLoader"] =
+  async function customDocumentLoader(url, callback) {
+    const response = await fetch(url, {
+      headers: {
+        accept: "application/ld+json, application/json",
+      },
+    });
+    if (!response.ok)
+      throw new Error(`jsonld document fetch error ${response.status}`);
+    const document = {
+      contextUrl: undefined,
+      documentUrl: url,
+      document: await response.json(),
+    };
+    // todo handle redirects, alternates etc https://github.com/digitalbazaar/jsonld.js/blob/main/lib/documentLoaders/node.js
+    return document;
+  };
+
 async function fetchJsonLD<T>(url: string, headers: Record<string, string>) {
   const response = await fetch(url, {
     headers,
   });
   const document = await response.json();
-  return (await jsonld.compact(document, document["@context"])) as unknown as T;
+  return (await jsonld.compact(document, document["@context"], {
+    documentLoader: customDocumentLoader,
+  })) as unknown as T;
 }
 
 async function fetchActivity(source: ActivityPubSource) {
