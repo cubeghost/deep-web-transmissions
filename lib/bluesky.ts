@@ -1,8 +1,6 @@
 import atproto from "@atproto/api";
-import { Agent } from "@atproto/api";
-console.log(Agent);
 
-import { SocialSource } from "./entries";
+import { SocialSource } from "./entries.ts";
 
 // @ts-expect-error can't import this directly, deno build is weird for some reason
 const { AtpAgent } = atproto;
