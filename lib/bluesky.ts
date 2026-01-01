@@ -1,4 +1,9 @@
-import { AtpAgent } from "@atproto/api";
+import atproto from "@atproto/api";
+const { AtpAgent } = atproto;
+// console.log(Object.getOwnPropertyNames(atproto));
+console.log(AtpAgent);
+// import { Agent } from "@atproto/api";
+// console.log(Agent);
 
 import { SocialSource } from "./entries.ts";
 
