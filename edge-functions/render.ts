@@ -1,3 +1,9 @@
+// @ts-expect-error
+if (typeof global === undefined) {
+  // @ts-expect-error
+  globalThis.global = globalThis;
+}
+
 import type { Config, Context } from "@netlify/edge-functions";
 import path from "node:path";
 import { Eta } from "eta";
