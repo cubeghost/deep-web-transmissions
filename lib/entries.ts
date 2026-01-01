@@ -93,6 +93,7 @@ async function getEntry(source: Source) {
   switch (source.type) {
     case "activitypub": {
       const result = await fetchActivityPubLatest(source);
+      console.log(result);
       return {
         ...source,
         result,
