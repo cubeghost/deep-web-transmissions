@@ -6,7 +6,7 @@ import type {
   APObject,
   APActivity,
 } from "activitypub-types";
-import { SocialSource } from "./entries.ts";
+import type { SocialSource } from "./entries.ts";
 
 type ActivityPubSource = SocialSource & { type: "activitypub" };
 
