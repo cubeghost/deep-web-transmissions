@@ -10,7 +10,7 @@ import { Eta } from "eta";
 import { format } from "date-fns";
 
 import { getEntries } from "../lib/entries.ts";
-import { sanitize, markdownToHtml } from "../lib/helpers.ts";
+import { markdownToHtml } from "../lib/helpers.ts";
 
 export default async (request: Request, context: Context) => {
   const entries = await getEntries();
@@ -24,7 +24,6 @@ export default async (request: Request, context: Context) => {
   const html = await eta.renderAsync("index", {
     timestamp: format(Date.now(), "yyyy-MM-dd HH:mm:ss"),
     entries,
-    sanitize,
     markdownToHtml,
   });
 
