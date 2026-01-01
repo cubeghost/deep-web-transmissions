@@ -4,7 +4,6 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "edge-functions/render.ts",
   "scripts": {
-    "postinstall": "cp node_modules/jsdom/lib/jsdom/browser/default-stylesheet.css browser/default-stylesheet.css && cp node_modules/jsdom/lib/jsdom/living/xhr/xhr-sync-worker.js xhr-sync-worker.js",
     "start": "netlify dev"
   },
   "type": "module",

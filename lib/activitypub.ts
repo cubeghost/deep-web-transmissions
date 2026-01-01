@@ -8,6 +8,8 @@ import type {
 } from "activitypub-types";
 import type { SocialSource } from "./entries.ts";
 
+// TODO sanitize post content
+
 type ActivityPubSource = SocialSource & { type: "activitypub" };
 
 export function isAPActivity(object: APObject): object is APActivity {
