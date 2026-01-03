@@ -4,7 +4,7 @@
     <title>deep web transmissions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=418">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
     <style type="text/css">
       @font-face {
         font-family: Univers;
@@ -166,6 +166,13 @@
       #receipt h6 + h4 {
         margin-top: 0.2em;
       }      
+      #receipt a {
+        text-decoration: none;
+        color: inherit;
+      }
+      #receipt a:hover {
+        text-decoration: underline;
+      }
       #customMessage {
         white-space: pre-wrap;
       }
@@ -214,6 +221,11 @@
           <button id="print">
             print
           </button>
+
+          <br />
+
+          <!-- <input type="checkbox" id="preview-dither" name="preview-dither" checked />
+          <label for="preview-dither">preview dithering</label> -->
         </div>
         
         <pre class="box" id="printerStatus" style="display: none;"></pre>
@@ -271,6 +283,9 @@
       </div>
     </div>
     
+    <script type="text/javascript">
+      globalThis.DEPLOY_CONTEXT = "<%= it.DEPLOY_CONTEXT %>";
+    </script>
     <script src="/script.mjs" type="module"></script>
   </body>
 </html>

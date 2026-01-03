@@ -1,4 +1,11 @@
 import * as htmlToImage from "https://esm.sh/html-to-image";
+import DitherJS from "https://esm.sh/ditherjs";
+
+const ditherjs = new DitherJS({
+    "step": 1, 
+    "palette": [[0, 0, 0], [255, 255, 255]], 
+    "algorithm": "atkinson" 
+});
 
 const wrapFetch = (url, options) => (
   fetch(url, options).then((response) => {
@@ -51,10 +58,26 @@ document.querySelectorAll('#toggles input').forEach((input) => {
   })
 });
 
+// const ditherCheckbox = document.getElementById('preview-dither');
+// if (ditherCheckbox.checked) {
+//   ditherjs.dither("#receipt img");
+// }
+  // ditherCheckbox.addEventListener('change', (event) => {
+  //   const {checked} = event.target;
+  //   if (checked) {
+
+  //   }
+  // })
+
 const textarea = document.getElementById('input-customMessage');
 textarea.addEventListener('change', (event) => {
   document.getElementById('customMessage').innerText = event.target.value;
 });
+
+async function makeReceiptImage() {
+  const receiptElement = document.getElementById('receipt');
+  return await htmlToImage.toBlob(receiptElement, {width: 384});
+}
 
 const printButton = document.getElementById('print');
 printButton.addEventListener('click', async (event) => {
@@ -70,9 +93,7 @@ printButton.addEventListener('click', async (event) => {
   const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?`);
   
   if (confirmed) {
-    const receiptElement = document.getElementById('receipt');
-
-    const blob = await htmlToImage.toBlob(receiptElement, {width: 384});
+    const blob = await makeReceiptImage();
     const printStatus = await wrapFetch(url, {
       method: 'POST',
       headers: {

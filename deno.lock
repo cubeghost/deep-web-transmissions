@@ -297,6 +297,9 @@
     "packageJson": {
       "dependencies": [
         "npm:@atproto/api@~0.18.9",
+        "npm:@atproto/bsky@^0.0.204",
+        "npm:@atproto/identity@~0.4.10",
+        "npm:@netlify/blobs@^10.5.0",
         "npm:@netlify/edge-functions@^3.0.3",
         "npm:@types/jsonld@^1.5.15",
         "npm:@types/node@^25.0.3",
@@ -307,6 +310,7 @@
         "npm:eta@^4.5.0",
         "npm:express@^5.2.1",
         "npm:isomorphic-dompurify@^2.35.0",
+        "npm:jimp@^1.6.0",
         "npm:jsdom@^27.4.0",
         "npm:jsonld@9",
         "npm:marked@^17.0.1",
