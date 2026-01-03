@@ -10,11 +10,11 @@
   }
 </style>
 <h6>
-  @<%= it.entry.handle %>
+  <a href="<%= it.entry.url %>" target="_blank">@<%= it.entry.handle %></a>
 </h6>
 <h4>
   <%= it.entry.result.record.text %>
 </h4>
 <div class="inner">
-  <img src=<%= it.entry.result.embed.images[0].fullsize %> />
+  <img src="<%= it.entry.image %>" class="dither" />
 </div>

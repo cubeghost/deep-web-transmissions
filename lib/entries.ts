@@ -6,6 +6,7 @@ export interface SocialSource {
   id: string;
   url: string;
   handle: string;
+  image?: boolean;
   label?: string;
   credit?: string;
 }
@@ -57,7 +58,7 @@ export const sources: Source[] = [
     url: "https://mas.to/@SmoothUnicode",
     handle: "SmoothUnicode@mas.to",
     credit:
-      "[smooth unicode]() by [leonard richardson](https://www.crummy.com/)",
+      "[smooth unicode](https://mas.to/@SmoothUnicode) by [leonard richardson](https://www.crummy.com/)",
   },
   {
     type: "activitypub",
@@ -65,6 +66,8 @@ export const sources: Source[] = [
     url: "https://mastodon.social/@infinitedeserts",
     handle: "infinitedeserts@mastodon.social",
     label: "infinite deserts",
+    credit:
+      "[infinite deserts](https://mastodon.social/@infinitedeserts) by [@getdizzzy]()",
   },
   // {
   //   screenName: "phantomfunhouse",
@@ -83,9 +86,11 @@ export const sources: Source[] = [
   {
     type: "bluesky",
     id: "boschBot",
+    image: true,
     url: "https://bsky.app/profile/boschbot.bsky.social",
     handle: "boschbot.bsky.social",
     label: "Bits of Bosch",
+    credit: "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by ",
   },
 ];
 
@@ -99,10 +104,11 @@ async function getEntry(source: Source) {
       };
     }
     case "bluesky": {
-      const result = await fetchBlueskyLatest(source);
+      const { result, image } = await fetchBlueskyLatest(source);
       return {
         ...source,
         result,
+        image,
       };
     }
     case "generator": {

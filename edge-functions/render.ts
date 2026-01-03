@@ -1,5 +1,4 @@
 import type { Config, Context } from "@netlify/edge-functions";
-import path from "node:path";
 import { Eta, TemplateFunction } from "eta";
 import { format } from "date-fns";
 
@@ -23,6 +22,8 @@ export default async (request: Request, context: Context) => {
     timestamp: format(Date.now(), "yyyy-MM-dd HH:mm:ss"),
     entries,
     markdownToHtml,
+    DEPLOY_CONTEXT:
+      context.deploy.context === "dev" ? "development" : "production",
   });
 
   return new Response(html, {
