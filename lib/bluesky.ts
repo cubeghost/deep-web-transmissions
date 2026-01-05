@@ -9,6 +9,7 @@ import type { Embed, ImagesEmbed } from "@atproto/bsky/src/views/types";
 import type { DidDocument } from "@atproto/identity";
 
 import type { SocialSource } from "./entries.ts";
+import { toArrayBuffer } from "./helpers.ts";
 
 type BlueskySource = SocialSource & { type: "bluesky" };
 
@@ -29,23 +30,24 @@ export async function fetchBlueskyLatest(source: BlueskySource) {
   const post = feed[0]?.post;
 
   const showImage = source.image && postHasImages(post);
+  let imagePath: string | undefined = undefined;
   if (showImage) {
     const blobId = post.record.embed.images[0].image.ref.$link;
 
     const images = getStore("images");
-    const cached = await images.getWithMetadata(source.id);
+    const cached = await images.getMetadata(source.id);
 
     if (!cached || cached.metadata.blobId !== blobId) {
-      if (cached) await images.delete(source.id);
-
       const image = await fetchBlueskyBlob(post.author.did, blobId);
       await images.set(source.id, image, { metadata: { blobId } });
     }
+
+    imagePath = `/image/${source.id}.png?${blobId}`;
   }
 
   return {
     result: post,
-    image: showImage ? `/image/${source.id}.png` : undefined,
+    image: imagePath,
   };
 }
 
@@ -78,9 +80,5 @@ async function fetchBlueskyBlob(did: string, blobId: string) {
   image.resize({ w: 384 }); // TODO constant
 
   const buffer = await image.getBuffer("image/png");
-  // convert Buffer to ArrayBuffer
-  return buffer.buffer.slice(
-    buffer.byteOffset,
-    buffer.byteOffset + buffer.byteLength
-  ) as ArrayBuffer;
+  return toArrayBuffer(buffer);
 }

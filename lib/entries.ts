@@ -1,6 +1,9 @@
+import { getStore } from "@netlify/blobs";
+
 import { fetchBlueskyLatest } from "./bluesky.ts";
 import { fetchActivityPubLatest } from "./activitypub.ts";
 import { tenPrintChr, tinyStarField } from "./generators.ts";
+import { phantomFunhouse } from "./private.ts";
 
 export interface SocialSource {
   id: string;
@@ -11,13 +14,15 @@ export interface SocialSource {
   credit?: string;
 }
 
+type GeneratorReturnType = string | Record<string, unknown>;
+
 export type Source =
   | (SocialSource & { type: "bluesky" })
   | (SocialSource & { type: "activitypub" })
   | {
       type: "generator";
       id: string;
-      fn: () => string;
+      fn: () => GeneratorReturnType | Promise<GeneratorReturnType>;
       name: string;
       label?: string;
       credit?: string;
@@ -31,6 +36,12 @@ export const sources: Source[] = [
     name: "tiny star field",
     credit:
       "[tiny star field](https://elmcip.net/node/11678) by [everest pipkin](https://everest-pipkin.com/)",
+  },
+  {
+    type: "generator",
+    id: "phantomFunhouse",
+    fn: phantomFunhouse,
+    name: "Uncle Buddy's Phantom Funhouse Oracle",
   },
   // {
   //   screenName: "spacetravelbot",
@@ -69,10 +80,6 @@ export const sources: Source[] = [
     credit:
       "[infinite deserts](https://mastodon.social/@infinitedeserts) by [@getdizzzy]()",
   },
-  // {
-  //   screenName: "phantomfunhouse",
-  //   partialName: "phantomFunhouse",
-  // },
   {
     type: "generator",
     id: "tenPrintChr",
@@ -112,7 +119,7 @@ async function getEntry(source: Source) {
       };
     }
     case "generator": {
-      const result = source.fn();
+      const result = await source.fn();
       return {
         ...source,
         fn: null,
@@ -124,6 +131,22 @@ async function getEntry(source: Source) {
   }
 }
 
+const FIVE_MINUTES_MS = 5 * 60 * 1000;
+
 export async function getEntries() {
-  return await Promise.all(sources.map(getEntry));
+  const store = getStore("entries");
+  const cached = await store.getWithMetadata("index", {
+    type: "json",
+  });
+  const expiresAt = cached?.metadata.expiresAt as number;
+
+  if (!cached || Date.now() >= expiresAt) {
+    const entries = await Promise.all(sources.map(getEntry));
+    await store.setJSON("index", entries, {
+      metadata: { expiresAt: Date.now() + FIVE_MINUTES_MS },
+    });
+    return entries;
+  } else {
+    return cached.data;
+  }
 }

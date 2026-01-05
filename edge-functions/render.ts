@@ -1,6 +1,5 @@
 import type { Config, Context } from "@netlify/edge-functions";
 import { Eta, TemplateFunction } from "eta";
-import { format } from "date-fns";
 
 import { getEntries } from "../lib/entries.ts";
 import { markdownToHtml } from "../lib/helpers.ts";
@@ -19,23 +18,19 @@ export default async (request: Request, context: Context) => {
     context.deploy.context === "dev" ? "index" : await loadCompiledTemplate();
 
   const html = await eta.renderAsync(template, {
-    timestamp: format(Date.now(), "yyyy-MM-dd HH:mm:ss"),
     entries,
     markdownToHtml,
-    DEPLOY_CONTEXT:
-      context.deploy.context === "dev" ? "development" : "production",
   });
 
   return new Response(html, {
     status: 200,
     headers: {
       "Content-Type": "text/html",
-      "Cache-Control": "public, s-maxage=300",
+      "Cache-Control": "public, s-maxage=60",
     },
   });
 };
 
 export const config: Config = {
-  cache: "manual",
   path: "/",
 };

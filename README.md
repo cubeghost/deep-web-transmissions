@@ -1,30 +1,27 @@
-# hello-express
+# deep web transmissions
 
-A server that serves a webpage, its resources, and some data
+a curated digest of (ex-twitter) generative art bots designed to be sent to a [little printer](https://tinyprinter.club/) or other compatible thermal printer.
 
+previously, all posts were fetched from twitter. due to elon musk's greed and arrogance, bots are no longer able to post to twitter without paying. some bots moved to the fediverse (RIP botsin.space 🫡) or bluesky, others died. this project makes some attempts to resurrect those lost.
 
-## Your Project
+from my original curated list, circa 2018/2020:
 
-On the front-end,
+- [@tiny_star_field](https://elmcip.net/node/11678): 🪦 dead, resurrected with original source code
+- [@phantomfunhouse](https://twitter.com/phantomfunhouse): 🪦 dead, resurrected by scraping [the source material](https://elmcip.net/node/519)
+- [@spacetravelbot](https://botwiki.org/bot/spacetravelbot/): 🪦 dead, resurrection may be possible
+- [@thelastdeck](https://twitter.com/thelastdeck): 🪦 dead, authors left social media afaict (good for them!), only hope for resurrection is scraping and reheating
+- [@strangevoyage](https://bsky.app/profile/strangevoyage.bsky.social): moved to bluesky
+- [@SmoothUnicode](https://mas.to/@SmoothUnicode): moved to mastodon
+- [@infinitedeserts](https://mastodon.social/@infinitedeserts): moved to mastodon
+- [@10_print_chr](https://x.com/10_print_chr): 🪦 dead, [easy and fun to replicate](https://10print.org/)
+- [@pomological](https://bsky.app/profile/pomological.xor.blue): moved to bluesky
+- [@boschbot](https://bsky.app/profile/boschbot.bsky.social): moved to bluesky
 
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
+### technical notes
 
-On the back-end,
+in moving this off [Glitch](https://blog.glitch.com/post/changes-are-coming-to-glitch/), i rewrote the server components to run as Netlify [Edge Functions](https://docs.netlify.com/build/edge-functions/overview/). not much is specific to either the lambda function paradigm or to Netlify specfically, except:
 
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-( ᵔ ᴥ ᵔ )
+- caching uses [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/). this can be swapped pretty easily for any other key/value store or even local filesystem caching
+- `build.ts` and its artifact `compiledTemplate.js` are only necessary because Netlify Edge Functions don't have filesystem access
+- `bluesky.ts` does not use any of the `@atproto/` packages because they're still distributed as commonjs and don't work in Netlify's production Deno environment
+- environment variable access (replace `Netlify.env.get()` with `dotenv` + `process.env`)

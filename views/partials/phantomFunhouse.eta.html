@@ -1,19 +1,23 @@
 <style type="text/css">
+  .phantomFunhouse pre {
+    white-space: pre-wrap;
+    font-size: 0.7em;
+  }
   .phantomFunhouse .inner {
-    margin-top: -0.5em;
-    margin-bottom: -0.5em;
     text-align: center;
   }
   .phantomFunhouse img {
-    height: 384px;
+    height: 344px;
+    image-rendering: pixelated;
   }
 </style>
 <h6>
-  @<%= it.entry.handle %>
+  Uncle Buddy's Phantom Funhouse
 </h6>
 <h4>
-  <%= it.entry.title %>
+  Oracle
 </h4>
 <div class="inner">
-  <img src=<%= it.entry.tweet.entities.media.0.media_url_https %> />
+  <img src="<%= it.entry.result.image %>" />
 </div>
+<pre><%= it.entry.result.text %></pre>

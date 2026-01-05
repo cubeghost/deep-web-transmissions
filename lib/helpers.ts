@@ -14,3 +14,10 @@ export async function blobToBase64(blob: Blob) {
     reader.readAsDataURL(blob);
   });
 }
+
+export function toArrayBuffer(input: Buffer | Uint8Array) {
+  return input.buffer.slice(
+    input.byteOffset,
+    input.byteOffset + input.byteLength
+  ) as ArrayBuffer;
+}
