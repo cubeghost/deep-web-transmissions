@@ -19,9 +19,7 @@ from my original curated list, circa 2018/2020:
 
 ### technical notes
 
-in moving this off [Glitch](https://blog.glitch.com/post/changes-are-coming-to-glitch/), i rewrote the server components to run as Netlify [Edge Functions](https://docs.netlify.com/build/edge-functions/overview/). not much is specific to either the lambda function paradigm or to Netlify specfically, except:
+in moving this off [Glitch](https://blog.glitch.com/post/changes-are-coming-to-glitch/), i rewrote the server components to run as [Netlify Functions](https://docs.netlify.com/build/functions/overview/). not much is specific to either the lambda function paradigm or to Netlify specfically, except:
 
 - caching uses [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/). this can be swapped pretty easily for any other key/value store or even local filesystem caching
-- `build.ts` and its artifact `compiledTemplate.js` are only necessary because Netlify Edge Functions don't have filesystem access
-- `bluesky.ts` does not use any of the `@atproto/` packages because they're still distributed as commonjs and don't work in Netlify's production Deno environment
 - environment variable access (replace `Netlify.env.get()` with `dotenv` + `process.env`)
