@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "edge-functions/render.ts",
   "scripts": {
-    "build": "node build.ts",
     "start": "netlify dev"
   },
   "type": "module",
@@ -11,6 +10,7 @@
     "@aws-sdk/client-s3": "^3.962.0",
     "@netlify/blobs": "^10.5.0",
     "@netlify/edge-functions": "^3.0.3",
+    "@netlify/functions": "^5.1.2",
     "eta": "^4.5.0",
     "express": "^5.2.1",
     "jimp": "^1.6.0",

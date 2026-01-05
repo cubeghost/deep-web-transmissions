@@ -1,9 +1,9 @@
 import { getStore } from "@netlify/blobs";
 
-import { fetchBlueskyLatest } from "./bluesky.ts";
-import { fetchActivityPubLatest } from "./activitypub.ts";
-import { tenPrintChr, tinyStarField } from "./generators.ts";
-import { phantomFunhouse } from "./private.ts";
+import { fetchBlueskyLatest } from "./bluesky.mts";
+import { fetchActivityPubLatest } from "./activitypub.mts";
+import { tenPrintChr, tinyStarField } from "./generators.mts";
+import { phantomFunhouse } from "./private.mts";
 
 export interface SocialSource {
   id: string;
@@ -131,8 +131,6 @@ async function getEntry(source: Source) {
   }
 }
 
-const FIVE_MINUTES_MS = 5 * 60 * 1000;
-
 export async function getEntries() {
   const store = getStore("entries");
   const cached = await store.getWithMetadata("index", {
@@ -142,8 +140,10 @@ export async function getEntries() {
 
   if (!cached || Date.now() >= expiresAt) {
     const entries = await Promise.all(sources.map(getEntry));
+    const expiresMs =
+      (Netlify.context?.deploy.context === "dev" ? 10 : 300) * 1000;
     await store.setJSON("index", entries, {
-      metadata: { expiresAt: Date.now() + FIVE_MINUTES_MS },
+      metadata: { expiresAt: Date.now() + expiresMs },
     });
     return entries;
   } else {

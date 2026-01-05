@@ -8,8 +8,8 @@ import type {
 import type { Embed, ImagesEmbed } from "@atproto/bsky/src/views/types";
 import type { DidDocument } from "@atproto/identity";
 
-import type { SocialSource } from "./entries.ts";
-import { toArrayBuffer } from "./helpers.ts";
+import type { SocialSource } from "./entries.mts";
+import { toArrayBuffer } from "./helpers.mts";
 
 type BlueskySource = SocialSource & { type: "bluesky" };
 

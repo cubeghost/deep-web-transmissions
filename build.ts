@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import { Eta } from "eta";
 
-import { sources } from "./lib/entries.ts";
+import { sources } from "./lib/entries.mts";
 import { ETA_OPTIONS } from "./lib/eta.ts";
 
 // compile partials

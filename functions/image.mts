@@ -1,5 +1,5 @@
 import { getStore } from "@netlify/blobs";
-import type { Config, Context } from "@netlify/edge-functions";
+import type { Config, Context } from "@netlify/functions";
 
 export default async (request: Request, context: Context) => {
   if (!checkOrigin(request, context)) {
@@ -24,7 +24,6 @@ export default async (request: Request, context: Context) => {
 };
 
 export const config: Config = {
-  cache: "manual",
   path: "/image/:id.png",
 };
 

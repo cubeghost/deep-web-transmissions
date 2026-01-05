@@ -5,7 +5,7 @@
 import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
 import { getStore } from "@netlify/blobs";
 
-import { toArrayBuffer } from "./helpers.ts";
+import { toArrayBuffer } from "./helpers.mts";
 
 function getS3Client() {
   return new S3Client({
