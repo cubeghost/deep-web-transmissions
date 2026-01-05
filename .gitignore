@@ -2,7 +2,3 @@ node_modules
 .env
 # Local Netlify folder
 .netlify
-
-browser/default-stylesheet.css
-
-compiledTemplate.js
