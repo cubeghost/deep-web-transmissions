@@ -7,16 +7,16 @@ import { getStore } from "@netlify/blobs";
 
 import { toArrayBuffer } from "./helpers.ts";
 
-const Bucket = Netlify.env.get("S3_BUCKET")!;
-
-const client = new S3Client({
-  endpoint: Netlify.env.get("S3_ENDPOINT")!,
-  region: Netlify.env.get("S3_REGION")!,
-  credentials: {
-    accessKeyId: Netlify.env.get("S3_ACCESS_KEY_ID")!,
-    secretAccessKey: Netlify.env.get("S3_SECRET_ACCESS_KEY")!,
-  },
-});
+function getS3Client() {
+  return new S3Client({
+    endpoint: Netlify.env.get("S3_ENDPOINT")!,
+    region: Netlify.env.get("S3_REGION")!,
+    credentials: {
+      accessKeyId: Netlify.env.get("S3_ACCESS_KEY_ID")!,
+      secretAccessKey: Netlify.env.get("S3_SECRET_ACCESS_KEY")!,
+    },
+  });
+}
 
 async function getDefinition<T>(path: string) {
   const store = getStore("definitions");
@@ -27,9 +27,10 @@ async function getDefinition<T>(path: string) {
   if (!cached || (cached.metadata.expiresAt as number) <= Date.now()) {
     if (cached) await store.delete(path);
 
+    const client = getS3Client();
     const definition = await client.send(
       new GetObjectCommand({
-        Bucket,
+        Bucket: Netlify.env.get("S3_BUCKET")!,
         Key: path,
       })
     );
@@ -69,9 +70,10 @@ export async function phantomFunhouse() {
   const cached = await images.getMetadata("phantomFunhouse");
 
   if (!cached || cached.metadata.filename !== filename) {
+    const client = getS3Client();
     const imageObject = await client.send(
       new GetObjectCommand({
-        Bucket,
+        Bucket: Netlify.env.get("S3_BUCKET")!,
         Key: `phantom_funhouse/${filename}`,
       })
     );
