@@ -173,6 +173,16 @@
       #receipt a:hover {
         text-decoration: underline;
       }
+      
+      .inner {
+        position: relative;
+      }
+      .dither {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
       #customMessage {
         white-space: pre-wrap;
       }
@@ -224,8 +234,8 @@
 
           <br />
 
-          <!-- <input type="checkbox" id="preview-dither" name="preview-dither" checked />
-          <label for="preview-dither">preview dithering</label> -->
+          <input type="checkbox" id="toggle-preview-dither" name="toggle-preview-dither" checked />
+          <label for="toggle-preview-dither">preview dithering</label>
         </div>
         
         <pre class="box" id="printerStatus" style="display: none;"></pre>
@@ -257,7 +267,7 @@
 
         <pre class="box todo">TODO:
 - persist checkbox config across page loads
-- atkinson dither preview</pre>
+- reordering</pre>
         <footer>
           by <a href="https://cubegho.st/" target="_blank">cubeghost</a>
           &middot;

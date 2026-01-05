@@ -58,16 +58,35 @@ document.querySelectorAll('#toggles input').forEach((input) => {
   })
 });
 
-// const ditherCheckbox = document.getElementById('preview-dither');
-// if (ditherCheckbox.checked) {
-//   ditherjs.dither("#receipt img");
-// }
-  // ditherCheckbox.addEventListener('change', (event) => {
-  //   const {checked} = event.target;
-  //   if (checked) {
 
-  //   }
-  // })
+function previewDither() {
+  document.querySelectorAll(".preview-dither").forEach((img) => {
+    const clone = img.cloneNode();
+    clone.classList.remove("preview-dither");
+    clone.classList.add("dither");
+    img.parentElement.appendChild(clone);
+  });
+
+  ditherjs.dither(".dither");
+}
+
+function removeDither() {
+  document.querySelectorAll("canvas.dither").forEach((canvas) => {
+    canvas.parentElement.removeChild(canvas);
+  });
+}
+
+const ditherCheckbox = document.getElementById('toggle-preview-dither');
+if (ditherCheckbox.checked) {
+  previewDither();
+}
+ditherCheckbox.addEventListener('change', (event) => {
+  if (event.target.checked) {
+    previewDither();
+  } else {
+    removeDither();
+  }
+})
 
 const textarea = document.getElementById('input-customMessage');
 textarea.addEventListener('change', (event) => {
@@ -93,6 +112,9 @@ printButton.addEventListener('click', async (event) => {
   const confirmed = confirm(`Sure you want to send this transmission to ${printerStatus.owner}'s printer?`);
   
   if (confirmed) {
+    ditherCheckbox.checked = false;
+    removeDither();
+
     const blob = await makeReceiptImage();
     const printStatus = await wrapFetch(url, {
       method: 'POST',
