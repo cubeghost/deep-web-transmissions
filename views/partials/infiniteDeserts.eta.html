@@ -4,4 +4,4 @@
 <h4>
   <%= it.entry.label %>
 </h4>
-<pre><%~ it.entry.result.content %></pre>
+<pre><%~ it.sanitizeHtml(it.entry.result.content) %></pre>

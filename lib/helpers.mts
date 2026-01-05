@@ -1,10 +1,11 @@
 import { marked } from "marked";
+import sanitizeHtml from "sanitize-html";
 
 export function markdownToHtml(str: string, inline = true) {
   const parsed = inline
     ? marked.parseInline(str, { async: false })
     : marked.parse(str, { async: false });
-  return parsed;
+  return sanitizeHtml(parsed);
 }
 
 export async function blobToBase64(blob: Blob) {

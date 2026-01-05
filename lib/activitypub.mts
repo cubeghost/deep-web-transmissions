@@ -6,9 +6,8 @@ import type {
   APObject,
   APActivity,
 } from "activitypub-types";
-import type { SocialSource } from "./entries.mts";
 
-// TODO sanitize post content
+import type { SocialSource } from "./entries.mts";
 
 type ActivityPubSource = SocialSource & { type: "activitypub" };
 

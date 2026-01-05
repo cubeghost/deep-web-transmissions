@@ -1,6 +1,7 @@
 import path from "node:path";
 import type { Config, Context } from "@netlify/functions";
 import { Eta } from "eta";
+import sanitizeHtml from "sanitize-html";
 
 import { getEntries } from "../lib/entries.mts";
 import { markdownToHtml } from "../lib/helpers.mts";
@@ -15,6 +16,7 @@ export default async (request: Request, context: Context) => {
 
   const html = await eta.renderAsync("index", {
     entries,
+    sanitizeHtml,
     markdownToHtml,
   });
 
