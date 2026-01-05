@@ -4,23 +4,13 @@
     <title>deep web transmissions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=418">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
-    <style type="text/css">
-      @font-face {
-        font-family: Univers;
-        src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BlackEx.otf);
-        font-style: normal;
-        font-weight: 900;
-        font-stretch: expanded;
-      }
-      @font-face {
-        font-family: Univers;
-        src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2144/UniversLTStd-BoldEx.otf);
-        font-style: normal;
-        font-weight: 700;
-        font-stretch: expanded;
-      }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet">
 
+    <style type="text/css">
       * {
         box-sizing: border-box;
       }
@@ -30,7 +20,7 @@
 
       body {
         margin: 0;
-        font-family: 'Univers LT Std', sans-serif;
+        font-family: 'Zalando Sans', sans-serif;
       }
 
       .flex {
@@ -46,7 +36,7 @@
 
       .box {
         margin: 16px;
-        font-family: 'Univers LT Std', sans-serif;
+        font-family: 'Zalando Sans', sans-serif;
         padding: 16px;
         border: 2px solid #000;
         background-color: #fff;
@@ -56,15 +46,15 @@
       
       .box h3 {
         font-size: 1em;
-        font-family: 'Univers';
-        font-stretch: expanded;
+        font-family: 'Zalando Sans';
+        font-variation-settings: "wdth" 125;
         margin: 0;
         color: #999;
       }
       .box h2 {
         font-size: 1.3em;
-        font-family: 'Univers';
-        font-stretch: expanded;
+        font-family: 'Zalando Sans';
+        font-variation-settings: "wdth" 125;
         margin: 0;
       }
       .box p,
@@ -117,7 +107,7 @@
       #receipt {
         width: var(--receipt-width);
         font-size: 24px;
-        font-family: 'Univers LT Std', sans-serif;
+        /* font-family: 'Zalando Sans', sans-serif; */
         overflow: hidden;
       }
       #receipt .timestamp {
@@ -126,10 +116,10 @@
         margin-bottom: 2em;
       }
       #receipt h1 {
-        font-family: 'Univers';
+        /* font-family: 'Zalando Sans'; */
         font-size: 42px;
         font-weight: 900;
-        font-stretch: expanded;
+        font-variation-settings: "wdth" 125;
         margin: 0;
         line-height: 1em;        
       }
@@ -153,14 +143,14 @@
       }
       #receipt h6 {
         font-size: 0.7em;
-        font-family: 'Univers';
-        font-stretch: expanded;
+        /* font-family: 'Zalando Sans'; */
+        font-variation-settings: "wdth" 125;
         margin: 0;
         color: #999;
       }
       #receipt h4 {
-        font-family: 'Univers';
-        font-stretch: expanded;
+        /* font-family: 'Zalando Sans'; */
+        font-variation-settings: "wdth" 125;
         font-weight: 700;
       }
       #receipt h6 + h4 {
