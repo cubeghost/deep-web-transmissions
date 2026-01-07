@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+  },
+  "include": ["public/**/*.mjs", "client.d.ts"],
+  "exclude": ["node_modules"],
+}

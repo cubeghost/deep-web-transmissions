@@ -23,3 +23,8 @@ in moving this off [Glitch](https://blog.glitch.com/post/changes-are-coming-to-g
 
 - caching uses [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/). this can be swapped pretty easily for any other key/value store or even local filesystem caching
 - environment variable access (replace `Netlify.env.get()` with `dotenv` + `process.env`)
+
+### TODO
+
+- persist checkbox config across page loads
+- reordering

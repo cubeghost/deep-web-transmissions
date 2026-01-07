@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --receipt-width: 384px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Zalando Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Zalando Sans', sans-serif;
+  font-variation-settings: "wdth" 125;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+/* sidebar */
+
+.box {
+  margin: 16px;
+  font-family: 'Zalando Sans', sans-serif;
+  padding: 16px;
+  border: 2px solid #000;
+  background-color: #fff;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.box h2 {
+  font-size: 1.3em;
+  margin: 0;
+}
+.box h3 {
+  font-size: 1em;
+  margin: 0;
+  color: #999;
+}
+
+.box p,
+.box ul {
+  max-width: 288px;
+}
+
+.box ul {
+  padding-left: 1rem;
+}
+
+.box ul p {
+  margin: 0.5rem 0;
+}
+
+footer {
+  font-size: 0.8em;
+  margin: 16px;
+  opacity: 0.5;
+  margin-top: auto;
+  padding-top: 0.5em;
+}
+
+/* form */
+
+.controls input[type=text] {
+  width: 160px;
+}
+
+.controls textarea {
+  width: 246px;
+}
+
+#printerStatus {
+  font-size: 0.8em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* print area */
+
+.receipt-wrapper {
+  margin: 16px auto;
+  padding: 16px;
+  background-color: white;
+  overflow-x: hidden;
+  width: calc(var(--receipt-width) + 32px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#receipt {
+  width: var(--receipt-width);
+  font-size: 24px;
+  /* font-family: 'Zalando Sans', sans-serif; */
+  overflow: hidden;
+}
+
+#receipt .timestamp {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7em;
+  margin-bottom: 2em;
+}
+
+#receipt h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1em;
+}
+
+#receipt hr {
+  display: block;
+  border: 0;
+  margin: 1.5em 0;
+}
+
+#receipt hr:after {
+  content: '';
+  display: block;
+  background-image: url(squiggle.png);
+  background-size: contain;
+  height: 24px;
+  overflow: hidden;
+}
+
+#receipt blockquote {
+  margin-left: 0.5em;
+  padding-left: 1em;
+  border-left: 4px solid #ccc;
+}
+
+#receipt h6 {
+  font-size: 0.7em;
+  margin: 0;
+  color: #999;
+  font-weight: 600;
+}
+
+#receipt h6+h4 {
+  margin-top: 0.2em;
+}
+
+#receipt a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#receipt a:hover {
+  text-decoration: underline;
+}
+
+.inner {
+  position: relative;
+}
+
+.dither {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#customMessage {
+  white-space: pre-wrap;
+}

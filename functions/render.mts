@@ -7,7 +7,7 @@ import { getEntries } from "../lib/entries.mts";
 import { markdownToHtml } from "../lib/helpers.mts";
 
 export default async (request: Request, context: Context) => {
-  const entries = await getEntries();
+  const { entries, expiresAt } = await getEntries();
 
   const eta = new Eta({
     views: path.resolve(process.cwd(), "views"),
@@ -16,6 +16,7 @@ export default async (request: Request, context: Context) => {
 
   const html = await eta.renderAsync("index", {
     entries,
+    expiresAt,
     sanitizeHtml,
     markdownToHtml,
   });
@@ -24,7 +25,7 @@ export default async (request: Request, context: Context) => {
     status: 200,
     headers: {
       "Content-Type": "text/html",
-      "Cache-Control": "public, s-maxage=60",
+      // "Cache-Control": "public, s-maxage=60",
       // TODO use durable caching, but it has to sync with the expiresAt metadata on the entries blob cache https://docs.netlify.com/build/caching/caching-overview/#durable-directive
     },
   });

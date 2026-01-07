@@ -9,174 +9,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet">
-
-    <style type="text/css">
-      * {
-        box-sizing: border-box;
-      }
-      :root {
-        --receipt-width: 384px;
-      }
-
-      body {
-        margin: 0;
-        font-family: 'Zalando Sans', sans-serif;
-      }
-
-      .flex {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-      }
-      
-      .column {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .box {
-        margin: 16px;
-        font-family: 'Zalando Sans', sans-serif;
-        padding: 16px;
-        border: 2px solid #000;
-        background-color: #fff;
-        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.25);
-        z-index: 2;
-      }
-      
-      .box h3 {
-        font-size: 1em;
-        font-family: 'Zalando Sans';
-        font-variation-settings: "wdth" 125;
-        margin: 0;
-        color: #999;
-      }
-      .box h2 {
-        font-size: 1.3em;
-        font-family: 'Zalando Sans';
-        font-variation-settings: "wdth" 125;
-        margin: 0;
-      }
-      .box p,
-      .box ul {
-        max-width: 288px;
-      }
-      .box ul {
-        padding-left: 1rem;
-      }
-      .box ul p {
-        margin: 0.5rem 0;
-      }
-      .controls input[type=text] {
-        width: 160px;
-      }
-      .controls textarea {
-        width: 246px;
-      }
-      
-      #printerStatus {
-        font-size: 0.8em;
-        font-family: 'Roboto Mono', monospace;
-      }
-         
-      footer {
-        font-size: 0.8em;
-        margin: 16px;
-        opacity: 0.5;
-        margin-top: auto;
-        padding-top: 0.5em;
-      }
-
-      .receipt-wrapper {
-        margin: 16px auto;
-        padding: 16px;
-        background-color: white;
-        overflow-x: hidden;
-        width: calc(var(--receipt-width) + 32px);
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-      }
-            
-      .todo {
-        font-size: 0.8em;
-      }
-
-      .hidden {
-        display: none;
-      }
-      
-      #receipt {
-        width: var(--receipt-width);
-        font-size: 24px;
-        /* font-family: 'Zalando Sans', sans-serif; */
-        overflow: hidden;
-      }
-      #receipt .timestamp {
-        font-family: 'Roboto Mono', monospace;
-        font-size: 0.7em;
-        margin-bottom: 2em;
-      }
-      #receipt h1 {
-        /* font-family: 'Zalando Sans'; */
-        font-size: 42px;
-        font-weight: 900;
-        font-variation-settings: "wdth" 125;
-        margin: 0;
-        line-height: 1em;        
-      }
-      #receipt hr {
-        display: block;
-        border: 0;
-        margin: 1.5em 0;
-      }
-      #receipt hr:after {
-        content: '';
-        display: block;
-        background-image: url(squiggle.png);
-        background-size: contain;
-        height: 24px;
-        overflow: hidden;
-      }
-      #receipt blockquote {
-        margin-left: 0.5em;
-        padding-left: 1em;
-        border-left: 4px solid #ccc;
-      }
-      #receipt h6 {
-        font-size: 0.7em;
-        /* font-family: 'Zalando Sans'; */
-        font-variation-settings: "wdth" 125;
-        margin: 0;
-        color: #999;
-      }
-      #receipt h4 {
-        /* font-family: 'Zalando Sans'; */
-        font-variation-settings: "wdth" 125;
-        font-weight: 700;
-      }
-      #receipt h6 + h4 {
-        margin-top: 0.2em;
-      }      
-      #receipt a {
-        text-decoration: none;
-        color: inherit;
-      }
-      #receipt a:hover {
-        text-decoration: underline;
-      }
-      
-      .inner {
-        position: relative;
-      }
-      .dither {
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-
-      #customMessage {
-        white-space: pre-wrap;
-      }
-    </style>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div class="flex">
@@ -185,28 +18,32 @@
           <h3><label for="from">from</label></h3>
           <input type="text" placeholder="your name" id="from" />
           <h3>content</h3>
-          <div id="toggles">
+          <div>
             <input type="checkbox" id="toggle-customMessage" name="customMessage" />
             <label for="toggle-customMessage">custom message</label>
             <div class="customMessage hidden">
               <textarea id="input-customMessage">:~)</textarea>
             </div>
             <br />
+          </div>
+          <div id="sources">
             <% it.entries.forEach(function(entry) { %>
-              <input
-                type="checkbox"
-                id="toggle-<%= entry.id %>"
-                name="<%= entry.id %>"
-                checked
-              />
-              <label for="toggle-<%= entry.id %>">
-                <% if (entry.handle) { %>
-                  @<%= entry.handle %>
-                <% } else { %>
-                  <%= entry.name %>
-                <% } %>
-              </label>
-              <br />
+              <div data-id="<%= entry.id %>">
+                <span class="drag-handle">⸬</span>
+                <input
+                  type="checkbox"
+                  id="toggle-<%= entry.id %>"
+                  name="<%= entry.id %>"
+                  checked
+                />
+                <label for="toggle-<%= entry.id %>">
+                  <% if (entry.handle) { %>
+                    @<%= entry.handle %>
+                  <% } else { %>
+                    <%= entry.name %>
+                  <% } %>
+                </label>
+              </div>
             <% }) %>
           </div>
 
@@ -232,7 +69,16 @@
    
         <div class="box info">
           <h2>what is this?</h2>
-          <p><em>deep web transmissions</em> is a tribute to <a>generative art bots</a>, formatted as a digest for the <a href="https://tinyprinter.club/" target="_blank">little printer</a> and compatible thermal printers.</p>
+          <p>
+            <em>deep web transmissions</em> is a tribute to <a>generative art bots</a>, formatted as a digest 
+            for the <a href="https://tinyprinter.club/" target="_blank">little printer</a> and compatible 
+            thermal printers.
+          </p>
+          <!-- <p>
+            i started working on this in 2018, around when twitter bots were at their peak. not even just 
+            generative and art bots- 
+            https://codepen.io/cubeghost/details/BObEjq
+          </p> -->
           <details>
             <summary>credits and influences</summary>
             <h6>bots</h6>
@@ -255,9 +101,6 @@
           </details>
         </div>
 
-        <pre class="box todo">TODO:
-- persist checkbox config across page loads
-- reordering</pre>
         <footer>
           by <a href="https://cubegho.st/" target="_blank">cubeghost</a>
           &middot;
@@ -285,6 +128,6 @@
       </div>
     </div>
     
-    <script src="/script.mjs" type="module"></script>
+    <script src="/index.mjs" type="module"></script>
   </body>
 </html>

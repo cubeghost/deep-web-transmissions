@@ -140,13 +140,22 @@ export async function getEntries() {
 
   if (!cached || Date.now() >= expiresAt) {
     const entries = await Promise.all(sources.map(getEntry));
+
     const expiresMs =
       (Netlify.context?.deploy.context === "dev" ? 10 : 300) * 1000;
+    const newExpiresAt = Date.now() + expiresMs;
     await store.setJSON("index", entries, {
-      metadata: { expiresAt: Date.now() + expiresMs },
+      metadata: { expiresAt: newExpiresAt },
     });
-    return entries;
+
+    return {
+      entries,
+      expiresAt: newExpiresAt,
+    };
   } else {
-    return cached.data;
+    return {
+      entries: cached.data,
+      expiresAt,
+    };
   }
 }
