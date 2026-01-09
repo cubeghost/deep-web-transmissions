@@ -70,6 +70,8 @@ export async function phantomFunhouse() {
   const cached = await images.getMetadata("phantomFunhouse");
 
   if (!cached || cached.metadata.filename !== filename) {
+    if (cached) await images.delete("phantomFunhouse");
+
     const client = getS3Client();
     const imageObject = await client.send(
       new GetObjectCommand({

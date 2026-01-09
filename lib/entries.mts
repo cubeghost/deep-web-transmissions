@@ -97,7 +97,7 @@ export const sources: Source[] = [
     url: "https://bsky.app/profile/boschbot.bsky.social",
     handle: "boschbot.bsky.social",
     label: "Bits of Bosch",
-    credit: "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by ",
+    credit: "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by ????",
   },
 ];
 

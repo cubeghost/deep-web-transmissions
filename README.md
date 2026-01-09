@@ -26,5 +26,5 @@ in moving this off [Glitch](https://blog.glitch.com/post/changes-are-coming-to-g
 
 ### TODO
 
-- persist checkbox config across page loads
-- reordering
+- loading state
+- timestamp/countdown to next transmission

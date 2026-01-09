@@ -1,9 +1,9 @@
 [functions]
+  directory = "./functions"
   included_files = ["./views"]
 
 [build]
   publish = "public"
-  functions = "functions/"
 
 [dev]
   autoLaunch = false

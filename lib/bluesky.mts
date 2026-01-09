@@ -39,6 +39,7 @@ export async function fetchBlueskyLatest(source: BlueskySource) {
     const cached = await images.getMetadata(source.id);
 
     if (!cached || cached.metadata.blobId !== blobId) {
+      if (cached) await images.delete(source.id);
       const image = await fetchBlueskyBlob(post.author.did, blobId);
       await images.set(source.id, image, { metadata: { blobId } });
     }
