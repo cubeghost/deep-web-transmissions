@@ -1,21 +1,15 @@
 <style type="text/css">
   .theLastDeck .inner {
     text-align: center;
-    margin-top: -1em;
-  }
-  .theLastDeck img {
-    width: 280px;
-    height: 490px;
-    object-fit: cover;
-    object-position: 50% 50%;
+    margin-top: -0.5em;
   }
 </style>
 <h6>
-  @{{ it.entry.handle }}
+  @thelastdeck
 </h6>
 <h4 style="font-size: 0.9em;">
-  {{ it.entry.title }}
+  The Pictorial Bot To The Tarot
 </h4>
 <div class="inner">
-  <img src={{ it.entry.tweet.entities.media.0.media_url_https }} />
+  <img src="<%= it.entry.result.image %>" width="264" height="464" class="preview-dither" />
 </div>

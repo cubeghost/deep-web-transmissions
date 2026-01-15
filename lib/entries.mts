@@ -3,7 +3,7 @@ import { getStore } from "@netlify/blobs";
 import { fetchBlueskyLatest } from "./bluesky.mts";
 import { fetchActivityPubLatest } from "./activitypub.mts";
 import { tenPrintChr, tinyStarField } from "./generators.mts";
-import { phantomFunhouse } from "./private.mts";
+import { phantomFunhouse, theLastDeck } from "./private.mts";
 
 export interface SocialSource {
   id: string;
@@ -42,18 +42,22 @@ export const sources: Source[] = [
     id: "phantomFunhouse",
     fn: phantomFunhouse,
     name: "Uncle Buddy's Phantom Funhouse Oracle",
+    credit:
+      "original [phantom funhouse](https://twitter.com/phantomfunhouse) bot by [darius kazemi](https://tinysubversions.com/), based on [uncle buddy's phantom funhouse](https://elmcip.net/node/519) by jim mcdaid",
   },
   // {
   //   screenName: "spacetravelbot",
   //   partialName: "spaceTraveler",
   //   defaultEnabled: true,
   // },
-  // {
-  //   screenName: "thelastdeck",
-  //   partialName: "theLastDeck",
-  //   // title: 'The Pictorial Bot To The Tarot',
-  //   defaultEnabled: true,
-  // },
+  {
+    type: "generator",
+    id: "theLastDeck",
+    fn: theLastDeck,
+    name: "The Pictorial Bot To The Tarot",
+    credit:
+      "original [pictorial bot to the tarot](https://twitter.com/thelastdeck) by [x] and @digitalsqand, resurrected by scraping past spreads",
+  },
   {
     type: "bluesky",
     id: "aStrangeVoyage",
@@ -61,7 +65,7 @@ export const sources: Source[] = [
     handle: "strangevoyage.bsky.social",
     label: "a strange voyage",
     credit:
-      "[a strange voyage](https://bsky.app/profile/strangevoyage.bsky.social) by joe baxter-webb",
+      "[a strange voyage](https://bsky.app/profile/strangevoyage.bsky.social) by [joe baxter-webb](https://indiegameclinic.com/)",
   },
   {
     type: "activitypub",
@@ -78,13 +82,15 @@ export const sources: Source[] = [
     handle: "infinitedeserts@mastodon.social",
     label: "infinite deserts",
     credit:
-      "[infinite deserts](https://mastodon.social/@infinitedeserts) by [@getdizzzy]()",
+      "[infinite deserts](https://mastodon.social/@infinitedeserts) by [@getdizzzy](https://linktr.ee/getdizzzy)",
   },
   {
     type: "generator",
     id: "tenPrintChr",
     fn: tenPrintChr,
     name: "10 PRINT CHR$",
+    credit:
+      "[10 PRINT CHR$](https://10print.org/) inspired by v buckenham's [tracery port](https://cheapbotsdonequick.com/source/10_print_chr) ",
   },
   // {
   //   screenName: "pomological",
@@ -97,7 +103,8 @@ export const sources: Source[] = [
     url: "https://bsky.app/profile/boschbot.bsky.social",
     handle: "boschbot.bsky.social",
     label: "Bits of Bosch",
-    credit: "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by ????",
+    credit:
+      "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by nig thomas",
   },
 ];
 

@@ -91,3 +91,36 @@ export async function phantomFunhouse() {
     image: `/image/phantomFunhouse.png?${filename.replace(".png", "")}`,
   };
 }
+
+const THE_LAST_DECK_COUNT = 3000; // TODO get from bucket and cache
+export async function theLastDeck() {
+  const spread = Math.floor(Math.random() * THE_LAST_DECK_COUNT)
+    .toString()
+    .padStart(5, "0");
+  const card = Math.floor(Math.random() * 3);
+  const filename = `spread_${spread}_card_${card}.png`;
+
+  const images = getStore("images");
+  const cached = await images.getMetadata("theLastDeck");
+
+  if (!cached || cached.metadata.filename !== filename) {
+    if (cached) await images.delete("theLastDeck");
+
+    const client = getS3Client();
+    const imageObject = await client.send(
+      new GetObjectCommand({
+        Bucket: Netlify.env.get("S3_BUCKET")!,
+        Key: `the_last_deck/${filename}`,
+      })
+    );
+    if (!imageObject.Body) throw new Error("");
+    const buffer = await imageObject.Body.transformToByteArray();
+    const image = toArrayBuffer(buffer);
+
+    await images.set("theLastDeck", image, { metadata: { filename } });
+  }
+
+  return {
+    image: `/image/theLastDeck.png?${filename.replace(".png", "")}`,
+  };
+}
