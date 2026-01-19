@@ -24,7 +24,7 @@ export default async (request: Request, context: Context) => {
 };
 
 export const config: Config = {
-  path: "/image/:id.png",
+  path: "/image/:id",
 };
 
 function checkOrigin(request: Request, context: Context) {

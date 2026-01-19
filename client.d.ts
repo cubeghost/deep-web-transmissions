@@ -17,3 +17,7 @@ declare module "https://esm.sh/canvas-dither" {
   }
   export = new CanvasDither();
 }
+
+declare module "https://esm.sh/lodash-es/throttle" {
+  export { default } from "lodash-es/throttle";
+}

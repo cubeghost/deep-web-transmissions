@@ -44,7 +44,7 @@ export async function fetchBlueskyLatest(source: BlueskySource) {
       await images.set(source.id, image, { metadata: { blobId } });
     }
 
-    imagePath = `/image/${source.id}.png?${blobId}`;
+    imagePath = `/image/${source.id}?${blobId}`;
   }
 
   return {
@@ -67,7 +67,6 @@ async function fetchBlueskyBlob(did: string, blobId: string) {
   const blobUrl = new URL("/xrpc/com.atproto.sync.getBlob", pds);
   blobUrl.searchParams.append("did", did);
   blobUrl.searchParams.append("cid", blobId);
-  console.log(blobUrl);
   const blobResponse = await fetch(blobUrl.toString());
 
   const image = await Jimp.fromBuffer(await blobResponse.arrayBuffer());

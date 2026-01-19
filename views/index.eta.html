@@ -15,17 +15,17 @@
     <div class="flex">
       <aside class="column">
         <div class="box controls">
-          <h3><label for="from">from</label></h3>
-          <input type="text" placeholder="your name" id="from" />
+          <div>
+            <h3><label for="from">from</label></h3>
+            <input type="text" placeholder="your name" id="from" />
+          </div>
+          <br />
           <h3>content</h3>
           <div>
-            <input type="checkbox" id="toggle-customMessage" name="customMessage" />
-            <label for="toggle-customMessage">custom message</label>
-            <div class="customMessage hidden">
-              <textarea id="input-customMessage">:~)</textarea>
-            </div>
-            <br />
+            <label for="input-customMessage" style="display: block;">custom message</label>
+            <textarea id="input-customMessage" placeholder=":~)"></textarea>
           </div>
+          <br />
           <div id="sources">
             <% it.entries.forEach(function(entry) { %>
               <div data-id="<%= entry.id %>">
@@ -49,20 +49,20 @@
 
           <br />
           <h3>printer</h3>
-          <label for="printerUrl">printer key</label>
-          <input type="text" placeholder="device.li" id="printerUrl" />
-          <br />
-          <button id="status">
-            check printer status
-          </button>
-          <button id="print">
-            print
-          </button>
-
-          <br />
-
-          <input type="checkbox" id="toggle-preview-dither" name="toggle-preview-dither" checked />
-          <label for="toggle-preview-dither">preview dithering</label>
+          <div>
+            <label for="printerUrl">printer key</label>
+            <input type="text" placeholder="device.li" id="printerUrl" />
+            <br />
+            <button id="status">
+              check printer status
+            </button>
+            <button id="print">
+              print
+            </button>
+            <br />
+            <input type="checkbox" id="toggle-preview-dither" name="toggle-preview-dither" />
+            <label for="toggle-preview-dither">preview dithering</label>
+          </div>
         </div>
         
         <pre class="box" id="printerStatus" style="display: none;"></pre>
@@ -81,19 +81,19 @@
           </p> -->
           <details>
             <summary>credits and influences</summary>
-            <h6>bots</h6>
+            <h5>bots</h5>
             <ul>
               <% it.entries.forEach(function(entry) { %>
                 <% if (entry.credit) { %><li><%~ it.markdownToHtml(entry.credit) %></li><% } %>
               <% }) %>
             </ul>
-            <h6>libraries, platforms, and influences</h6>
+            <h5>libraries, platforms, and influences</h5>
             <ul>
               <li>kate compton's <a href="" target="_blank">tracery</a></li>
               <li>
                 v buckenham's <a href="https://cheapbotsdonequick.com/" target="_blank">cheap bots, done quick!</a> and its successors
                 <ul>
-                  <li>for the fediverse, <a href="https://cheapbotstootsweet.com/" target="_blank">cheap bots, toot sweet!</a> by @boodooperson</li>
+                  <li>for the fediverse, <a href="https://cheapbotstootsweet.com/" target="_blank">cheap bots, toot sweet!</a> by boodooperson</li>
                   <li>for bluesky, <a href="https://bluebotsdonequick.com/" target="_blank">blue bots, done quick!</a> by olaf moriarty solstrand </li>
                 </ul>
               </li>
@@ -115,7 +115,7 @@
 
           <div class="entry customMessage hidden">
             <hr />
-            <div id="customMessage">:~)</div>
+            <div id="customMessage"></div>
           </div>
 
           <% it.entries.forEach(function(entry) { %>

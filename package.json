@@ -35,6 +35,7 @@
     "activitypub-types": "^1.1.0",
     "canvas-dither": "^1.0.1",
     "html-to-image": "^1.11.13",
+    "lodash-es": "^4.17.22",
     "sortablejs": "^1.15.6"
   },
   "overrides": {

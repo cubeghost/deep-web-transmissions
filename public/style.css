@@ -66,6 +66,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5rem 0;
 }
 
+.info a {
+  color: inherit;
+  text-decoration: underline;
+}
+.info a:hover, .info a:focus {
+  color: blue;
+}
+
 footer {
   font-size: 0.8em;
   margin: 16px;
@@ -174,4 +182,5 @@ footer {
 
 #customMessage {
   white-space: pre-wrap;
+  word-wrap: break-word;
 }

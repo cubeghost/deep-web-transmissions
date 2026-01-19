@@ -106,15 +106,26 @@ export const sources: Source[] = [
     credit:
       "[boschbot](https://bsky.app/profile/boschbot.bsky.social) by nig thomas",
   },
+  {
+    type: "activitypub",
+    id: "dedicationBot",
+    image: true,
+    url: "https://stefanbohacek.online/@dedication_bot",
+    handle: "dedication_bot",
+    label: "Book dedications bot",
+    credit:
+      "[dedication bot](https://stefanbohacek.online/@dedication_bot) by [@lllliatttt](https://twitter.com/lllliatttt) and [stefan bohacek](https://stefanbohacek.online/@stefan)",
+  },
 ];
 
 async function getEntry(source: Source) {
   switch (source.type) {
     case "activitypub": {
-      const result = await fetchActivityPubLatest(source);
+      const { result, image } = await fetchActivityPubLatest(source);
       return {
         ...source,
         result,
+        image,
       };
     }
     case "bluesky": {

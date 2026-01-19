@@ -1,0 +1,23 @@
+<style type="text/css">
+  .dedicationBot h4 p {
+    display: inline;
+  }
+  .dedicationBot h4 a {
+    display: none;
+  }
+  .dedicationBot .inner {
+    margin-top: -0.5em;
+  }
+  .dedicationBot img {
+    width: 100%;
+  }
+</style>
+<h6>
+  <a href="<%= it.entry.url %>" target="_blank">@<%= it.entry.handle %></a>
+</h6>
+<h4>
+  <%~ it.sanitizeHtml(it.entry.result.content) %>
+</h4>
+<div class="inner">
+  <img src="<%= it.entry.image %>" class="preview-dither" />
+</div>

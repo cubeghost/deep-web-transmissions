@@ -88,7 +88,7 @@ export async function phantomFunhouse() {
 
   return {
     text: text[textSuit],
-    image: `/image/phantomFunhouse.png?${filename.replace(".png", "")}`,
+    image: `/image/phantomFunhouse?${filename.replace(".png", "")}`,
   };
 }
 
@@ -121,6 +121,6 @@ export async function theLastDeck() {
   }
 
   return {
-    image: `/image/theLastDeck.png?${filename.replace(".png", "")}`,
+    image: `/image/theLastDeck?${filename.replace(".png", "")}`,
   };
 }

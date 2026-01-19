@@ -1,4 +1,5 @@
 import Sortable from 'https://esm.sh/sortablejs';
+import throttle from "https://esm.sh/lodash-es/throttle";
 
 const sourcesContainer = /** @type {HTMLElement} */ (document.querySelector("#sources"));
 const receiptContainer = /** @type {HTMLElement} */ (document.querySelector("#receipt"));
@@ -54,7 +55,7 @@ export function loadStoragePreferences() {
 
 function handleSourceCheckbox(/** @type {InputTargetEvent} */ event) {
   const {name, checked} = event.target;
-  const entry = document.querySelector(`.${name}`)
+  const entry = document.querySelector(`.${name}`);
   if (checked) {
     entry.classList.remove('hidden');
   } else {
@@ -63,13 +64,24 @@ function handleSourceCheckbox(/** @type {InputTargetEvent} */ event) {
   saveSourcePreferences();
 }
 
+const toggleCustomMessage = throttle((visible) => {
+  const entry = document.querySelector(".customMessage");
+  if (visible) {
+    entry.classList.remove('hidden');
+  } else {
+    entry.classList.add('hidden');
+  }
+}, 200);
+
 export function setupSourcesForm() {
-  document.querySelectorAll('#sources input, #toggle-customMessage').forEach((input) => {
+  document.querySelectorAll('#sources input[type=checkbox]').forEach((input) => {
     input.addEventListener('change', handleSourceCheckbox);
   });
 
   const textarea = document.getElementById('input-customMessage');
-  textarea.addEventListener('change', (/** @type {InputTargetEvent} */ event) => {
+  textarea.addEventListener('input', (/** @type {InputTargetEvent} */ event) => {
     document.getElementById('customMessage').innerText = event.target.value;
+
+    toggleCustomMessage(!!event.target.value);
   });
 }
