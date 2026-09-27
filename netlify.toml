@@ -7,3 +7,8 @@
 
 [dev]
   autoLaunch = false
+
+[[redirects]]
+  from = "/actor"
+  to = "/actor.json"
+  status = 200
