@@ -1,14 +1,9 @@
 [functions]
   directory = "./functions"
-  included_files = ["./views"]
+  included_files = ["./views", "./keys"]
 
 [build]
   publish = "public"
 
 [dev]
   autoLaunch = false
-
-[[redirects]]
-  from = "/actor"
-  to = "/actor.json"
-  status = 200

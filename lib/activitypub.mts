@@ -32,6 +32,16 @@ function getAttachmentUrl(attachment: APObject["attachment"]) {
   if (attachment && "url" in attachment) return attachment.url;
 }
 
+export function getPrivateKeyPem() {
+  const privateKeyPem = Netlify.env
+    .get("ACTIVITYPUB_PRIVATE_KEY")
+    ?.replace(/\\n/g, "\n");
+
+  if (!privateKeyPem)
+    throw new Error("Missing ACTIVITYPUB_PRIVATE_KEY variable");
+  return privateKeyPem;
+}
+
 async function fetchJsonLD<T>(url: string, headers: Record<string, string>) {
   const response = await fetch(url, {
     headers,
