@@ -1,0 +1,10 @@
+{
+  "subject": "acct:actor@deep-web-transmissions.netlify.app",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://deep-web-transmissions.netlify.app/actor"
+    }
+  ]
+}
