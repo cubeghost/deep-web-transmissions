@@ -1,10 +1,9 @@
 import crypto from "node:crypto";
 import type { Config } from "@netlify/functions";
-import { getHostname } from "../lib/netlify.mts";
 import { getPrivateKeyPem } from "../lib/activitypub.mts";
 
 export default async (request: Request) => {
-  const hostname = getHostname();
+  const url = Netlify.env.get("URL");
 
   const publicKeyObject = crypto.createPublicKey({
     key: getPrivateKeyPem(),
@@ -18,13 +17,13 @@ export default async (request: Request) => {
         "https://www.w3.org/ns/activitystreams",
         "https://w3id.org/security/v1",
       ],
-      id: `${hostname}/actor`,
+      id: `${url}/actor`,
       type: "Application",
       preferredUsername: "deep-web-transmissions",
-      inbox: `${hostname}/inbox`,
+      inbox: `${url}/inbox`,
       publicKey: {
-        id: `${hostname}/actor#main-key`,
-        owner: `${hostname}/actor`,
+        id: `${url}/actor#main-key`,
+        owner: `${url}/actor`,
         publicKeyPem: publicKeyPem,
       },
     },

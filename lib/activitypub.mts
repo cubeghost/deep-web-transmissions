@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import jsonld from "jsonld";
 import type {
   APPerson,
@@ -6,7 +7,6 @@ import type {
   APObject,
   APActivity,
   AnyAPObject,
-  AttachmentField,
 } from "activitypub-types";
 
 import type { SocialSource } from "./entries.mts";
@@ -42,10 +42,49 @@ export function getPrivateKeyPem() {
   return privateKeyPem;
 }
 
+function signGetHeaders(urlString: string) {
+  const url = new URL(urlString);
+  const dateStr = new Date().toUTCString();
+
+  const signedString = [
+    `(request-target): get ${url.pathname}`,
+    `host: ${url.host}`,
+    `date: ${dateStr}`,
+  ].join("\n");
+
+  const signer = crypto.createSign("rsa-sha256");
+  signer.update(signedString);
+  const signature = signer.sign(getPrivateKeyPem(), "base64");
+
+  const keyBaseUrl =
+    Netlify.env.get("PRODUCTION_URL") ?? Netlify.env.get("URL");
+  const keyId = `${keyBaseUrl}/actor#main-key`;
+
+  return {
+    Signature: `keyId="${keyId}",headers="(request-target) host date",signature="${signature}"`,
+    Date: dateStr,
+  };
+}
+
 async function fetchJsonLD<T>(url: string, headers: Record<string, string>) {
   const response = await fetch(url, {
-    headers,
+    headers: {
+      ...headers,
+      ...signGetHeaders(url),
+    },
   });
+  if (!response.ok) {
+    console.log("error", url);
+    let message = "";
+    try {
+      const data = await response.json();
+      if (data.error) message = data.error;
+    } catch (e) {
+      message = await response.text();
+    }
+    throw new Error(message);
+  }
+
   const document = await response.json();
   return (await jsonld.compact(document, document["@context"])) as unknown as T;
 }
@@ -53,7 +92,7 @@ async function fetchJsonLD<T>(url: string, headers: Record<string, string>) {
 async function fetchActivity(source: ActivityPubSource) {
   const headers = {
     "User-Agent": "DeepWebTransmissions/2.0",
-    Accept: "application/activity+json",
+    Accept: `application/ld+json; profile="https://www.w3.org/ns/activitystreams"`,
   };
 
   // TODO maybe cache outbox url, seems unlikely to change? check spec though
@@ -64,7 +103,7 @@ async function fetchActivity(source: ActivityPubSource) {
   }
   const outbox = await fetchJsonLD<APOrderedCollection>(
     profile.outbox,
-    headers
+    headers,
   );
   if (typeof outbox.first !== "string") {
     console.log(outbox);
@@ -73,7 +112,7 @@ async function fetchActivity(source: ActivityPubSource) {
 
   const posts = await fetchJsonLD<APOrderedCollectionPage>(
     outbox.first,
-    headers
+    headers,
   );
 
   return posts.orderedItems
