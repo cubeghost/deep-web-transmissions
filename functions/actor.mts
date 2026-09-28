@@ -32,7 +32,8 @@ export default async (request: Request) => {
       status: 200,
       headers: {
         "Content-Type": `application/ld+json; profile="https://www.w3.org/ns/activitystreams"`,
-        "Netlify-CDN-Cache-Control": "public, durable, max-age=86400",
+        "Cache-Control": "public, s-maxage=60",
+        // "Netlify-CDN-Cache-Control": "public, durable, max-age=86400",
       },
     },
   );
